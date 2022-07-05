@@ -25,6 +25,2620 @@ namespace ToDoList.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.InputKit.Resource.Animation.abc_fade_in = global::ToDoList.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.InputKit.Resource.Animation.abc_fade_out = global::ToDoList.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.InputKit.Resource.Animation.abc_grow_fade_in_from_bottom = global::ToDoList.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_popup_enter = global::ToDoList.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.InputKit.Resource.Animation.abc_popup_exit = global::ToDoList.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.InputKit.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ToDoList.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_in_bottom = global::ToDoList.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_in_top = global::ToDoList.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_out_bottom = global::ToDoList.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_out_top = global::ToDoList.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.InputKit.Resource.Animation.abc_tooltip_enter = global::ToDoList.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Plugin.InputKit.Resource.Animation.abc_tooltip_exit = global::ToDoList.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::ToDoList.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::ToDoList.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::ToDoList.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::ToDoList.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::ToDoList.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::ToDoList.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::ToDoList.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::ToDoList.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::ToDoList.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::ToDoList.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::ToDoList.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::ToDoList.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_in = global::ToDoList.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_out = global::ToDoList.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.InputKit.Resource.Animation.design_snackbar_in = global::ToDoList.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.InputKit.Resource.Animation.design_snackbar_out = global::ToDoList.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.InputKit.Resource.Animation.EnterFromLeft = global::ToDoList.Droid.Resource.Animation.EnterFromLeft;
+			global::Plugin.InputKit.Resource.Animation.EnterFromRight = global::ToDoList.Droid.Resource.Animation.EnterFromRight;
+			global::Plugin.InputKit.Resource.Animation.ExitToLeft = global::ToDoList.Droid.Resource.Animation.ExitToLeft;
+			global::Plugin.InputKit.Resource.Animation.ExitToRight = global::ToDoList.Droid.Resource.Animation.ExitToRight;
+			global::Plugin.InputKit.Resource.Animator.design_appbar_state_list_animator = global::ToDoList.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.InputKit.Resource.Animator.design_fab_hide_motion_spec = global::ToDoList.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.design_fab_show_motion_spec = global::ToDoList.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_btn_state_list_anim = global::ToDoList.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Plugin.InputKit.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::ToDoList.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Plugin.InputKit.Resource.Animator.mtrl_chip_state_list_anim = global::ToDoList.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_hide_motion_spec = global::ToDoList.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_show_motion_spec = global::ToDoList.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::ToDoList.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::ToDoList.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Plugin.InputKit.Resource.Attribute.actionBarDivider = global::ToDoList.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.InputKit.Resource.Attribute.actionBarItemBackground = global::ToDoList.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionBarPopupTheme = global::ToDoList.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionBarSize = global::ToDoList.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.InputKit.Resource.Attribute.actionBarSplitStyle = global::ToDoList.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarStyle = global::ToDoList.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabBarStyle = global::ToDoList.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabStyle = global::ToDoList.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabTextStyle = global::ToDoList.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTheme = global::ToDoList.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionBarWidgetTheme = global::ToDoList.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionButtonStyle = global::ToDoList.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionDropDownStyle = global::ToDoList.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionLayout = global::ToDoList.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.InputKit.Resource.Attribute.actionMenuTextAppearance = global::ToDoList.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.actionMenuTextColor = global::ToDoList.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.InputKit.Resource.Attribute.actionModeBackground = global::ToDoList.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCloseButtonStyle = global::ToDoList.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCloseDrawable = global::ToDoList.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCopyDrawable = global::ToDoList.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCutDrawable = global::ToDoList.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeFindDrawable = global::ToDoList.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModePasteDrawable = global::ToDoList.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModePopupWindowStyle = global::ToDoList.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeSelectAllDrawable = global::ToDoList.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeShareDrawable = global::ToDoList.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeSplitBackground = global::ToDoList.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionModeStyle = global::ToDoList.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeWebSearchDrawable = global::ToDoList.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionOverflowButtonStyle = global::ToDoList.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionOverflowMenuStyle = global::ToDoList.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionProviderClass = global::ToDoList.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.InputKit.Resource.Attribute.actionViewClass = global::ToDoList.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.InputKit.Resource.Attribute.activityChooserViewStyle = global::ToDoList.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogButtonGroupStyle = global::ToDoList.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogCenterButtons = global::ToDoList.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogStyle = global::ToDoList.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogTheme = global::ToDoList.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.allowStacking = global::ToDoList.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.InputKit.Resource.Attribute.alpha = global::ToDoList.Droid.Resource.Attribute.alpha;
+			global::Plugin.InputKit.Resource.Attribute.alphabeticModifiers = global::ToDoList.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Plugin.InputKit.Resource.Attribute.arrowHeadLength = global::ToDoList.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.InputKit.Resource.Attribute.arrowShaftLength = global::ToDoList.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.InputKit.Resource.Attribute.autoCompleteTextViewStyle = global::ToDoList.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeMaxTextSize = global::ToDoList.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeMinTextSize = global::ToDoList.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Plugin.InputKit.Resource.Attribute.autoSizePresetSizes = global::ToDoList.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeStepGranularity = global::ToDoList.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeTextType = global::ToDoList.Droid.Resource.Attribute.autoSizeTextType;
+			global::Plugin.InputKit.Resource.Attribute.background = global::ToDoList.Droid.Resource.Attribute.background;
+			global::Plugin.InputKit.Resource.Attribute.backgroundSplit = global::ToDoList.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.InputKit.Resource.Attribute.backgroundStacked = global::ToDoList.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.InputKit.Resource.Attribute.backgroundTint = global::ToDoList.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.InputKit.Resource.Attribute.backgroundTintMode = global::ToDoList.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.InputKit.Resource.Attribute.barLength = global::ToDoList.Droid.Resource.Attribute.barLength;
+			global::Plugin.InputKit.Resource.Attribute.behavior_autoHide = global::ToDoList.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.InputKit.Resource.Attribute.behavior_fitToContents = global::ToDoList.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Plugin.InputKit.Resource.Attribute.behavior_hideable = global::ToDoList.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.InputKit.Resource.Attribute.behavior_overlapTop = global::ToDoList.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.InputKit.Resource.Attribute.behavior_peekHeight = global::ToDoList.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.InputKit.Resource.Attribute.behavior_skipCollapsed = global::ToDoList.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.InputKit.Resource.Attribute.borderlessButtonStyle = global::ToDoList.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.borderWidth = global::ToDoList.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.InputKit.Resource.Attribute.bottomAppBarStyle = global::ToDoList.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.bottomNavigationStyle = global::ToDoList.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Plugin.InputKit.Resource.Attribute.bottomSheetDialogTheme = global::ToDoList.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.bottomSheetStyle = global::ToDoList.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.InputKit.Resource.Attribute.boxBackgroundColor = global::ToDoList.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.boxBackgroundMode = global::ToDoList.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Plugin.InputKit.Resource.Attribute.boxCollapsedPaddingTop = global::ToDoList.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusBottomEnd = global::ToDoList.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusBottomStart = global::ToDoList.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusTopEnd = global::ToDoList.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusTopStart = global::ToDoList.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Plugin.InputKit.Resource.Attribute.boxStrokeColor = global::ToDoList.Droid.Resource.Attribute.boxStrokeColor;
+			global::Plugin.InputKit.Resource.Attribute.boxStrokeWidth = global::ToDoList.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarButtonStyle = global::ToDoList.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarNegativeButtonStyle = global::ToDoList.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarNeutralButtonStyle = global::ToDoList.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarPositiveButtonStyle = global::ToDoList.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarStyle = global::ToDoList.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonCompat = global::ToDoList.Droid.Resource.Attribute.buttonCompat;
+			global::Plugin.InputKit.Resource.Attribute.buttonGravity = global::ToDoList.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.InputKit.Resource.Attribute.buttonIconDimen = global::ToDoList.Droid.Resource.Attribute.buttonIconDimen;
+			global::Plugin.InputKit.Resource.Attribute.buttonPanelSideLayout = global::ToDoList.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.InputKit.Resource.Attribute.buttonStyle = global::ToDoList.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonStyleSmall = global::ToDoList.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.InputKit.Resource.Attribute.buttonTint = global::ToDoList.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.InputKit.Resource.Attribute.buttonTintMode = global::ToDoList.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.InputKit.Resource.Attribute.cardBackgroundColor = global::ToDoList.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.cardCornerRadius = global::ToDoList.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.cardElevation = global::ToDoList.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.InputKit.Resource.Attribute.cardMaxElevation = global::ToDoList.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.InputKit.Resource.Attribute.cardPreventCornerOverlap = global::ToDoList.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.InputKit.Resource.Attribute.cardUseCompatPadding = global::ToDoList.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.InputKit.Resource.Attribute.cardViewStyle = global::ToDoList.Droid.Resource.Attribute.cardViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.checkboxStyle = global::ToDoList.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.InputKit.Resource.Attribute.checkedChip = global::ToDoList.Droid.Resource.Attribute.checkedChip;
+			global::Plugin.InputKit.Resource.Attribute.checkedIcon = global::ToDoList.Droid.Resource.Attribute.checkedIcon;
+			global::Plugin.InputKit.Resource.Attribute.checkedIconEnabled = global::ToDoList.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Plugin.InputKit.Resource.Attribute.checkedIconVisible = global::ToDoList.Droid.Resource.Attribute.checkedIconVisible;
+			global::Plugin.InputKit.Resource.Attribute.checkedTextViewStyle = global::ToDoList.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.chipBackgroundColor = global::ToDoList.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.chipCornerRadius = global::ToDoList.Droid.Resource.Attribute.chipCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.chipEndPadding = global::ToDoList.Droid.Resource.Attribute.chipEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.chipGroupStyle = global::ToDoList.Droid.Resource.Attribute.chipGroupStyle;
+			global::Plugin.InputKit.Resource.Attribute.chipIcon = global::ToDoList.Droid.Resource.Attribute.chipIcon;
+			global::Plugin.InputKit.Resource.Attribute.chipIconEnabled = global::ToDoList.Droid.Resource.Attribute.chipIconEnabled;
+			global::Plugin.InputKit.Resource.Attribute.chipIconSize = global::ToDoList.Droid.Resource.Attribute.chipIconSize;
+			global::Plugin.InputKit.Resource.Attribute.chipIconTint = global::ToDoList.Droid.Resource.Attribute.chipIconTint;
+			global::Plugin.InputKit.Resource.Attribute.chipIconVisible = global::ToDoList.Droid.Resource.Attribute.chipIconVisible;
+			global::Plugin.InputKit.Resource.Attribute.chipMinHeight = global::ToDoList.Droid.Resource.Attribute.chipMinHeight;
+			global::Plugin.InputKit.Resource.Attribute.chipSpacing = global::ToDoList.Droid.Resource.Attribute.chipSpacing;
+			global::Plugin.InputKit.Resource.Attribute.chipSpacingHorizontal = global::ToDoList.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Plugin.InputKit.Resource.Attribute.chipSpacingVertical = global::ToDoList.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Plugin.InputKit.Resource.Attribute.chipStandaloneStyle = global::ToDoList.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Plugin.InputKit.Resource.Attribute.chipStartPadding = global::ToDoList.Droid.Resource.Attribute.chipStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.chipStrokeColor = global::ToDoList.Droid.Resource.Attribute.chipStrokeColor;
+			global::Plugin.InputKit.Resource.Attribute.chipStrokeWidth = global::ToDoList.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Plugin.InputKit.Resource.Attribute.chipStyle = global::ToDoList.Droid.Resource.Attribute.chipStyle;
+			global::Plugin.InputKit.Resource.Attribute.closeIcon = global::ToDoList.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.InputKit.Resource.Attribute.closeIconEnabled = global::ToDoList.Droid.Resource.Attribute.closeIconEnabled;
+			global::Plugin.InputKit.Resource.Attribute.closeIconEndPadding = global::ToDoList.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.closeIconSize = global::ToDoList.Droid.Resource.Attribute.closeIconSize;
+			global::Plugin.InputKit.Resource.Attribute.closeIconStartPadding = global::ToDoList.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.closeIconTint = global::ToDoList.Droid.Resource.Attribute.closeIconTint;
+			global::Plugin.InputKit.Resource.Attribute.closeIconVisible = global::ToDoList.Droid.Resource.Attribute.closeIconVisible;
+			global::Plugin.InputKit.Resource.Attribute.closeItemLayout = global::ToDoList.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.collapseContentDescription = global::ToDoList.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.collapsedTitleGravity = global::ToDoList.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.InputKit.Resource.Attribute.collapsedTitleTextAppearance = global::ToDoList.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.collapseIcon = global::ToDoList.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.InputKit.Resource.Attribute.collectionViewStyle = global::ToDoList.Droid.Resource.Attribute.collectionViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.color = global::ToDoList.Droid.Resource.Attribute.color;
+			global::Plugin.InputKit.Resource.Attribute.colorAccent = global::ToDoList.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.InputKit.Resource.Attribute.colorBackgroundFloating = global::ToDoList.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.InputKit.Resource.Attribute.colorButtonNormal = global::ToDoList.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.InputKit.Resource.Attribute.colorControlActivated = global::ToDoList.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.InputKit.Resource.Attribute.colorControlHighlight = global::ToDoList.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.InputKit.Resource.Attribute.colorControlNormal = global::ToDoList.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.InputKit.Resource.Attribute.colorError = global::ToDoList.Droid.Resource.Attribute.colorError;
+			global::Plugin.InputKit.Resource.Attribute.colorPrimary = global::ToDoList.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.InputKit.Resource.Attribute.colorPrimaryDark = global::ToDoList.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.InputKit.Resource.Attribute.colorSecondary = global::ToDoList.Droid.Resource.Attribute.colorSecondary;
+			global::Plugin.InputKit.Resource.Attribute.colorSwitchThumbNormal = global::ToDoList.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.InputKit.Resource.Attribute.commitIcon = global::ToDoList.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.InputKit.Resource.Attribute.contentDescription = global::ToDoList.Droid.Resource.Attribute.contentDescription;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetEnd = global::ToDoList.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetEndWithActions = global::ToDoList.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetLeft = global::ToDoList.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetRight = global::ToDoList.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetStart = global::ToDoList.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetStartWithNavigation = global::ToDoList.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Attribute.contentPadding = global::ToDoList.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingBottom = global::ToDoList.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingLeft = global::ToDoList.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingRight = global::ToDoList.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingTop = global::ToDoList.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.contentScrim = global::ToDoList.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.InputKit.Resource.Attribute.controlBackground = global::ToDoList.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.InputKit.Resource.Attribute.coordinatorLayoutStyle = global::ToDoList.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.InputKit.Resource.Attribute.cornerRadius = global::ToDoList.Droid.Resource.Attribute.cornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.counterEnabled = global::ToDoList.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.InputKit.Resource.Attribute.counterMaxLength = global::ToDoList.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.InputKit.Resource.Attribute.counterOverflowTextAppearance = global::ToDoList.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.counterTextAppearance = global::ToDoList.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.customNavigationLayout = global::ToDoList.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.InputKit.Resource.Attribute.defaultQueryHint = global::ToDoList.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.InputKit.Resource.Attribute.dialogCornerRadius = global::ToDoList.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.dialogPreferredPadding = global::ToDoList.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.InputKit.Resource.Attribute.dialogTheme = global::ToDoList.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.displayOptions = global::ToDoList.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.InputKit.Resource.Attribute.divider = global::ToDoList.Droid.Resource.Attribute.divider;
+			global::Plugin.InputKit.Resource.Attribute.dividerHorizontal = global::ToDoList.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.InputKit.Resource.Attribute.dividerPadding = global::ToDoList.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.InputKit.Resource.Attribute.dividerVertical = global::ToDoList.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.InputKit.Resource.Attribute.drawableBottomCompat = global::ToDoList.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableEndCompat = global::ToDoList.Droid.Resource.Attribute.drawableEndCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableLeftCompat = global::ToDoList.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableRightCompat = global::ToDoList.Droid.Resource.Attribute.drawableRightCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableSize = global::ToDoList.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.InputKit.Resource.Attribute.drawableStartCompat = global::ToDoList.Droid.Resource.Attribute.drawableStartCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableTint = global::ToDoList.Droid.Resource.Attribute.drawableTint;
+			global::Plugin.InputKit.Resource.Attribute.drawableTintMode = global::ToDoList.Droid.Resource.Attribute.drawableTintMode;
+			global::Plugin.InputKit.Resource.Attribute.drawableTopCompat = global::ToDoList.Droid.Resource.Attribute.drawableTopCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawerArrowStyle = global::ToDoList.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.InputKit.Resource.Attribute.dropdownListPreferredItemHeight = global::ToDoList.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Attribute.dropDownListViewStyle = global::ToDoList.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.editTextBackground = global::ToDoList.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.InputKit.Resource.Attribute.editTextColor = global::ToDoList.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.InputKit.Resource.Attribute.editTextStyle = global::ToDoList.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.elevation = global::ToDoList.Droid.Resource.Attribute.elevation;
+			global::Plugin.InputKit.Resource.Attribute.enforceMaterialTheme = global::ToDoList.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Plugin.InputKit.Resource.Attribute.enforceTextAppearance = global::ToDoList.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.errorEnabled = global::ToDoList.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.InputKit.Resource.Attribute.errorTextAppearance = global::ToDoList.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ToDoList.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.InputKit.Resource.Attribute.expanded = global::ToDoList.Droid.Resource.Attribute.expanded;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleGravity = global::ToDoList.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMargin = global::ToDoList.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginBottom = global::ToDoList.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginEnd = global::ToDoList.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginStart = global::ToDoList.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginTop = global::ToDoList.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleTextAppearance = global::ToDoList.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.fabAlignmentMode = global::ToDoList.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Plugin.InputKit.Resource.Attribute.fabCradleMargin = global::ToDoList.Droid.Resource.Attribute.fabCradleMargin;
+			global::Plugin.InputKit.Resource.Attribute.fabCradleRoundedCornerRadius = global::ToDoList.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.fabCradleVerticalOffset = global::ToDoList.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Plugin.InputKit.Resource.Attribute.fabCustomSize = global::ToDoList.Droid.Resource.Attribute.fabCustomSize;
+			global::Plugin.InputKit.Resource.Attribute.fabSize = global::ToDoList.Droid.Resource.Attribute.fabSize;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollEnabled = global::ToDoList.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::ToDoList.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::ToDoList.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollVerticalThumbDrawable = global::ToDoList.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollVerticalTrackDrawable = global::ToDoList.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Plugin.InputKit.Resource.Attribute.firstBaselineToTopHeight = global::ToDoList.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Plugin.InputKit.Resource.Attribute.floatingActionButtonStyle = global::ToDoList.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.font = global::ToDoList.Droid.Resource.Attribute.font;
+			global::Plugin.InputKit.Resource.Attribute.fontFamily = global::ToDoList.Droid.Resource.Attribute.fontFamily;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderAuthority = global::ToDoList.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderCerts = global::ToDoList.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderFetchStrategy = global::ToDoList.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderFetchTimeout = global::ToDoList.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderPackage = global::ToDoList.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderQuery = global::ToDoList.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.InputKit.Resource.Attribute.fontStyle = global::ToDoList.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.InputKit.Resource.Attribute.fontVariationSettings = global::ToDoList.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.InputKit.Resource.Attribute.fontWeight = global::ToDoList.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.InputKit.Resource.Attribute.foregroundInsidePadding = global::ToDoList.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.InputKit.Resource.Attribute.gapBetweenBars = global::ToDoList.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.InputKit.Resource.Attribute.goIcon = global::ToDoList.Droid.Resource.Attribute.goIcon;
+			global::Plugin.InputKit.Resource.Attribute.headerLayout = global::ToDoList.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.InputKit.Resource.Attribute.height = global::ToDoList.Droid.Resource.Attribute.height;
+			global::Plugin.InputKit.Resource.Attribute.helperText = global::ToDoList.Droid.Resource.Attribute.helperText;
+			global::Plugin.InputKit.Resource.Attribute.helperTextEnabled = global::ToDoList.Droid.Resource.Attribute.helperTextEnabled;
+			global::Plugin.InputKit.Resource.Attribute.helperTextTextAppearance = global::ToDoList.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.hideMotionSpec = global::ToDoList.Droid.Resource.Attribute.hideMotionSpec;
+			global::Plugin.InputKit.Resource.Attribute.hideOnContentScroll = global::ToDoList.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.InputKit.Resource.Attribute.hideOnScroll = global::ToDoList.Droid.Resource.Attribute.hideOnScroll;
+			global::Plugin.InputKit.Resource.Attribute.hintAnimationEnabled = global::ToDoList.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.InputKit.Resource.Attribute.hintEnabled = global::ToDoList.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.InputKit.Resource.Attribute.hintTextAppearance = global::ToDoList.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.homeAsUpIndicator = global::ToDoList.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Attribute.homeLayout = global::ToDoList.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.InputKit.Resource.Attribute.hoveredFocusedTranslationZ = global::ToDoList.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Plugin.InputKit.Resource.Attribute.icon = global::ToDoList.Droid.Resource.Attribute.icon;
+			global::Plugin.InputKit.Resource.Attribute.iconEndPadding = global::ToDoList.Droid.Resource.Attribute.iconEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.iconGravity = global::ToDoList.Droid.Resource.Attribute.iconGravity;
+			global::Plugin.InputKit.Resource.Attribute.iconifiedByDefault = global::ToDoList.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.InputKit.Resource.Attribute.iconPadding = global::ToDoList.Droid.Resource.Attribute.iconPadding;
+			global::Plugin.InputKit.Resource.Attribute.iconSize = global::ToDoList.Droid.Resource.Attribute.iconSize;
+			global::Plugin.InputKit.Resource.Attribute.iconStartPadding = global::ToDoList.Droid.Resource.Attribute.iconStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.iconTint = global::ToDoList.Droid.Resource.Attribute.iconTint;
+			global::Plugin.InputKit.Resource.Attribute.iconTintMode = global::ToDoList.Droid.Resource.Attribute.iconTintMode;
+			global::Plugin.InputKit.Resource.Attribute.imageButtonStyle = global::ToDoList.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.indeterminateProgressStyle = global::ToDoList.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.InputKit.Resource.Attribute.initialActivityCount = global::ToDoList.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.InputKit.Resource.Attribute.insetForeground = global::ToDoList.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.InputKit.Resource.Attribute.isLightTheme = global::ToDoList.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.InputKit.Resource.Attribute.itemBackground = global::ToDoList.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.InputKit.Resource.Attribute.itemHorizontalPadding = global::ToDoList.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemHorizontalTranslationEnabled = global::ToDoList.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Plugin.InputKit.Resource.Attribute.itemIconPadding = global::ToDoList.Droid.Resource.Attribute.itemIconPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemIconSize = global::ToDoList.Droid.Resource.Attribute.itemIconSize;
+			global::Plugin.InputKit.Resource.Attribute.itemIconTint = global::ToDoList.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.InputKit.Resource.Attribute.itemPadding = global::ToDoList.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemSpacing = global::ToDoList.Droid.Resource.Attribute.itemSpacing;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearance = global::ToDoList.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearanceActive = global::ToDoList.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearanceInactive = global::ToDoList.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Plugin.InputKit.Resource.Attribute.itemTextColor = global::ToDoList.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.InputKit.Resource.Attribute.keylines = global::ToDoList.Droid.Resource.Attribute.keylines;
+			global::Plugin.InputKit.Resource.Attribute.labelVisibilityMode = global::ToDoList.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Plugin.InputKit.Resource.Attribute.lastBaselineToBottomHeight = global::ToDoList.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Plugin.InputKit.Resource.Attribute.layout = global::ToDoList.Droid.Resource.Attribute.layout;
+			global::Plugin.InputKit.Resource.Attribute.layoutManager = global::ToDoList.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.InputKit.Resource.Attribute.layout_anchor = global::ToDoList.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.InputKit.Resource.Attribute.layout_anchorGravity = global::ToDoList.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.InputKit.Resource.Attribute.layout_behavior = global::ToDoList.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.InputKit.Resource.Attribute.layout_collapseMode = global::ToDoList.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.InputKit.Resource.Attribute.layout_collapseParallaxMultiplier = global::ToDoList.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.InputKit.Resource.Attribute.layout_dodgeInsetEdges = global::ToDoList.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.InputKit.Resource.Attribute.layout_insetEdge = global::ToDoList.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.InputKit.Resource.Attribute.layout_keyline = global::ToDoList.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.InputKit.Resource.Attribute.layout_scrollFlags = global::ToDoList.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.InputKit.Resource.Attribute.layout_scrollInterpolator = global::ToDoList.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.InputKit.Resource.Attribute.liftOnScroll = global::ToDoList.Droid.Resource.Attribute.liftOnScroll;
+			global::Plugin.InputKit.Resource.Attribute.lineHeight = global::ToDoList.Droid.Resource.Attribute.lineHeight;
+			global::Plugin.InputKit.Resource.Attribute.lineSpacing = global::ToDoList.Droid.Resource.Attribute.lineSpacing;
+			global::Plugin.InputKit.Resource.Attribute.listChoiceBackgroundIndicator = global::ToDoList.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.InputKit.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::ToDoList.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Plugin.InputKit.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::ToDoList.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Plugin.InputKit.Resource.Attribute.listDividerAlertDialog = global::ToDoList.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.InputKit.Resource.Attribute.listItemLayout = global::ToDoList.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.listLayout = global::ToDoList.Droid.Resource.Attribute.listLayout;
+			global::Plugin.InputKit.Resource.Attribute.listMenuViewStyle = global::ToDoList.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.listPopupWindowStyle = global::ToDoList.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeight = global::ToDoList.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightLarge = global::ToDoList.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightSmall = global::ToDoList.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingEnd = global::ToDoList.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingLeft = global::ToDoList.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingRight = global::ToDoList.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingStart = global::ToDoList.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Plugin.InputKit.Resource.Attribute.logo = global::ToDoList.Droid.Resource.Attribute.logo;
+			global::Plugin.InputKit.Resource.Attribute.logoDescription = global::ToDoList.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.InputKit.Resource.Attribute.materialButtonStyle = global::ToDoList.Droid.Resource.Attribute.materialButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.materialCardViewStyle = global::ToDoList.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.maxActionInlineWidth = global::ToDoList.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.InputKit.Resource.Attribute.maxButtonHeight = global::ToDoList.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.InputKit.Resource.Attribute.maxImageSize = global::ToDoList.Droid.Resource.Attribute.maxImageSize;
+			global::Plugin.InputKit.Resource.Attribute.measureWithLargestChild = global::ToDoList.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.InputKit.Resource.Attribute.menu = global::ToDoList.Droid.Resource.Attribute.menu;
+			global::Plugin.InputKit.Resource.Attribute.multiChoiceItemLayout = global::ToDoList.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.navigationContentDescription = global::ToDoList.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.navigationIcon = global::ToDoList.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.InputKit.Resource.Attribute.navigationMode = global::ToDoList.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.InputKit.Resource.Attribute.navigationViewStyle = global::ToDoList.Droid.Resource.Attribute.navigationViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.numericModifiers = global::ToDoList.Droid.Resource.Attribute.numericModifiers;
+			global::Plugin.InputKit.Resource.Attribute.overlapAnchor = global::ToDoList.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.InputKit.Resource.Attribute.paddingBottomNoButtons = global::ToDoList.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.InputKit.Resource.Attribute.paddingEnd = global::ToDoList.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.paddingStart = global::ToDoList.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.InputKit.Resource.Attribute.paddingTopNoTitle = global::ToDoList.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.InputKit.Resource.Attribute.panelBackground = global::ToDoList.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.InputKit.Resource.Attribute.panelMenuListTheme = global::ToDoList.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.InputKit.Resource.Attribute.panelMenuListWidth = global::ToDoList.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleContentDescription = global::ToDoList.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleDrawable = global::ToDoList.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleEnabled = global::ToDoList.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleTint = global::ToDoList.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleTintMode = global::ToDoList.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.InputKit.Resource.Attribute.popupMenuStyle = global::ToDoList.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.InputKit.Resource.Attribute.popupTheme = global::ToDoList.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.InputKit.Resource.Attribute.popupWindowStyle = global::ToDoList.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.preserveIconSpacing = global::ToDoList.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.InputKit.Resource.Attribute.pressedTranslationZ = global::ToDoList.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.InputKit.Resource.Attribute.progressBarPadding = global::ToDoList.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.InputKit.Resource.Attribute.progressBarStyle = global::ToDoList.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.queryBackground = global::ToDoList.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.InputKit.Resource.Attribute.queryHint = global::ToDoList.Droid.Resource.Attribute.queryHint;
+			global::Plugin.InputKit.Resource.Attribute.radioButtonStyle = global::ToDoList.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyle = global::ToDoList.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleIndicator = global::ToDoList.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleSmall = global::ToDoList.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.InputKit.Resource.Attribute.recyclerViewStyle = global::ToDoList.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.reverseLayout = global::ToDoList.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.InputKit.Resource.Attribute.rippleColor = global::ToDoList.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.InputKit.Resource.Attribute.scrimAnimationDuration = global::ToDoList.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.InputKit.Resource.Attribute.scrimBackground = global::ToDoList.Droid.Resource.Attribute.scrimBackground;
+			global::Plugin.InputKit.Resource.Attribute.scrimVisibleHeightTrigger = global::ToDoList.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.InputKit.Resource.Attribute.searchHintIcon = global::ToDoList.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.InputKit.Resource.Attribute.searchIcon = global::ToDoList.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.InputKit.Resource.Attribute.searchViewStyle = global::ToDoList.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.seekBarStyle = global::ToDoList.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.selectableItemBackground = global::ToDoList.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.InputKit.Resource.Attribute.selectableItemBackgroundBorderless = global::ToDoList.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.InputKit.Resource.Attribute.showAsAction = global::ToDoList.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.InputKit.Resource.Attribute.showDividers = global::ToDoList.Droid.Resource.Attribute.showDividers;
+			global::Plugin.InputKit.Resource.Attribute.showMotionSpec = global::ToDoList.Droid.Resource.Attribute.showMotionSpec;
+			global::Plugin.InputKit.Resource.Attribute.showText = global::ToDoList.Droid.Resource.Attribute.showText;
+			global::Plugin.InputKit.Resource.Attribute.showTitle = global::ToDoList.Droid.Resource.Attribute.showTitle;
+			global::Plugin.InputKit.Resource.Attribute.singleChoiceItemLayout = global::ToDoList.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.singleLine = global::ToDoList.Droid.Resource.Attribute.singleLine;
+			global::Plugin.InputKit.Resource.Attribute.singleSelection = global::ToDoList.Droid.Resource.Attribute.singleSelection;
+			global::Plugin.InputKit.Resource.Attribute.snackbarButtonStyle = global::ToDoList.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.snackbarStyle = global::ToDoList.Droid.Resource.Attribute.snackbarStyle;
+			global::Plugin.InputKit.Resource.Attribute.spanCount = global::ToDoList.Droid.Resource.Attribute.spanCount;
+			global::Plugin.InputKit.Resource.Attribute.spinBars = global::ToDoList.Droid.Resource.Attribute.spinBars;
+			global::Plugin.InputKit.Resource.Attribute.spinnerDropDownItemStyle = global::ToDoList.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.InputKit.Resource.Attribute.spinnerStyle = global::ToDoList.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.InputKit.Resource.Attribute.splitTrack = global::ToDoList.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.InputKit.Resource.Attribute.srcCompat = global::ToDoList.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.InputKit.Resource.Attribute.stackFromEnd = global::ToDoList.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.InputKit.Resource.Attribute.state_above_anchor = global::ToDoList.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.InputKit.Resource.Attribute.state_collapsed = global::ToDoList.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.InputKit.Resource.Attribute.state_collapsible = global::ToDoList.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.InputKit.Resource.Attribute.state_liftable = global::ToDoList.Droid.Resource.Attribute.state_liftable;
+			global::Plugin.InputKit.Resource.Attribute.state_lifted = global::ToDoList.Droid.Resource.Attribute.state_lifted;
+			global::Plugin.InputKit.Resource.Attribute.statusBarBackground = global::ToDoList.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.InputKit.Resource.Attribute.statusBarScrim = global::ToDoList.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.InputKit.Resource.Attribute.strokeColor = global::ToDoList.Droid.Resource.Attribute.strokeColor;
+			global::Plugin.InputKit.Resource.Attribute.strokeWidth = global::ToDoList.Droid.Resource.Attribute.strokeWidth;
+			global::Plugin.InputKit.Resource.Attribute.subMenuArrow = global::ToDoList.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.InputKit.Resource.Attribute.submitBackground = global::ToDoList.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.InputKit.Resource.Attribute.subtitle = global::ToDoList.Droid.Resource.Attribute.subtitle;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextAppearance = global::ToDoList.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextColor = global::ToDoList.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextStyle = global::ToDoList.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.suggestionRowLayout = global::ToDoList.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.InputKit.Resource.Attribute.switchMinWidth = global::ToDoList.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.InputKit.Resource.Attribute.switchPadding = global::ToDoList.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.InputKit.Resource.Attribute.switchStyle = global::ToDoList.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.InputKit.Resource.Attribute.switchTextAppearance = global::ToDoList.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.tabBackground = global::ToDoList.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.InputKit.Resource.Attribute.tabContentStart = global::ToDoList.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.InputKit.Resource.Attribute.tabGravity = global::ToDoList.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.InputKit.Resource.Attribute.tabIconTint = global::ToDoList.Droid.Resource.Attribute.tabIconTint;
+			global::Plugin.InputKit.Resource.Attribute.tabIconTintMode = global::ToDoList.Droid.Resource.Attribute.tabIconTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicator = global::ToDoList.Droid.Resource.Attribute.tabIndicator;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorAnimationDuration = global::ToDoList.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorColor = global::ToDoList.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorFullWidth = global::ToDoList.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorGravity = global::ToDoList.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorHeight = global::ToDoList.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.InputKit.Resource.Attribute.tabInlineLabel = global::ToDoList.Droid.Resource.Attribute.tabInlineLabel;
+			global::Plugin.InputKit.Resource.Attribute.tabMaxWidth = global::ToDoList.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabMinWidth = global::ToDoList.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabMode = global::ToDoList.Droid.Resource.Attribute.tabMode;
+			global::Plugin.InputKit.Resource.Attribute.tabPadding = global::ToDoList.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingBottom = global::ToDoList.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingEnd = global::ToDoList.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingStart = global::ToDoList.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingTop = global::ToDoList.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.tabRippleColor = global::ToDoList.Droid.Resource.Attribute.tabRippleColor;
+			global::Plugin.InputKit.Resource.Attribute.tabSelectedTextColor = global::ToDoList.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.InputKit.Resource.Attribute.tabStyle = global::ToDoList.Droid.Resource.Attribute.tabStyle;
+			global::Plugin.InputKit.Resource.Attribute.tabTextAppearance = global::ToDoList.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.tabTextColor = global::ToDoList.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.InputKit.Resource.Attribute.tabUnboundedRipple = global::ToDoList.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Plugin.InputKit.Resource.Attribute.textAllCaps = global::ToDoList.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceBody1 = global::ToDoList.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceBody2 = global::ToDoList.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceButton = global::ToDoList.Droid.Resource.Attribute.textAppearanceButton;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceCaption = global::ToDoList.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline1 = global::ToDoList.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline2 = global::ToDoList.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline3 = global::ToDoList.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline4 = global::ToDoList.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline5 = global::ToDoList.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline6 = global::ToDoList.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceLargePopupMenu = global::ToDoList.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItem = global::ToDoList.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSecondary = global::ToDoList.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSmall = global::ToDoList.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceOverline = global::ToDoList.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Plugin.InputKit.Resource.Attribute.textAppearancePopupMenuHeader = global::ToDoList.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ToDoList.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultTitle = global::ToDoList.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSmallPopupMenu = global::ToDoList.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSubtitle1 = global::ToDoList.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSubtitle2 = global::ToDoList.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Plugin.InputKit.Resource.Attribute.textColorAlertDialogListItem = global::ToDoList.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.InputKit.Resource.Attribute.textColorSearchUrl = global::ToDoList.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.InputKit.Resource.Attribute.textEndPadding = global::ToDoList.Droid.Resource.Attribute.textEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.textInputStyle = global::ToDoList.Droid.Resource.Attribute.textInputStyle;
+			global::Plugin.InputKit.Resource.Attribute.textLocale = global::ToDoList.Droid.Resource.Attribute.textLocale;
+			global::Plugin.InputKit.Resource.Attribute.textStartPadding = global::ToDoList.Droid.Resource.Attribute.textStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.theme = global::ToDoList.Droid.Resource.Attribute.theme;
+			global::Plugin.InputKit.Resource.Attribute.thickness = global::ToDoList.Droid.Resource.Attribute.thickness;
+			global::Plugin.InputKit.Resource.Attribute.thumbTextPadding = global::ToDoList.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.InputKit.Resource.Attribute.thumbTint = global::ToDoList.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.InputKit.Resource.Attribute.thumbTintMode = global::ToDoList.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tickMark = global::ToDoList.Droid.Resource.Attribute.tickMark;
+			global::Plugin.InputKit.Resource.Attribute.tickMarkTint = global::ToDoList.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.InputKit.Resource.Attribute.tickMarkTintMode = global::ToDoList.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tint = global::ToDoList.Droid.Resource.Attribute.tint;
+			global::Plugin.InputKit.Resource.Attribute.tintMode = global::ToDoList.Droid.Resource.Attribute.tintMode;
+			global::Plugin.InputKit.Resource.Attribute.title = global::ToDoList.Droid.Resource.Attribute.title;
+			global::Plugin.InputKit.Resource.Attribute.titleEnabled = global::ToDoList.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.InputKit.Resource.Attribute.titleMargin = global::ToDoList.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginBottom = global::ToDoList.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginEnd = global::ToDoList.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.InputKit.Resource.Attribute.titleMargins = global::ToDoList.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginStart = global::ToDoList.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginTop = global::ToDoList.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.InputKit.Resource.Attribute.titleTextAppearance = global::ToDoList.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.titleTextColor = global::ToDoList.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.InputKit.Resource.Attribute.titleTextStyle = global::ToDoList.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.toolbarId = global::ToDoList.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.InputKit.Resource.Attribute.toolbarNavigationButtonStyle = global::ToDoList.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.toolbarStyle = global::ToDoList.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.InputKit.Resource.Attribute.tooltipForegroundColor = global::ToDoList.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Plugin.InputKit.Resource.Attribute.tooltipFrameBackground = global::ToDoList.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Plugin.InputKit.Resource.Attribute.tooltipText = global::ToDoList.Droid.Resource.Attribute.tooltipText;
+			global::Plugin.InputKit.Resource.Attribute.track = global::ToDoList.Droid.Resource.Attribute.track;
+			global::Plugin.InputKit.Resource.Attribute.trackTint = global::ToDoList.Droid.Resource.Attribute.trackTint;
+			global::Plugin.InputKit.Resource.Attribute.trackTintMode = global::ToDoList.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.InputKit.Resource.Attribute.ttcIndex = global::ToDoList.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.InputKit.Resource.Attribute.useCompatPadding = global::ToDoList.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.InputKit.Resource.Attribute.viewInflaterClass = global::ToDoList.Droid.Resource.Attribute.viewInflaterClass;
+			global::Plugin.InputKit.Resource.Attribute.voiceIcon = global::ToDoList.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.InputKit.Resource.Attribute.windowActionBar = global::ToDoList.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.InputKit.Resource.Attribute.windowActionBarOverlay = global::ToDoList.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.InputKit.Resource.Attribute.windowActionModeOverlay = global::ToDoList.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMajor = global::ToDoList.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMinor = global::ToDoList.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMajor = global::ToDoList.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMinor = global::ToDoList.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMajor = global::ToDoList.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMinor = global::ToDoList.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowNoTitle = global::ToDoList.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.InputKit.Resource.Boolean.abc_action_bar_embed_tabs = global::ToDoList.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.InputKit.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ToDoList.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.InputKit.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::ToDoList.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ToDoList.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_light = global::ToDoList.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_btn_colored_borderless_text_material = global::ToDoList.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.InputKit.Resource.Color.abc_btn_colored_text_material = global::ToDoList.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.InputKit.Resource.Color.abc_color_highlight_material = global::ToDoList.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_dark = global::ToDoList.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_light = global::ToDoList.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_dark = global::ToDoList.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_light = global::ToDoList.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_dark = global::ToDoList.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_light = global::ToDoList.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text = global::ToDoList.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_normal = global::ToDoList.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_pressed = global::ToDoList.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_selected = global::ToDoList.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_dark = global::ToDoList.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_light = global::ToDoList.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_tint_btn_checkable = global::ToDoList.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.InputKit.Resource.Color.abc_tint_default = global::ToDoList.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.InputKit.Resource.Color.abc_tint_edittext = global::ToDoList.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.InputKit.Resource.Color.abc_tint_seek_thumb = global::ToDoList.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.InputKit.Resource.Color.abc_tint_spinner = global::ToDoList.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.InputKit.Resource.Color.abc_tint_switch_track = global::ToDoList.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.InputKit.Resource.Color.accent_material_dark = global::ToDoList.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.InputKit.Resource.Color.accent_material_light = global::ToDoList.Droid.Resource.Color.accent_material_light;
+			global::Plugin.InputKit.Resource.Color.background_floating_material_dark = global::ToDoList.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.InputKit.Resource.Color.background_floating_material_light = global::ToDoList.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.InputKit.Resource.Color.background_material_dark = global::ToDoList.Droid.Resource.Color.background_material_dark;
+			global::Plugin.InputKit.Resource.Color.background_material_light = global::ToDoList.Droid.Resource.Color.background_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_dark = global::ToDoList.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_light = global::ToDoList.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_dark = global::ToDoList.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_light = global::ToDoList.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_material_dark = global::ToDoList.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_material_light = global::ToDoList.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.browser_actions_bg_grey = global::ToDoList.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.InputKit.Resource.Color.browser_actions_divider_color = global::ToDoList.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.InputKit.Resource.Color.browser_actions_text_color = global::ToDoList.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.InputKit.Resource.Color.browser_actions_title_color = global::ToDoList.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.InputKit.Resource.Color.button_material_dark = global::ToDoList.Droid.Resource.Color.button_material_dark;
+			global::Plugin.InputKit.Resource.Color.button_material_light = global::ToDoList.Droid.Resource.Color.button_material_light;
+			global::Plugin.InputKit.Resource.Color.cardview_dark_background = global::ToDoList.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.InputKit.Resource.Color.cardview_light_background = global::ToDoList.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.InputKit.Resource.Color.cardview_shadow_end_color = global::ToDoList.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.InputKit.Resource.Color.cardview_shadow_start_color = global::ToDoList.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.InputKit.Resource.Color.design_bottom_navigation_shadow_color = global::ToDoList.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.InputKit.Resource.Color.design_default_color_primary = global::ToDoList.Droid.Resource.Color.design_default_color_primary;
+			global::Plugin.InputKit.Resource.Color.design_default_color_primary_dark = global::ToDoList.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Plugin.InputKit.Resource.Color.design_error = global::ToDoList.Droid.Resource.Color.design_error;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_end_color = global::ToDoList.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_mid_color = global::ToDoList.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_start_color = global::ToDoList.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_inner_color = global::ToDoList.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_outer_color = global::ToDoList.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_inner_color = global::ToDoList.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_outer_color = global::ToDoList.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.InputKit.Resource.Color.design_snackbar_background_color = global::ToDoList.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_dark = global::ToDoList.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_light = global::ToDoList.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_material_dark = global::ToDoList.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_material_light = global::ToDoList.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.error_color_material_dark = global::ToDoList.Droid.Resource.Color.error_color_material_dark;
+			global::Plugin.InputKit.Resource.Color.error_color_material_light = global::ToDoList.Droid.Resource.Color.error_color_material_light;
+			global::Plugin.InputKit.Resource.Color.foreground_material_dark = global::ToDoList.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.foreground_material_light = global::ToDoList.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.highlighted_text_material_dark = global::ToDoList.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.highlighted_text_material_light = global::ToDoList.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_800 = global::ToDoList.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_900 = global::ToDoList.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_950 = global::ToDoList.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.InputKit.Resource.Color.material_deep_teal_200 = global::ToDoList.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.InputKit.Resource.Color.material_deep_teal_500 = global::ToDoList.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.InputKit.Resource.Color.material_grey_100 = global::ToDoList.Droid.Resource.Color.material_grey_100;
+			global::Plugin.InputKit.Resource.Color.material_grey_300 = global::ToDoList.Droid.Resource.Color.material_grey_300;
+			global::Plugin.InputKit.Resource.Color.material_grey_50 = global::ToDoList.Droid.Resource.Color.material_grey_50;
+			global::Plugin.InputKit.Resource.Color.material_grey_600 = global::ToDoList.Droid.Resource.Color.material_grey_600;
+			global::Plugin.InputKit.Resource.Color.material_grey_800 = global::ToDoList.Droid.Resource.Color.material_grey_800;
+			global::Plugin.InputKit.Resource.Color.material_grey_850 = global::ToDoList.Droid.Resource.Color.material_grey_850;
+			global::Plugin.InputKit.Resource.Color.material_grey_900 = global::ToDoList.Droid.Resource.Color.material_grey_900;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_bg_color_selector = global::ToDoList.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_ripple_color = global::ToDoList.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_stroke_color_selector = global::ToDoList.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_text_btn_ripple_color = global::ToDoList.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_text_color_disabled = global::ToDoList.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_text_color_selector = global::ToDoList.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_transparent_bg_color = global::ToDoList.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_background_color = global::ToDoList.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_close_icon_tint = global::ToDoList.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_text_color = global::ToDoList.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_fab_ripple_color = global::ToDoList.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_scrim_color = global::ToDoList.Droid.Resource.Color.mtrl_scrim_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_colored_ripple_color = global::ToDoList.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_icon_color_selector = global::ToDoList.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::ToDoList.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::ToDoList.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_ripple_color = global::ToDoList.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_default_box_stroke_color = global::ToDoList.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_disabled_color = global::ToDoList.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::ToDoList.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::ToDoList.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_text_btn_text_color_selector = global::ToDoList.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Plugin.InputKit.Resource.Color.notification_action_color_filter = global::ToDoList.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.InputKit.Resource.Color.notification_icon_bg_color = global::ToDoList.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.InputKit.Resource.Color.notification_material_background_media_default_color = global::ToDoList.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.InputKit.Resource.Color.primary_dark_material_dark = global::ToDoList.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_dark_material_light = global::ToDoList.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_material_dark = global::ToDoList.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_material_light = global::ToDoList.Droid.Resource.Color.primary_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_text_default_material_dark = global::ToDoList.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_text_default_material_light = global::ToDoList.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_dark = global::ToDoList.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_light = global::ToDoList.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.ripple_material_dark = global::ToDoList.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.InputKit.Resource.Color.ripple_material_light = global::ToDoList.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_dark = global::ToDoList.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_light = global::ToDoList.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_dark = global::ToDoList.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_light = global::ToDoList.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_dark = global::ToDoList.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_light = global::ToDoList.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_material_dark = global::ToDoList.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_material_light = global::ToDoList.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_dark = global::ToDoList.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_light = global::ToDoList.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.InputKit.Resource.Color.tooltip_background_dark = global::ToDoList.Droid.Resource.Color.tooltip_background_dark;
+			global::Plugin.InputKit.Resource.Color.tooltip_background_light = global::ToDoList.Droid.Resource.Color.tooltip_background_light;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_height_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_elevation_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_max_height = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ToDoList.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_height_material = global::ToDoList.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_material = global::ToDoList.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ToDoList.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ToDoList.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_alert_dialog_button_dimen = global::ToDoList.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_horizontal_material = global::ToDoList.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_vertical_material = global::ToDoList.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_horizontal_material = global::ToDoList.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_vertical_material = global::ToDoList.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::ToDoList.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_config_prefDialogWidth = global::ToDoList.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_corner_material = global::ToDoList.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_inset_material = global::ToDoList.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_padding_material = global::ToDoList.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_corner_radius_material = global::ToDoList.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_major = global::ToDoList.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_minor = global::ToDoList.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_major = global::ToDoList.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_minor = global::ToDoList.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::ToDoList.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::ToDoList.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_major = global::ToDoList.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_minor = global::ToDoList.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_material = global::ToDoList.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_top_material = global::ToDoList.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_title_divider_material = global::ToDoList.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_dark = global::ToDoList.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_light = global::ToDoList.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_icon_width = global::ToDoList.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ToDoList.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ToDoList.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ToDoList.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ToDoList.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_top_material = global::ToDoList.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_floating_window_z = global::ToDoList.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_height_large_material = global::ToDoList.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_height_material = global::ToDoList.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_height_small_material = global::ToDoList.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ToDoList.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_panel_menu_list_width = global::ToDoList.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_progress_bar_height_material = global::ToDoList.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_height = global::ToDoList.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_width = global::ToDoList.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_background_height_material = global::ToDoList.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ToDoList.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_select_dialog_padding_start_material = global::ToDoList.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_switch_padding = global::ToDoList.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_1_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_2_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_button_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_caption_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_1_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_2_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_3_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_4_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_headline_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_large_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_medium_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_header_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_small_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subhead_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ToDoList.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material = global::ToDoList.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material_toolbar = global::ToDoList.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.InputKit.Resource.Dimension.browser_actions_context_menu_max_width = global::ToDoList.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.InputKit.Resource.Dimension.browser_actions_context_menu_min_padding = global::ToDoList.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.InputKit.Resource.Dimension.cardview_compat_inset_shadow = global::ToDoList.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.InputKit.Resource.Dimension.cardview_default_elevation = global::ToDoList.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.InputKit.Resource.Dimension.cardview_default_radius = global::ToDoList.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_inset_horizontal_material = global::ToDoList.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_inset_vertical_material = global::ToDoList.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_padding_horizontal_material = global::ToDoList.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_padding_vertical_material = global::ToDoList.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_control_corner_material = global::ToDoList.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_notification_large_icon_max_height = global::ToDoList.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.InputKit.Resource.Dimension.compat_notification_large_icon_max_width = global::ToDoList.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_appbar_elevation = global::ToDoList.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_text_size = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_elevation = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_height = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_icon_size = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_max_width = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_min_width = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_margin = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_shadow_height = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_text_size = global::ToDoList.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ToDoList.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_peek_height_min = global::ToDoList.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_border_width = global::ToDoList.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_elevation = global::ToDoList.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_image_size = global::ToDoList.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_size_mini = global::ToDoList.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_size_normal = global::ToDoList.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_translation_z_hovered_focused = global::ToDoList.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_translation_z_pressed = global::ToDoList.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_elevation = global::ToDoList.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_padding = global::ToDoList.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_size = global::ToDoList.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_item_horizontal_padding = global::ToDoList.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_item_icon_padding = global::ToDoList.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_max_width = global::ToDoList.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_padding_bottom = global::ToDoList.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_separator_vertical_padding = global::ToDoList.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_action_inline_max_width = global::ToDoList.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_background_corner_radius = global::ToDoList.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_elevation = global::ToDoList.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ToDoList.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_max_width = global::ToDoList.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_min_width = global::ToDoList.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_horizontal = global::ToDoList.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical = global::ToDoList.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ToDoList.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_text_size = global::ToDoList.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_max_width = global::ToDoList.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_scrollable_min_width = global::ToDoList.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size = global::ToDoList.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size_2line = global::ToDoList.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.InputKit.Resource.Dimension.design_textinput_caption_translate_y = global::ToDoList.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_dark = global::ToDoList.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_light = global::ToDoList.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_default_thickness = global::ToDoList.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_margin = global::ToDoList.Droid.Resource.Dimension.fastscroll_margin;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_minimum_range = global::ToDoList.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_colored = global::ToDoList.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_dark = global::ToDoList.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_light = global::ToDoList.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_dark = global::ToDoList.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_light = global::ToDoList.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_dark = global::ToDoList.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_light = global::ToDoList.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ToDoList.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ToDoList.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ToDoList.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::ToDoList.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::ToDoList.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::ToDoList.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::ToDoList.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_height = global::ToDoList.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_corner_radius = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_disabled_elevation = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_disabled_z = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_elevation = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_focused_z = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_hovered_z = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_icon_padding = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_inset = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_letter_spacing = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_bottom = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_left = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_right = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_top = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_pressed_z = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_stroke_size = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_size = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_z = global::ToDoList.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_card_elevation = global::ToDoList.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_card_spacing = global::ToDoList.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_chip_pressed_translation_z = global::ToDoList.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_chip_text_size = global::ToDoList.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_fab_elevation = global::ToDoList.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::ToDoList.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_fab_translation_z_pressed = global::ToDoList.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_navigation_elevation = global::ToDoList.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::ToDoList.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_navigation_item_icon_padding = global::ToDoList.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::ToDoList.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_snackbar_margin = global::ToDoList.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::ToDoList.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::ToDoList.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::ToDoList.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::ToDoList.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::ToDoList.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::ToDoList.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_toolbar_default_height = global::ToDoList.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Plugin.InputKit.Resource.Dimension.notification_action_icon_size = global::ToDoList.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_action_text_size = global::ToDoList.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_big_circle_margin = global::ToDoList.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.InputKit.Resource.Dimension.notification_content_margin_start = global::ToDoList.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_height = global::ToDoList.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_width = global::ToDoList.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.InputKit.Resource.Dimension.notification_main_column_padding_top = global::ToDoList.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.notification_media_narrow_margin = global::ToDoList.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.InputKit.Resource.Dimension.notification_right_icon_size = global::ToDoList.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_right_side_padding_top = global::ToDoList.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_background_padding = global::ToDoList.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_size_as_large = global::ToDoList.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.InputKit.Resource.Dimension.notification_subtext_size = global::ToDoList.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_top_pad = global::ToDoList.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.InputKit.Resource.Dimension.notification_top_pad_large_text = global::ToDoList.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_corner_radius = global::ToDoList.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_horizontal_padding = global::ToDoList.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_margin = global::ToDoList.Droid.Resource.Dimension.tooltip_margin;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::ToDoList.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_precise_anchor_threshold = global::ToDoList.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_vertical_padding = global::ToDoList.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_y_offset_non_touch = global::ToDoList.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_y_offset_touch = global::ToDoList.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Plugin.InputKit.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_action_bar_item_background_material = global::ToDoList.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_borderless_material = global::ToDoList.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_material = global::ToDoList.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_material_anim = global::ToDoList.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ToDoList.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ToDoList.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_colored_material = global::ToDoList.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_default_mtrl_shape = global::ToDoList.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_material = global::ToDoList.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_material_anim = global::ToDoList.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ToDoList.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ToDoList.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ToDoList.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ToDoList.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_internal_bg = global::ToDoList.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_material = global::ToDoList.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_control_background_material = global::ToDoList.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_dialog_material_background = global::ToDoList.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.InputKit.Resource.Drawable.abc_edit_text_material = global::ToDoList.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_ab_back_material = global::ToDoList.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::ToDoList.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_clear_material = global::ToDoList.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_go_search_api_material = global::ToDoList.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ToDoList.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_overflow_material = global::ToDoList.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ToDoList.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_search_api_material = global::ToDoList.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_voice_search_api_material = global::ToDoList.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_dark = global::ToDoList.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_light = global::ToDoList.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_divider_material = global::ToDoList.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_focused_holo = global::ToDoList.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_longpressed_holo = global::ToDoList.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_dark = global::ToDoList.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_light = global::ToDoList.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ToDoList.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ToDoList.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ToDoList.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ToDoList.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_dark = global::ToDoList.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_light = global::ToDoList.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ToDoList.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.InputKit.Resource.Drawable.abc_popup_background_mtrl_mult = global::ToDoList.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_indicator_material = global::ToDoList.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_material = global::ToDoList.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_small_material = global::ToDoList.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ToDoList.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ToDoList.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_thumb_material = global::ToDoList.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_tick_mark_material = global::ToDoList.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_track_material = global::ToDoList.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ToDoList.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_spinner_textfield_background_material = global::ToDoList.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_switch_thumb_material = global::ToDoList.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_material = global::ToDoList.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ToDoList.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_material = global::ToDoList.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_cursor_material = global::ToDoList.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_vector_test = global::ToDoList.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.InputKit.Resource.Drawable.avd_hide_password = global::ToDoList.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.InputKit.Resource.Drawable.avd_show_password = global::ToDoList.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.InputKit.Resource.Drawable.btn_checkbox_checked_mtrl = global::ToDoList.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Plugin.InputKit.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::ToDoList.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Plugin.InputKit.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::ToDoList.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Plugin.InputKit.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::ToDoList.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Plugin.InputKit.Resource.Drawable.btn_radio_off_mtrl = global::ToDoList.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Plugin.InputKit.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::ToDoList.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Plugin.InputKit.Resource.Drawable.btn_radio_on_mtrl = global::ToDoList.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Plugin.InputKit.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::ToDoList.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Plugin.InputKit.Resource.Drawable.design_fab_background = global::ToDoList.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility = global::ToDoList.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility_off = global::ToDoList.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.InputKit.Resource.Drawable.design_password_eye = global::ToDoList.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.InputKit.Resource.Drawable.design_snackbar_background = global::ToDoList.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.InputKit.Resource.Drawable.ic_mtrl_chip_checked_black = global::ToDoList.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Plugin.InputKit.Resource.Drawable.ic_mtrl_chip_checked_circle = global::ToDoList.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Plugin.InputKit.Resource.Drawable.ic_mtrl_chip_close_circle = global::ToDoList.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Plugin.InputKit.Resource.Drawable.mtrl_tabs_default_indicator = global::ToDoList.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Plugin.InputKit.Resource.Drawable.navigation_empty_icon = global::ToDoList.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.InputKit.Resource.Drawable.notification_action_background = global::ToDoList.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg = global::ToDoList.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low = global::ToDoList.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_normal = global::ToDoList.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_pressed = global::ToDoList.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal = global::ToDoList.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal_pressed = global::ToDoList.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.InputKit.Resource.Drawable.notification_icon_background = global::ToDoList.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_bg = global::ToDoList.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_low_bg = global::ToDoList.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_tile_bg = global::ToDoList.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.InputKit.Resource.Drawable.notify_panel_notification_icon_bg = global::ToDoList.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.InputKit.Resource.Drawable.tooltip_frame_dark = global::ToDoList.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Plugin.InputKit.Resource.Drawable.tooltip_frame_light = global::ToDoList.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Plugin.InputKit.Resource.Id.accessibility_action_clickable_span = global::ToDoList.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_0 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_1 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_10 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_11 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_12 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_13 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_14 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_15 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_16 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_17 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_18 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_19 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_2 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_20 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_21 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_22 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_23 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_24 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_25 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_26 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_27 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_28 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_29 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_3 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_30 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_31 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_4 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_5 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_6 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_7 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_8 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_9 = global::ToDoList.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Plugin.InputKit.Resource.Id.action0 = global::ToDoList.Droid.Resource.Id.action0;
+			global::Plugin.InputKit.Resource.Id.actions = global::ToDoList.Droid.Resource.Id.actions;
+			global::Plugin.InputKit.Resource.Id.action_bar = global::ToDoList.Droid.Resource.Id.action_bar;
+			global::Plugin.InputKit.Resource.Id.action_bar_activity_content = global::ToDoList.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.InputKit.Resource.Id.action_bar_container = global::ToDoList.Droid.Resource.Id.action_bar_container;
+			global::Plugin.InputKit.Resource.Id.action_bar_root = global::ToDoList.Droid.Resource.Id.action_bar_root;
+			global::Plugin.InputKit.Resource.Id.action_bar_spinner = global::ToDoList.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.InputKit.Resource.Id.action_bar_subtitle = global::ToDoList.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.InputKit.Resource.Id.action_bar_title = global::ToDoList.Droid.Resource.Id.action_bar_title;
+			global::Plugin.InputKit.Resource.Id.action_container = global::ToDoList.Droid.Resource.Id.action_container;
+			global::Plugin.InputKit.Resource.Id.action_context_bar = global::ToDoList.Droid.Resource.Id.action_context_bar;
+			global::Plugin.InputKit.Resource.Id.action_divider = global::ToDoList.Droid.Resource.Id.action_divider;
+			global::Plugin.InputKit.Resource.Id.action_image = global::ToDoList.Droid.Resource.Id.action_image;
+			global::Plugin.InputKit.Resource.Id.action_menu_divider = global::ToDoList.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.InputKit.Resource.Id.action_menu_presenter = global::ToDoList.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.InputKit.Resource.Id.action_mode_bar = global::ToDoList.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.InputKit.Resource.Id.action_mode_bar_stub = global::ToDoList.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.InputKit.Resource.Id.action_mode_close_button = global::ToDoList.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.InputKit.Resource.Id.action_text = global::ToDoList.Droid.Resource.Id.action_text;
+			global::Plugin.InputKit.Resource.Id.activity_chooser_view_content = global::ToDoList.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.InputKit.Resource.Id.add = global::ToDoList.Droid.Resource.Id.add;
+			global::Plugin.InputKit.Resource.Id.alertTitle = global::ToDoList.Droid.Resource.Id.alertTitle;
+			global::Plugin.InputKit.Resource.Id.all = global::ToDoList.Droid.Resource.Id.all;
+			global::Plugin.InputKit.Resource.Id.ALT = global::ToDoList.Droid.Resource.Id.ALT;
+			global::Plugin.InputKit.Resource.Id.always = global::ToDoList.Droid.Resource.Id.always;
+			global::Plugin.InputKit.Resource.Id.async = global::ToDoList.Droid.Resource.Id.async;
+			global::Plugin.InputKit.Resource.Id.auto = global::ToDoList.Droid.Resource.Id.auto;
+			global::Plugin.InputKit.Resource.Id.beginning = global::ToDoList.Droid.Resource.Id.beginning;
+			global::Plugin.InputKit.Resource.Id.blocking = global::ToDoList.Droid.Resource.Id.blocking;
+			global::Plugin.InputKit.Resource.Id.bottom = global::ToDoList.Droid.Resource.Id.bottom;
+			global::Plugin.InputKit.Resource.Id.bottomtab_navarea = global::ToDoList.Droid.Resource.Id.bottomtab_navarea;
+			global::Plugin.InputKit.Resource.Id.bottomtab_tabbar = global::ToDoList.Droid.Resource.Id.bottomtab_tabbar;
+			global::Plugin.InputKit.Resource.Id.browser_actions_header_text = global::ToDoList.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_items = global::ToDoList.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_item_icon = global::ToDoList.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_item_text = global::ToDoList.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_view = global::ToDoList.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.InputKit.Resource.Id.buttonPanel = global::ToDoList.Droid.Resource.Id.buttonPanel;
+			global::Plugin.InputKit.Resource.Id.cancel_action = global::ToDoList.Droid.Resource.Id.cancel_action;
+			global::Plugin.InputKit.Resource.Id.center = global::ToDoList.Droid.Resource.Id.center;
+			global::Plugin.InputKit.Resource.Id.center_horizontal = global::ToDoList.Droid.Resource.Id.center_horizontal;
+			global::Plugin.InputKit.Resource.Id.center_vertical = global::ToDoList.Droid.Resource.Id.center_vertical;
+			global::Plugin.InputKit.Resource.Id.checkbox = global::ToDoList.Droid.Resource.Id.checkbox;
+			global::Plugin.InputKit.Resource.Id.@checked = global::ToDoList.Droid.Resource.Id.@checked;
+			global::Plugin.InputKit.Resource.Id.chronometer = global::ToDoList.Droid.Resource.Id.chronometer;
+			global::Plugin.InputKit.Resource.Id.clip_horizontal = global::ToDoList.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.InputKit.Resource.Id.clip_vertical = global::ToDoList.Droid.Resource.Id.clip_vertical;
+			global::Plugin.InputKit.Resource.Id.collapseActionView = global::ToDoList.Droid.Resource.Id.collapseActionView;
+			global::Plugin.InputKit.Resource.Id.container = global::ToDoList.Droid.Resource.Id.container;
+			global::Plugin.InputKit.Resource.Id.content = global::ToDoList.Droid.Resource.Id.content;
+			global::Plugin.InputKit.Resource.Id.contentPanel = global::ToDoList.Droid.Resource.Id.contentPanel;
+			global::Plugin.InputKit.Resource.Id.coordinator = global::ToDoList.Droid.Resource.Id.coordinator;
+			global::Plugin.InputKit.Resource.Id.CTRL = global::ToDoList.Droid.Resource.Id.CTRL;
+			global::Plugin.InputKit.Resource.Id.custom = global::ToDoList.Droid.Resource.Id.custom;
+			global::Plugin.InputKit.Resource.Id.customPanel = global::ToDoList.Droid.Resource.Id.customPanel;
+			global::Plugin.InputKit.Resource.Id.decor_content_parent = global::ToDoList.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.InputKit.Resource.Id.default_activity_button = global::ToDoList.Droid.Resource.Id.default_activity_button;
+			global::Plugin.InputKit.Resource.Id.design_bottom_sheet = global::ToDoList.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area = global::ToDoList.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area_stub = global::ToDoList.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_text = global::ToDoList.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.InputKit.Resource.Id.design_navigation_view = global::ToDoList.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.InputKit.Resource.Id.dialog_button = global::ToDoList.Droid.Resource.Id.dialog_button;
+			global::Plugin.InputKit.Resource.Id.disableHome = global::ToDoList.Droid.Resource.Id.disableHome;
+			global::Plugin.InputKit.Resource.Id.edit_query = global::ToDoList.Droid.Resource.Id.edit_query;
+			global::Plugin.InputKit.Resource.Id.end = global::ToDoList.Droid.Resource.Id.end;
+			global::Plugin.InputKit.Resource.Id.end_padder = global::ToDoList.Droid.Resource.Id.end_padder;
+			global::Plugin.InputKit.Resource.Id.enterAlways = global::ToDoList.Droid.Resource.Id.enterAlways;
+			global::Plugin.InputKit.Resource.Id.enterAlwaysCollapsed = global::ToDoList.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.InputKit.Resource.Id.exitUntilCollapsed = global::ToDoList.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.InputKit.Resource.Id.expanded_menu = global::ToDoList.Droid.Resource.Id.expanded_menu;
+			global::Plugin.InputKit.Resource.Id.expand_activities_button = global::ToDoList.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.InputKit.Resource.Id.fill = global::ToDoList.Droid.Resource.Id.fill;
+			global::Plugin.InputKit.Resource.Id.filled = global::ToDoList.Droid.Resource.Id.filled;
+			global::Plugin.InputKit.Resource.Id.fill_horizontal = global::ToDoList.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.InputKit.Resource.Id.fill_vertical = global::ToDoList.Droid.Resource.Id.fill_vertical;
+			global::Plugin.InputKit.Resource.Id.@fixed = global::ToDoList.Droid.Resource.Id.@fixed;
+			global::Plugin.InputKit.Resource.Id.flyoutcontent_appbar = global::ToDoList.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Plugin.InputKit.Resource.Id.forever = global::ToDoList.Droid.Resource.Id.forever;
+			global::Plugin.InputKit.Resource.Id.FUNCTION = global::ToDoList.Droid.Resource.Id.FUNCTION;
+			global::Plugin.InputKit.Resource.Id.ghost_view = global::ToDoList.Droid.Resource.Id.ghost_view;
+			global::Plugin.InputKit.Resource.Id.ghost_view_holder = global::ToDoList.Droid.Resource.Id.ghost_view_holder;
+			global::Plugin.InputKit.Resource.Id.group_divider = global::ToDoList.Droid.Resource.Id.group_divider;
+			global::Plugin.InputKit.Resource.Id.home = global::ToDoList.Droid.Resource.Id.home;
+			global::Plugin.InputKit.Resource.Id.homeAsUp = global::ToDoList.Droid.Resource.Id.homeAsUp;
+			global::Plugin.InputKit.Resource.Id.icon = global::ToDoList.Droid.Resource.Id.icon;
+			global::Plugin.InputKit.Resource.Id.icon_group = global::ToDoList.Droid.Resource.Id.icon_group;
+			global::Plugin.InputKit.Resource.Id.ifRoom = global::ToDoList.Droid.Resource.Id.ifRoom;
+			global::Plugin.InputKit.Resource.Id.image = global::ToDoList.Droid.Resource.Id.image;
+			global::Plugin.InputKit.Resource.Id.info = global::ToDoList.Droid.Resource.Id.info;
+			global::Plugin.InputKit.Resource.Id.italic = global::ToDoList.Droid.Resource.Id.italic;
+			global::Plugin.InputKit.Resource.Id.item_touch_helper_previous_elevation = global::ToDoList.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.InputKit.Resource.Id.labeled = global::ToDoList.Droid.Resource.Id.labeled;
+			global::Plugin.InputKit.Resource.Id.left = global::ToDoList.Droid.Resource.Id.left;
+			global::Plugin.InputKit.Resource.Id.line1 = global::ToDoList.Droid.Resource.Id.line1;
+			global::Plugin.InputKit.Resource.Id.line3 = global::ToDoList.Droid.Resource.Id.line3;
+			global::Plugin.InputKit.Resource.Id.listMode = global::ToDoList.Droid.Resource.Id.listMode;
+			global::Plugin.InputKit.Resource.Id.list_item = global::ToDoList.Droid.Resource.Id.list_item;
+			global::Plugin.InputKit.Resource.Id.main_appbar = global::ToDoList.Droid.Resource.Id.main_appbar;
+			global::Plugin.InputKit.Resource.Id.main_tablayout = global::ToDoList.Droid.Resource.Id.main_tablayout;
+			global::Plugin.InputKit.Resource.Id.main_toolbar = global::ToDoList.Droid.Resource.Id.main_toolbar;
+			global::Plugin.InputKit.Resource.Id.main_viewpager = global::ToDoList.Droid.Resource.Id.main_viewpager;
+			global::Plugin.InputKit.Resource.Id.masked = global::ToDoList.Droid.Resource.Id.masked;
+			global::Plugin.InputKit.Resource.Id.media_actions = global::ToDoList.Droid.Resource.Id.media_actions;
+			global::Plugin.InputKit.Resource.Id.message = global::ToDoList.Droid.Resource.Id.message;
+			global::Plugin.InputKit.Resource.Id.META = global::ToDoList.Droid.Resource.Id.META;
+			global::Plugin.InputKit.Resource.Id.middle = global::ToDoList.Droid.Resource.Id.middle;
+			global::Plugin.InputKit.Resource.Id.mini = global::ToDoList.Droid.Resource.Id.mini;
+			global::Plugin.InputKit.Resource.Id.mtrl_child_content_container = global::ToDoList.Droid.Resource.Id.mtrl_child_content_container;
+			global::Plugin.InputKit.Resource.Id.mtrl_internal_children_alpha_tag = global::ToDoList.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Plugin.InputKit.Resource.Id.multiply = global::ToDoList.Droid.Resource.Id.multiply;
+			global::Plugin.InputKit.Resource.Id.navigation_header_container = global::ToDoList.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.InputKit.Resource.Id.never = global::ToDoList.Droid.Resource.Id.never;
+			global::Plugin.InputKit.Resource.Id.none = global::ToDoList.Droid.Resource.Id.none;
+			global::Plugin.InputKit.Resource.Id.normal = global::ToDoList.Droid.Resource.Id.normal;
+			global::Plugin.InputKit.Resource.Id.notification_background = global::ToDoList.Droid.Resource.Id.notification_background;
+			global::Plugin.InputKit.Resource.Id.notification_main_column = global::ToDoList.Droid.Resource.Id.notification_main_column;
+			global::Plugin.InputKit.Resource.Id.notification_main_column_container = global::ToDoList.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.InputKit.Resource.Id.off = global::ToDoList.Droid.Resource.Id.off;
+			global::Plugin.InputKit.Resource.Id.on = global::ToDoList.Droid.Resource.Id.on;
+			global::Plugin.InputKit.Resource.Id.outline = global::ToDoList.Droid.Resource.Id.outline;
+			global::Plugin.InputKit.Resource.Id.parallax = global::ToDoList.Droid.Resource.Id.parallax;
+			global::Plugin.InputKit.Resource.Id.parentPanel = global::ToDoList.Droid.Resource.Id.parentPanel;
+			global::Plugin.InputKit.Resource.Id.parent_matrix = global::ToDoList.Droid.Resource.Id.parent_matrix;
+			global::Plugin.InputKit.Resource.Id.pin = global::ToDoList.Droid.Resource.Id.pin;
+			global::Plugin.InputKit.Resource.Id.progress_circular = global::ToDoList.Droid.Resource.Id.progress_circular;
+			global::Plugin.InputKit.Resource.Id.progress_horizontal = global::ToDoList.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.InputKit.Resource.Id.radio = global::ToDoList.Droid.Resource.Id.radio;
+			global::Plugin.InputKit.Resource.Id.right = global::ToDoList.Droid.Resource.Id.right;
+			global::Plugin.InputKit.Resource.Id.right_icon = global::ToDoList.Droid.Resource.Id.right_icon;
+			global::Plugin.InputKit.Resource.Id.right_side = global::ToDoList.Droid.Resource.Id.right_side;
+			global::Plugin.InputKit.Resource.Id.save_non_transition_alpha = global::ToDoList.Droid.Resource.Id.save_non_transition_alpha;
+			global::Plugin.InputKit.Resource.Id.save_overlay_view = global::ToDoList.Droid.Resource.Id.save_overlay_view;
+			global::Plugin.InputKit.Resource.Id.screen = global::ToDoList.Droid.Resource.Id.screen;
+			global::Plugin.InputKit.Resource.Id.scroll = global::ToDoList.Droid.Resource.Id.scroll;
+			global::Plugin.InputKit.Resource.Id.scrollable = global::ToDoList.Droid.Resource.Id.scrollable;
+			global::Plugin.InputKit.Resource.Id.scrollIndicatorDown = global::ToDoList.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.InputKit.Resource.Id.scrollIndicatorUp = global::ToDoList.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.InputKit.Resource.Id.scrollView = global::ToDoList.Droid.Resource.Id.scrollView;
+			global::Plugin.InputKit.Resource.Id.search_badge = global::ToDoList.Droid.Resource.Id.search_badge;
+			global::Plugin.InputKit.Resource.Id.search_bar = global::ToDoList.Droid.Resource.Id.search_bar;
+			global::Plugin.InputKit.Resource.Id.search_button = global::ToDoList.Droid.Resource.Id.search_button;
+			global::Plugin.InputKit.Resource.Id.search_close_btn = global::ToDoList.Droid.Resource.Id.search_close_btn;
+			global::Plugin.InputKit.Resource.Id.search_edit_frame = global::ToDoList.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.InputKit.Resource.Id.search_go_btn = global::ToDoList.Droid.Resource.Id.search_go_btn;
+			global::Plugin.InputKit.Resource.Id.search_mag_icon = global::ToDoList.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.InputKit.Resource.Id.search_plate = global::ToDoList.Droid.Resource.Id.search_plate;
+			global::Plugin.InputKit.Resource.Id.search_src_text = global::ToDoList.Droid.Resource.Id.search_src_text;
+			global::Plugin.InputKit.Resource.Id.search_voice_btn = global::ToDoList.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.InputKit.Resource.Id.selected = global::ToDoList.Droid.Resource.Id.selected;
+			global::Plugin.InputKit.Resource.Id.select_dialog_listview = global::ToDoList.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.InputKit.Resource.Id.shellcontent_appbar = global::ToDoList.Droid.Resource.Id.shellcontent_appbar;
+			global::Plugin.InputKit.Resource.Id.shellcontent_toolbar = global::ToDoList.Droid.Resource.Id.shellcontent_toolbar;
+			global::Plugin.InputKit.Resource.Id.SHIFT = global::ToDoList.Droid.Resource.Id.SHIFT;
+			global::Plugin.InputKit.Resource.Id.shortcut = global::ToDoList.Droid.Resource.Id.shortcut;
+			global::Plugin.InputKit.Resource.Id.showCustom = global::ToDoList.Droid.Resource.Id.showCustom;
+			global::Plugin.InputKit.Resource.Id.showHome = global::ToDoList.Droid.Resource.Id.showHome;
+			global::Plugin.InputKit.Resource.Id.showTitle = global::ToDoList.Droid.Resource.Id.showTitle;
+			global::Plugin.InputKit.Resource.Id.sliding_tabs = global::ToDoList.Droid.Resource.Id.sliding_tabs;
+			global::Plugin.InputKit.Resource.Id.snackbar_action = global::ToDoList.Droid.Resource.Id.snackbar_action;
+			global::Plugin.InputKit.Resource.Id.snackbar_text = global::ToDoList.Droid.Resource.Id.snackbar_text;
+			global::Plugin.InputKit.Resource.Id.snap = global::ToDoList.Droid.Resource.Id.snap;
+			global::Plugin.InputKit.Resource.Id.snapMargins = global::ToDoList.Droid.Resource.Id.snapMargins;
+			global::Plugin.InputKit.Resource.Id.spacer = global::ToDoList.Droid.Resource.Id.spacer;
+			global::Plugin.InputKit.Resource.Id.split_action_bar = global::ToDoList.Droid.Resource.Id.split_action_bar;
+			global::Plugin.InputKit.Resource.Id.src_atop = global::ToDoList.Droid.Resource.Id.src_atop;
+			global::Plugin.InputKit.Resource.Id.src_in = global::ToDoList.Droid.Resource.Id.src_in;
+			global::Plugin.InputKit.Resource.Id.src_over = global::ToDoList.Droid.Resource.Id.src_over;
+			global::Plugin.InputKit.Resource.Id.start = global::ToDoList.Droid.Resource.Id.start;
+			global::Plugin.InputKit.Resource.Id.status_bar_latest_event_content = global::ToDoList.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.InputKit.Resource.Id.stretch = global::ToDoList.Droid.Resource.Id.stretch;
+			global::Plugin.InputKit.Resource.Id.submenuarrow = global::ToDoList.Droid.Resource.Id.submenuarrow;
+			global::Plugin.InputKit.Resource.Id.submit_area = global::ToDoList.Droid.Resource.Id.submit_area;
+			global::Plugin.InputKit.Resource.Id.SYM = global::ToDoList.Droid.Resource.Id.SYM;
+			global::Plugin.InputKit.Resource.Id.tabMode = global::ToDoList.Droid.Resource.Id.tabMode;
+			global::Plugin.InputKit.Resource.Id.tag_accessibility_actions = global::ToDoList.Droid.Resource.Id.tag_accessibility_actions;
+			global::Plugin.InputKit.Resource.Id.tag_accessibility_clickable_spans = global::ToDoList.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Plugin.InputKit.Resource.Id.tag_accessibility_heading = global::ToDoList.Droid.Resource.Id.tag_accessibility_heading;
+			global::Plugin.InputKit.Resource.Id.tag_accessibility_pane_title = global::ToDoList.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Plugin.InputKit.Resource.Id.tag_screen_reader_focusable = global::ToDoList.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Plugin.InputKit.Resource.Id.tag_transition_group = global::ToDoList.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.InputKit.Resource.Id.tag_unhandled_key_event_manager = global::ToDoList.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.InputKit.Resource.Id.tag_unhandled_key_listeners = global::ToDoList.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.InputKit.Resource.Id.text = global::ToDoList.Droid.Resource.Id.text;
+			global::Plugin.InputKit.Resource.Id.text2 = global::ToDoList.Droid.Resource.Id.text2;
+			global::Plugin.InputKit.Resource.Id.textinput_counter = global::ToDoList.Droid.Resource.Id.textinput_counter;
+			global::Plugin.InputKit.Resource.Id.textinput_error = global::ToDoList.Droid.Resource.Id.textinput_error;
+			global::Plugin.InputKit.Resource.Id.textinput_helper_text = global::ToDoList.Droid.Resource.Id.textinput_helper_text;
+			global::Plugin.InputKit.Resource.Id.textSpacerNoButtons = global::ToDoList.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.InputKit.Resource.Id.textSpacerNoTitle = global::ToDoList.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.InputKit.Resource.Id.textStart = global::ToDoList.Droid.Resource.Id.textStart;
+			global::Plugin.InputKit.Resource.Id.time = global::ToDoList.Droid.Resource.Id.time;
+			global::Plugin.InputKit.Resource.Id.title = global::ToDoList.Droid.Resource.Id.title;
+			global::Plugin.InputKit.Resource.Id.titleDividerNoCustom = global::ToDoList.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.InputKit.Resource.Id.title_template = global::ToDoList.Droid.Resource.Id.title_template;
+			global::Plugin.InputKit.Resource.Id.toolbar = global::ToDoList.Droid.Resource.Id.toolbar;
+			global::Plugin.InputKit.Resource.Id.top = global::ToDoList.Droid.Resource.Id.top;
+			global::Plugin.InputKit.Resource.Id.topPanel = global::ToDoList.Droid.Resource.Id.topPanel;
+			global::Plugin.InputKit.Resource.Id.touch_outside = global::ToDoList.Droid.Resource.Id.touch_outside;
+			global::Plugin.InputKit.Resource.Id.transition_current_scene = global::ToDoList.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.InputKit.Resource.Id.transition_layout_save = global::ToDoList.Droid.Resource.Id.transition_layout_save;
+			global::Plugin.InputKit.Resource.Id.transition_position = global::ToDoList.Droid.Resource.Id.transition_position;
+			global::Plugin.InputKit.Resource.Id.transition_scene_layoutid_cache = global::ToDoList.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.InputKit.Resource.Id.transition_transform = global::ToDoList.Droid.Resource.Id.transition_transform;
+			global::Plugin.InputKit.Resource.Id.@unchecked = global::ToDoList.Droid.Resource.Id.@unchecked;
+			global::Plugin.InputKit.Resource.Id.uniform = global::ToDoList.Droid.Resource.Id.uniform;
+			global::Plugin.InputKit.Resource.Id.unlabeled = global::ToDoList.Droid.Resource.Id.unlabeled;
+			global::Plugin.InputKit.Resource.Id.up = global::ToDoList.Droid.Resource.Id.up;
+			global::Plugin.InputKit.Resource.Id.useLogo = global::ToDoList.Droid.Resource.Id.useLogo;
+			global::Plugin.InputKit.Resource.Id.view_offset_helper = global::ToDoList.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.InputKit.Resource.Id.visible = global::ToDoList.Droid.Resource.Id.visible;
+			global::Plugin.InputKit.Resource.Id.withText = global::ToDoList.Droid.Resource.Id.withText;
+			global::Plugin.InputKit.Resource.Id.wrap_content = global::ToDoList.Droid.Resource.Id.wrap_content;
+			global::Plugin.InputKit.Resource.Integer.abc_config_activityDefaultDur = global::ToDoList.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.InputKit.Resource.Integer.abc_config_activityShortDur = global::ToDoList.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.InputKit.Resource.Integer.app_bar_elevation_anim_duration = global::ToDoList.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.InputKit.Resource.Integer.bottom_sheet_slide_duration = global::ToDoList.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.InputKit.Resource.Integer.cancel_button_image_alpha = global::ToDoList.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.InputKit.Resource.Integer.config_tooltipAnimTime = global::ToDoList.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Plugin.InputKit.Resource.Integer.design_snackbar_text_max_lines = global::ToDoList.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.InputKit.Resource.Integer.design_tab_indicator_anim_duration_ms = global::ToDoList.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.hide_password_duration = global::ToDoList.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.InputKit.Resource.Integer.mtrl_btn_anim_delay_ms = global::ToDoList.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Plugin.InputKit.Resource.Integer.mtrl_btn_anim_duration_ms = global::ToDoList.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.mtrl_chip_anim_duration = global::ToDoList.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Plugin.InputKit.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::ToDoList.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.show_password_duration = global::ToDoList.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.InputKit.Resource.Integer.status_bar_notification_info_maxnum = global::ToDoList.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.InputKit.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::ToDoList.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Plugin.InputKit.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::ToDoList.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Plugin.InputKit.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::ToDoList.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Plugin.InputKit.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::ToDoList.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Plugin.InputKit.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::ToDoList.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Plugin.InputKit.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::ToDoList.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Plugin.InputKit.Resource.Interpolator.fast_out_slow_in = global::ToDoList.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_fast_out_linear_in = global::ToDoList.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_fast_out_slow_in = global::ToDoList.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_linear = global::ToDoList.Droid.Resource.Interpolator.mtrl_linear;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_linear_out_slow_in = global::ToDoList.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Plugin.InputKit.Resource.Layout.abc_action_bar_title_item = global::ToDoList.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.InputKit.Resource.Layout.abc_action_bar_up_container = global::ToDoList.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.InputKit.Resource.Layout.abc_action_menu_item_layout = global::ToDoList.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_action_menu_layout = global::ToDoList.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_action_mode_bar = global::ToDoList.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.InputKit.Resource.Layout.abc_action_mode_close_item_material = global::ToDoList.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view = global::ToDoList.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view_list_item = global::ToDoList.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_button_bar_material = global::ToDoList.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_material = global::ToDoList.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_title_material = global::ToDoList.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.InputKit.Resource.Layout.abc_cascading_menu_item_layout = global::ToDoList.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_dialog_title_material = global::ToDoList.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.InputKit.Resource.Layout.abc_expanded_menu_layout = global::ToDoList.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_checkbox = global::ToDoList.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_icon = global::ToDoList.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_layout = global::ToDoList.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_radio = global::ToDoList.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_header_item_layout = global::ToDoList.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_item_layout = global::ToDoList.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_content_include = global::ToDoList.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_simple = global::ToDoList.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ToDoList.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_toolbar = global::ToDoList.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.InputKit.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ToDoList.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.InputKit.Resource.Layout.abc_search_view = global::ToDoList.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.InputKit.Resource.Layout.abc_select_dialog_material = global::ToDoList.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.InputKit.Resource.Layout.abc_tooltip = global::ToDoList.Droid.Resource.Layout.abc_tooltip;
+			global::Plugin.InputKit.Resource.Layout.BottomTabLayout = global::ToDoList.Droid.Resource.Layout.BottomTabLayout;
+			global::Plugin.InputKit.Resource.Layout.browser_actions_context_menu_page = global::ToDoList.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.InputKit.Resource.Layout.browser_actions_context_menu_row = global::ToDoList.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.InputKit.Resource.Layout.custom_dialog = global::ToDoList.Droid.Resource.Layout.custom_dialog;
+			global::Plugin.InputKit.Resource.Layout.design_bottom_navigation_item = global::ToDoList.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.InputKit.Resource.Layout.design_bottom_sheet_dialog = global::ToDoList.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar = global::ToDoList.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar_include = global::ToDoList.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.InputKit.Resource.Layout.design_layout_tab_icon = global::ToDoList.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.InputKit.Resource.Layout.design_layout_tab_text = global::ToDoList.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.InputKit.Resource.Layout.design_menu_item_action_area = global::ToDoList.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item = global::ToDoList.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_header = global::ToDoList.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_separator = global::ToDoList.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_subheader = global::ToDoList.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_menu = global::ToDoList.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_menu_item = global::ToDoList.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.InputKit.Resource.Layout.FallbackTabbarDoNotUse = global::ToDoList.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Plugin.InputKit.Resource.Layout.FallbackToolbarDoNotUse = global::ToDoList.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Plugin.InputKit.Resource.Layout.FlyoutContent = global::ToDoList.Droid.Resource.Layout.FlyoutContent;
+			global::Plugin.InputKit.Resource.Layout.mtrl_layout_snackbar = global::ToDoList.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Plugin.InputKit.Resource.Layout.mtrl_layout_snackbar_include = global::ToDoList.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Plugin.InputKit.Resource.Layout.notification_action = global::ToDoList.Droid.Resource.Layout.notification_action;
+			global::Plugin.InputKit.Resource.Layout.notification_action_tombstone = global::ToDoList.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.InputKit.Resource.Layout.notification_media_action = global::ToDoList.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.InputKit.Resource.Layout.notification_media_cancel_action = global::ToDoList.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media = global::ToDoList.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_custom = global::ToDoList.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow = global::ToDoList.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow_custom = global::ToDoList.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_custom_big = global::ToDoList.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.InputKit.Resource.Layout.notification_template_icon_group = global::ToDoList.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.InputKit.Resource.Layout.notification_template_lines_media = global::ToDoList.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_media = global::ToDoList.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_media_custom = global::ToDoList.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_part_chronometer = global::ToDoList.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.InputKit.Resource.Layout.notification_template_part_time = global::ToDoList.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.InputKit.Resource.Layout.RootLayout = global::ToDoList.Droid.Resource.Layout.RootLayout;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_item_material = global::ToDoList.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_multichoice_material = global::ToDoList.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_singlechoice_material = global::ToDoList.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.InputKit.Resource.Layout.ShellContent = global::ToDoList.Droid.Resource.Layout.ShellContent;
+			global::Plugin.InputKit.Resource.Layout.support_simple_spinner_dropdown_item = global::ToDoList.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.InputKit.Resource.Layout.Tabbar = global::ToDoList.Droid.Resource.Layout.Tabbar;
+			global::Plugin.InputKit.Resource.Layout.Toolbar = global::ToDoList.Droid.Resource.Layout.Toolbar;
+			global::Plugin.InputKit.Resource.String.abc_action_bar_home_description = global::ToDoList.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.InputKit.Resource.String.abc_action_bar_up_description = global::ToDoList.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.InputKit.Resource.String.abc_action_menu_overflow_description = global::ToDoList.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.InputKit.Resource.String.abc_action_mode_done = global::ToDoList.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.InputKit.Resource.String.abc_activitychooserview_choose_application = global::ToDoList.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.InputKit.Resource.String.abc_activity_chooser_view_see_all = global::ToDoList.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.InputKit.Resource.String.abc_capital_off = global::ToDoList.Droid.Resource.String.abc_capital_off;
+			global::Plugin.InputKit.Resource.String.abc_capital_on = global::ToDoList.Droid.Resource.String.abc_capital_on;
+			global::Plugin.InputKit.Resource.String.abc_menu_alt_shortcut_label = global::ToDoList.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_ctrl_shortcut_label = global::ToDoList.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_delete_shortcut_label = global::ToDoList.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_enter_shortcut_label = global::ToDoList.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_function_shortcut_label = global::ToDoList.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_meta_shortcut_label = global::ToDoList.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_shift_shortcut_label = global::ToDoList.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_space_shortcut_label = global::ToDoList.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_sym_shortcut_label = global::ToDoList.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_prepend_shortcut_label = global::ToDoList.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_clear = global::ToDoList.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_query = global::ToDoList.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_search = global::ToDoList.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_submit = global::ToDoList.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_voice = global::ToDoList.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.InputKit.Resource.String.abc_search_hint = global::ToDoList.Droid.Resource.String.abc_search_hint;
+			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with = global::ToDoList.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with_application = global::ToDoList.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.InputKit.Resource.String.abc_toolbar_collapse_description = global::ToDoList.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.InputKit.Resource.String.appbar_scrolling_view_behavior = global::ToDoList.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.InputKit.Resource.String.bottom_sheet_behavior = global::ToDoList.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.InputKit.Resource.String.character_counter_content_description = global::ToDoList.Droid.Resource.String.character_counter_content_description;
+			global::Plugin.InputKit.Resource.String.character_counter_pattern = global::ToDoList.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.InputKit.Resource.String.fab_transformation_scrim_behavior = global::ToDoList.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Plugin.InputKit.Resource.String.fab_transformation_sheet_behavior = global::ToDoList.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Plugin.InputKit.Resource.String.hide_bottom_view_on_scroll_behavior = global::ToDoList.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Plugin.InputKit.Resource.String.mtrl_chip_close_icon_content_description = global::ToDoList.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Plugin.InputKit.Resource.String.overflow_tab_title = global::ToDoList.Droid.Resource.String.overflow_tab_title;
+			global::Plugin.InputKit.Resource.String.password_toggle_content_description = global::ToDoList.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.InputKit.Resource.String.path_password_eye = global::ToDoList.Droid.Resource.String.path_password_eye;
+			global::Plugin.InputKit.Resource.String.path_password_eye_mask_strike_through = global::ToDoList.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.InputKit.Resource.String.path_password_eye_mask_visible = global::ToDoList.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.InputKit.Resource.String.path_password_strike_through = global::ToDoList.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.InputKit.Resource.String.search_menu_title = global::ToDoList.Droid.Resource.String.search_menu_title;
+			global::Plugin.InputKit.Resource.String.status_bar_notification_info_overflow = global::ToDoList.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat = global::ToDoList.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat_Light = global::ToDoList.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_DropDownUp = global::ToDoList.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_Tooltip = global::ToDoList.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Animation_Design_BottomSheetDialog = global::ToDoList.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.AppCompatDialogStyle = global::ToDoList.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat = global::ToDoList.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ToDoList.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_Tooltip = global::ToDoList.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Base_CardView = global::ToDoList.Droid.Resource.Style.Base_CardView;
+			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ToDoList.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ToDoList.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ToDoList.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat = global::ToDoList.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ToDoList.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ToDoList.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ToDoList.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::ToDoList.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ToDoList.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::ToDoList.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::ToDoList.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents = global::ToDoList.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::ToDoList.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::ToDoList.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::ToDoList.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::ToDoList.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ToDoList.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::ToDoList.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat = global::ToDoList.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ToDoList.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat = global::ToDoList.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat = global::ToDoList.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Theme_AppCompat = global::ToDoList.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Theme_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::ToDoList.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_V28_Theme_AppCompat = global::ToDoList.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V28_Theme_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat = global::ToDoList.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ToDoList.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ToDoList.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ToDoList.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::ToDoList.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_EditText = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_TextView = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ToDoList.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_Design_TabLayout = global::ToDoList.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_MaterialComponents_Chip = global::ToDoList.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::ToDoList.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::ToDoList.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Plugin.InputKit.Resource.Style.CardView = global::ToDoList.Droid.Resource.Style.CardView;
+			global::Plugin.InputKit.Resource.Style.CardView_Dark = global::ToDoList.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.InputKit.Resource.Style.CardView_Light = global::ToDoList.Droid.Resource.Style.CardView_Light;
+			global::Plugin.InputKit.Resource.Style.collectionViewTheme = global::ToDoList.Droid.Resource.Style.collectionViewTheme;
+			global::Plugin.InputKit.Resource.Style.MainTheme = global::ToDoList.Droid.Resource.Style.MainTheme;
+			global::Plugin.InputKit.Resource.Style.MainTheme_Base = global::ToDoList.Droid.Resource.Style.MainTheme_Base;
+			global::Plugin.InputKit.Resource.Style.MyPopupMenu = global::ToDoList.Droid.Resource.Style.MyPopupMenu;
+			global::Plugin.InputKit.Resource.Style.Platform_AppCompat = global::ToDoList.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents = global::ToDoList.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents_Dialog = global::ToDoList.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents_Light = global::ToDoList.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::ToDoList.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ToDoList.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ToDoList.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat = global::ToDoList.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat = global::ToDoList.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ToDoList.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ToDoList.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ToDoList.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ToDoList.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ToDoList.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body1 = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body2 = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Button = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Caption = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display1 = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display2 = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display3 = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display4 = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Headline = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Menu = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Tooltip = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ToDoList.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Info = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Media = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Time = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Title = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::ToDoList.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ToDoList.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter = global::ToDoList.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ToDoList.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Error = global::ToDoList.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_HelperText = global::ToDoList.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Hint = global::ToDoList.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ToDoList.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Tab = global::ToDoList.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Button = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Caption = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Chip = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Overline = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::ToDoList.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ToDoList.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ToDoList.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ToDoList.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat = global::ToDoList.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ToDoList.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ToDoList.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ToDoList.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::ToDoList.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::ToDoList.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::ToDoList.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Light = global::ToDoList.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::ToDoList.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat = global::ToDoList.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_CompactMenu = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_NoActionBar = global::ToDoList.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_Design = global::ToDoList.Droid.Resource.Style.Theme_Design;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_BottomSheetDialog = global::ToDoList.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light = global::ToDoList.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ToDoList.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_NoActionBar = global::ToDoList.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_NoActionBar = global::ToDoList.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Bridge = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_CompactMenu = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Dialog = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_NoActionBar = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::ToDoList.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionMode = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Colored = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Small = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_EditText = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ImageButton = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_SearchView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListMenuView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_Menu = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupWindow = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_TextView = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ToDoList.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.InputKit.Resource.Style.Widget_Compat_NotificationActionContainer = global::ToDoList.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.InputKit.Resource.Style.Widget_Compat_NotificationActionText = global::ToDoList.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_AppBarLayout = global::ToDoList.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomNavigationView = global::ToDoList.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomSheet_Modal = global::ToDoList.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_CollapsingToolbar = global::ToDoList.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_FloatingActionButton = global::ToDoList.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_NavigationView = global::ToDoList.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ToDoList.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_Snackbar = global::ToDoList.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_TabLayout = global::ToDoList.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_TextInputLayout = global::ToDoList.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_Icon = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_CardView = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_ChipGroup = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Action = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_NavigationView = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Snackbar = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TabLayout = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Toolbar = global::ToDoList.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Support_CoordinatorLayout = global::ToDoList.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar = global::ToDoList.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout = global::ToDoList.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ToDoList.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_background = global::ToDoList.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundSplit = global::ToDoList.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundStacked = global::ToDoList.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEnd = global::ToDoList.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::ToDoList.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetLeft = global::ToDoList.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetRight = global::ToDoList.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStart = global::ToDoList.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::ToDoList.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_customNavigationLayout = global::ToDoList.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_displayOptions = global::ToDoList.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_divider = global::ToDoList.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_elevation = global::ToDoList.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_height = global::ToDoList.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_hideOnContentScroll = global::ToDoList.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ToDoList.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeLayout = global::ToDoList.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_icon = global::ToDoList.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ToDoList.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_itemPadding = global::ToDoList.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_logo = global::ToDoList.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_navigationMode = global::ToDoList.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_popupTheme = global::ToDoList.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarPadding = global::ToDoList.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarStyle = global::ToDoList.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitle = global::ToDoList.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitleTextStyle = global::ToDoList.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_title = global::ToDoList.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_titleTextStyle = global::ToDoList.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView = global::ToDoList.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ToDoList.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuView = global::ToDoList.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode = global::ToDoList.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_background = global::ToDoList.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_backgroundSplit = global::ToDoList.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_closeItemLayout = global::ToDoList.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_height = global::ToDoList.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_subtitleTextStyle = global::ToDoList.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_titleTextStyle = global::ToDoList.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView = global::ToDoList.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ToDoList.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ToDoList.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog = global::ToDoList.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_android_layout = global::ToDoList.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_buttonIconDimen = global::ToDoList.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ToDoList.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listItemLayout = global::ToDoList.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listLayout = global::ToDoList.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ToDoList.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_showTitle = global::ToDoList.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ToDoList.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableItem = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::ToDoList.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout = global::ToDoList.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates = global::ToDoList.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::ToDoList.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::ToDoList.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_liftable = global::ToDoList.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_lifted = global::ToDoList.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_background = global::ToDoList.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::ToDoList.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::ToDoList.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_elevation = global::ToDoList.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_expanded = global::ToDoList.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout = global::ToDoList.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::ToDoList.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::ToDoList.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_liftOnScroll = global::ToDoList.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView = global::ToDoList.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_android_src = global::ToDoList.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_srcCompat = global::ToDoList.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tint = global::ToDoList.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tintMode = global::ToDoList.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar = global::ToDoList.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_android_thumb = global::ToDoList.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMark = global::ToDoList.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::ToDoList.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::ToDoList.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper = global::ToDoList.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::ToDoList.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::ToDoList.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::ToDoList.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::ToDoList.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::ToDoList.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::ToDoList.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::ToDoList.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableTint = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableTintMode = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_fontFamily = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_lineHeight = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_textAllCaps = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_textLocale = global::ToDoList.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSize = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorAccent = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorError = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimary = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_controlBackground = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogTheme = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerVertical = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextBackground = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextColor = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelBackground = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_switchStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBar = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ToDoList.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar = global::ToDoList.Droid.Resource.Styleable.BottomAppBar;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_backgroundTint = global::ToDoList.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::ToDoList.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabCradleMargin = global::ToDoList.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::ToDoList.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::ToDoList.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_hideOnScroll = global::ToDoList.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView = global::ToDoList.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::ToDoList.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout = global::ToDoList.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::ToDoList.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::ToDoList.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::ToDoList.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::ToDoList.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout = global::ToDoList.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout_allowStacking = global::ToDoList.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.InputKit.Resource.Styleable.CardView = global::ToDoList.Droid.Resource.Styleable.CardView;
+			global::Plugin.InputKit.Resource.Styleable.CardView_android_minHeight = global::ToDoList.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.InputKit.Resource.Styleable.CardView_android_minWidth = global::ToDoList.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardBackgroundColor = global::ToDoList.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardCornerRadius = global::ToDoList.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardElevation = global::ToDoList.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardMaxElevation = global::ToDoList.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ToDoList.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardUseCompatPadding = global::ToDoList.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPadding = global::ToDoList.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingBottom = global::ToDoList.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingLeft = global::ToDoList.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingRight = global::ToDoList.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingTop = global::ToDoList.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.Chip = global::ToDoList.Droid.Resource.Styleable.Chip;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup = global::ToDoList.Droid.Resource.Styleable.ChipGroup;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_checkedChip = global::ToDoList.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_chipSpacing = global::ToDoList.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::ToDoList.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_chipSpacingVertical = global::ToDoList.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_singleLine = global::ToDoList.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_singleSelection = global::ToDoList.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_checkable = global::ToDoList.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_ellipsize = global::ToDoList.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_maxWidth = global::ToDoList.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_text = global::ToDoList.Droid.Resource.Styleable.Chip_android_text;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_textAppearance = global::ToDoList.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Chip_checkedIcon = global::ToDoList.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Plugin.InputKit.Resource.Styleable.Chip_checkedIconEnabled = global::ToDoList.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Plugin.InputKit.Resource.Styleable.Chip_checkedIconVisible = global::ToDoList.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipBackgroundColor = global::ToDoList.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipCornerRadius = global::ToDoList.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipEndPadding = global::ToDoList.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIcon = global::ToDoList.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconEnabled = global::ToDoList.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconSize = global::ToDoList.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconTint = global::ToDoList.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconVisible = global::ToDoList.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipMinHeight = global::ToDoList.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipStartPadding = global::ToDoList.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipStrokeColor = global::ToDoList.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipStrokeWidth = global::ToDoList.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIcon = global::ToDoList.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconEnabled = global::ToDoList.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconEndPadding = global::ToDoList.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconSize = global::ToDoList.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconStartPadding = global::ToDoList.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconTint = global::ToDoList.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconVisible = global::ToDoList.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Plugin.InputKit.Resource.Styleable.Chip_hideMotionSpec = global::ToDoList.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.Chip_iconEndPadding = global::ToDoList.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_iconStartPadding = global::ToDoList.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_rippleColor = global::ToDoList.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.Chip_showMotionSpec = global::ToDoList.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.Chip_textEndPadding = global::ToDoList.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_textStartPadding = global::ToDoList.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_title = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ToDoList.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem = global::ToDoList.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_alpha = global::ToDoList.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_alpha = global::ToDoList.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_color = global::ToDoList.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton = global::ToDoList.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_android_button = global::ToDoList.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonCompat = global::ToDoList.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTint = global::ToDoList.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTintMode = global::ToDoList.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_keylines = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ToDoList.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle = global::ToDoList.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ToDoList.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ToDoList.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_barLength = global::ToDoList.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_color = global::ToDoList.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ToDoList.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ToDoList.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_spinBars = global::ToDoList.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_thickness = global::ToDoList.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTint = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_borderWidth = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_elevation = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_fabCustomSize = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_fabSize = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_maxImageSize = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_rippleColor = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_showMotionSpec = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ToDoList.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.InputKit.Resource.Styleable.FlowLayout = global::ToDoList.Droid.Resource.Styleable.FlowLayout;
+			global::Plugin.InputKit.Resource.Styleable.FlowLayout_itemSpacing = global::ToDoList.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Plugin.InputKit.Resource.Styleable.FlowLayout_lineSpacing = global::ToDoList.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily = global::ToDoList.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_font = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_font = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontStyle = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontWeight = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_ttcIndex = global::ToDoList.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderAuthority = global::ToDoList.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderCerts = global::ToDoList.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ToDoList.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ToDoList.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderPackage = global::ToDoList.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderQuery = global::ToDoList.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout = global::ToDoList.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ToDoList.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ToDoList.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ToDoList.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor = global::ToDoList.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColorItem = global::ToDoList.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.InputKit.Resource.Styleable.GradientColorItem_android_color = global::ToDoList.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.InputKit.Resource.Styleable.GradientColorItem_android_offset = global::ToDoList.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_centerColor = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_centerX = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_centerY = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_endColor = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_endX = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_endY = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_gradientRadius = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_startColor = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_startX = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_startY = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_tileMode = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_type = global::ToDoList.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.InputKit.Resource.Styleable.ItemsViewRendererTheme = global::ToDoList.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Plugin.InputKit.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::ToDoList.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_divider = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_showDividers = global::ToDoList.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow = global::ToDoList.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ToDoList.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ToDoList.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton = global::ToDoList.Droid.Resource.Styleable.MaterialButton;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetBottom = global::ToDoList.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetLeft = global::ToDoList.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetRight = global::ToDoList.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetTop = global::ToDoList.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_backgroundTint = global::ToDoList.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_backgroundTintMode = global::ToDoList.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_cornerRadius = global::ToDoList.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_icon = global::ToDoList.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconGravity = global::ToDoList.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconPadding = global::ToDoList.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconSize = global::ToDoList.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconTint = global::ToDoList.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconTintMode = global::ToDoList.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_rippleColor = global::ToDoList.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_strokeColor = global::ToDoList.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_strokeWidth = global::ToDoList.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.MaterialCardView = global::ToDoList.Droid.Resource.Styleable.MaterialCardView;
+			global::Plugin.InputKit.Resource.Styleable.MaterialCardView_strokeColor = global::ToDoList.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Plugin.InputKit.Resource.Styleable.MaterialCardView_strokeWidth = global::ToDoList.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup = global::ToDoList.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ToDoList.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_enabled = global::ToDoList.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_id = global::ToDoList.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_menuCategory = global::ToDoList.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_orderInCategory = global::ToDoList.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_visible = global::ToDoList.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem = global::ToDoList.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionLayout = global::ToDoList.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionProviderClass = global::ToDoList.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionViewClass = global::ToDoList.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_alphabeticModifiers = global::ToDoList.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checkable = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checked = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_enabled = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_icon = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_id = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_menuCategory = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_numericShortcut = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_onClick = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_orderInCategory = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_title = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_titleCondensed = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_visible = global::ToDoList.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_contentDescription = global::ToDoList.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_iconTint = global::ToDoList.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_iconTintMode = global::ToDoList.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_numericModifiers = global::ToDoList.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_showAsAction = global::ToDoList.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_tooltipText = global::ToDoList.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Plugin.InputKit.Resource.Styleable.MenuView = global::ToDoList.Droid.Resource.Styleable.MenuView;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_headerBackground = global::ToDoList.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_horizontalDivider = global::ToDoList.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemBackground = global::ToDoList.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ToDoList.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemTextAppearance = global::ToDoList.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_verticalDivider = global::ToDoList.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ToDoList.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_preserveIconSpacing = global::ToDoList.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_subMenuArrow = global::ToDoList.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView = global::ToDoList.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_background = global::ToDoList.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ToDoList.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_maxWidth = global::ToDoList.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_elevation = global::ToDoList.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_headerLayout = global::ToDoList.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemBackground = global::ToDoList.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemHorizontalPadding = global::ToDoList.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemIconPadding = global::ToDoList.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemIconTint = global::ToDoList.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextAppearance = global::ToDoList.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextColor = global::ToDoList.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_menu = global::ToDoList.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow = global::ToDoList.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState = global::ToDoList.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ToDoList.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ToDoList.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupBackground = global::ToDoList.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_overlapAnchor = global::ToDoList.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView = global::ToDoList.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ToDoList.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ToDoList.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView = global::ToDoList.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_clipToPadding = global::ToDoList.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_descendantFocusability = global::ToDoList.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_orientation = global::ToDoList.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollEnabled = global::ToDoList.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::ToDoList.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::ToDoList.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::ToDoList.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::ToDoList.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_layoutManager = global::ToDoList.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_reverseLayout = global::ToDoList.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_spanCount = global::ToDoList.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_stackFromEnd = global::ToDoList.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout = global::ToDoList.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ToDoList.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout = global::ToDoList.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::ToDoList.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.InputKit.Resource.Styleable.SearchView = global::ToDoList.Droid.Resource.Styleable.SearchView;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_focusable = global::ToDoList.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_imeOptions = global::ToDoList.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_inputType = global::ToDoList.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_maxWidth = global::ToDoList.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_closeIcon = global::ToDoList.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_commitIcon = global::ToDoList.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_defaultQueryHint = global::ToDoList.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_goIcon = global::ToDoList.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_iconifiedByDefault = global::ToDoList.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_layout = global::ToDoList.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_queryBackground = global::ToDoList.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_queryHint = global::ToDoList.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_searchHintIcon = global::ToDoList.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_searchIcon = global::ToDoList.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_submitBackground = global::ToDoList.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_suggestionRowLayout = global::ToDoList.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_voiceIcon = global::ToDoList.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.InputKit.Resource.Styleable.Snackbar = global::ToDoList.Droid.Resource.Styleable.Snackbar;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout = global::ToDoList.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ToDoList.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_elevation = global::ToDoList.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ToDoList.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.InputKit.Resource.Styleable.Snackbar_snackbarButtonStyle = global::ToDoList.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.Snackbar_snackbarStyle = global::ToDoList.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Plugin.InputKit.Resource.Styleable.Spinner = global::ToDoList.Droid.Resource.Styleable.Spinner;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_dropDownWidth = global::ToDoList.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_entries = global::ToDoList.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_popupBackground = global::ToDoList.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_prompt = global::ToDoList.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_popupTheme = global::ToDoList.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable = global::ToDoList.Droid.Resource.Styleable.StateListDrawable;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawableItem = global::ToDoList.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawableItem_android_drawable = global::ToDoList.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_constantSize = global::ToDoList.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_dither = global::ToDoList.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::ToDoList.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::ToDoList.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_variablePadding = global::ToDoList.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_visible = global::ToDoList.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat = global::ToDoList.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOff = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOn = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_thumb = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_showText = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_splitTrack = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchMinWidth = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchPadding = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTint = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTintMode = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_track = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTint = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTintMode = global::ToDoList.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.InputKit.Resource.Styleable.TabItem = global::ToDoList.Droid.Resource.Styleable.TabItem;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_icon = global::ToDoList.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_layout = global::ToDoList.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_text = global::ToDoList.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout = global::ToDoList.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabBackground = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabContentStart = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabGravity = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIconTint = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIconTintMode = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicator = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorColor = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorGravity = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabInlineLabel = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMaxWidth = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMinWidth = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMode = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPadding = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingBottom = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingEnd = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingStart = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingTop = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabRippleColor = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextAppearance = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextColor = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabUnboundedRipple = global::ToDoList.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance = global::ToDoList.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_fontFamily = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowColor = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDx = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDy = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowRadius = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColor = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColorHint = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColorLink = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textFontWeight = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textSize = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textStyle = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_typeface = global::ToDoList.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_fontFamily = global::ToDoList.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_fontVariationSettings = global::ToDoList.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_textAllCaps = global::ToDoList.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_textLocale = global::ToDoList.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout = global::ToDoList.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_hint = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_textColorHint = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxStrokeColor = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterEnabled = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterMaxLength = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorEnabled = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_helperText = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_helperTextEnabled = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintEnabled = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTint = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::ToDoList.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement = global::ToDoList.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::ToDoList.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::ToDoList.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::ToDoList.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar = global::ToDoList.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_gravity = global::ToDoList.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_minHeight = global::ToDoList.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_buttonGravity = global::ToDoList.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseContentDescription = global::ToDoList.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseIcon = global::ToDoList.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEnd = global::ToDoList.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::ToDoList.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetLeft = global::ToDoList.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetRight = global::ToDoList.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStart = global::ToDoList.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::ToDoList.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_logo = global::ToDoList.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_logoDescription = global::ToDoList.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_maxButtonHeight = global::ToDoList.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_menu = global::ToDoList.Droid.Resource.Styleable.Toolbar_menu;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationContentDescription = global::ToDoList.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationIcon = global::ToDoList.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_popupTheme = global::ToDoList.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitle = global::ToDoList.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ToDoList.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextColor = global::ToDoList.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_title = global::ToDoList.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargin = global::ToDoList.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginBottom = global::ToDoList.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginEnd = global::ToDoList.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargins = global::ToDoList.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginStart = global::ToDoList.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginTop = global::ToDoList.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextAppearance = global::ToDoList.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextColor = global::ToDoList.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.InputKit.Resource.Styleable.View = global::ToDoList.Droid.Resource.Styleable.View;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper = global::ToDoList.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_android_background = global::ToDoList.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ToDoList.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ToDoList.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat = global::ToDoList.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_id = global::ToDoList.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ToDoList.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_layout = global::ToDoList.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.View_android_focusable = global::ToDoList.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.InputKit.Resource.Styleable.View_android_theme = global::ToDoList.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.InputKit.Resource.Styleable.View_paddingEnd = global::ToDoList.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.View_paddingStart = global::ToDoList.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.InputKit.Resource.Styleable.View_theme = global::ToDoList.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::ToDoList.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::ToDoList.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::ToDoList.Droid.Resource.Attribute.fontProviderAuthority;
@@ -16517,154 +19131,157 @@ namespace ToDoList.Droid
 			public const int btn_radio_on_to_off_mtrl_animation = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int design_fab_background = 2131165279;
+			public const int delete = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_ic_visibility = 2131165280;
+			public const int design_fab_background = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_ic_visibility_off = 2131165281;
+			public const int design_ic_visibility = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int design_password_eye = 2131165282;
+			public const int design_ic_visibility_off = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_snackbar_background = 2131165283;
+			public const int design_password_eye = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_arrow_down_24dp = 2131165284;
+			public const int design_snackbar_background = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int ic_clock_black_24dp = 2131165285;
+			public const int ic_arrow_down_24dp = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int ic_keyboard_black_24dp = 2131165286;
+			public const int ic_clock_black_24dp = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int ic_mtrl_checked_circle = 2131165287;
+			public const int ic_keyboard_black_24dp = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int ic_mtrl_chip_checked_black = 2131165288;
+			public const int ic_mtrl_checked_circle = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int ic_mtrl_chip_checked_circle = 2131165289;
+			public const int ic_mtrl_chip_checked_black = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_mtrl_chip_close_circle = 2131165290;
+			public const int ic_mtrl_chip_checked_circle = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int material_cursor_drawable = 2131165291;
+			public const int ic_mtrl_chip_close_circle = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int material_ic_calendar_black_24dp = 2131165292;
+			public const int material_cursor_drawable = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int material_ic_clear_black_24dp = 2131165293;
+			public const int material_ic_calendar_black_24dp = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int material_ic_edit_black_24dp = 2131165294;
+			public const int material_ic_clear_black_24dp = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165295;
+			public const int material_ic_edit_black_24dp = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165296;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165297;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165298;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165299;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165300;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int mtrl_dialog_background = 2131165301;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int mtrl_dropdown_arrow = 2131165302;
+			public const int mtrl_dialog_background = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int mtrl_ic_arrow_drop_down = 2131165303;
+			public const int mtrl_dropdown_arrow = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int mtrl_ic_arrow_drop_up = 2131165304;
+			public const int mtrl_ic_arrow_drop_down = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int mtrl_ic_cancel = 2131165305;
+			public const int mtrl_ic_arrow_drop_up = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_ic_error = 2131165306;
+			public const int mtrl_ic_cancel = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_navigation_bar_item_background = 2131165307;
+			public const int mtrl_ic_error = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_popupmenu_background = 2131165308;
+			public const int mtrl_navigation_bar_item_background = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_popupmenu_background_dark = 2131165309;
+			public const int mtrl_popupmenu_background = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_tabs_default_indicator = 2131165310;
+			public const int mtrl_popupmenu_background_dark = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int navigation_empty_icon = 2131165311;
+			public const int mtrl_tabs_default_indicator = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int notification_action_background = 2131165312;
+			public const int navigation_empty_icon = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int notification_bg = 2131165313;
+			public const int notification_action_background = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int notification_bg_low = 2131165314;
+			public const int notification_bg = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_bg_low_normal = 2131165315;
+			public const int notification_bg_low = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg_low_pressed = 2131165316;
+			public const int notification_bg_low_normal = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_normal = 2131165317;
+			public const int notification_bg_low_pressed = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_normal_pressed = 2131165318;
+			public const int notification_bg_normal = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_icon_background = 2131165319;
+			public const int notification_bg_normal_pressed = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_template_icon_bg = 2131165320;
+			public const int notification_icon_background = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_template_icon_low_bg = 2131165321;
+			public const int notification_template_icon_bg = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_tile_bg = 2131165322;
+			public const int notification_template_icon_low_bg = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notify_panel_notification_icon_bg = 2131165323;
+			public const int notification_tile_bg = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int preference_list_divider_material = 2131165324;
+			public const int notify_panel_notification_icon_bg = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int profile = 2131165325;
+			public const int preference_list_divider_material = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int test_custom_background = 2131165326;
+			public const int profile = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_dark = 2131165327;
+			public const int test_custom_background = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_light = 2131165328;
+			public const int tooltip_frame_dark = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int tooltip_frame_light = 2131165329;
 			
 			static Drawable()
 			{
@@ -19884,8 +22501,8 @@ namespace ToDoList.Droid
 			// aapt resource value: 0x7F0F00E7
 			public const int CardView_Light = 2131689703;
 			
-			// aapt resource value: 0x7F0F02F8
-			public const int collectionViewTheme = 2131690232;
+			// aapt resource value: 0x7F0F02F9
+			public const int collectionViewTheme = 2131690233;
 			
 			// aapt resource value: 0x7F0F00E8
 			public const int EmptyTheme = 2131689704;
@@ -19927,1555 +22544,1558 @@ namespace ToDoList.Droid
 			public const int MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = 2131689716;
 			
 			// aapt resource value: 0x7F0F00F5
-			public const int Platform_AppCompat = 2131689717;
+			public const int MyPopupMenu = 2131689717;
 			
 			// aapt resource value: 0x7F0F00F6
-			public const int Platform_AppCompat_Light = 2131689718;
+			public const int Platform_AppCompat = 2131689718;
 			
 			// aapt resource value: 0x7F0F00F7
-			public const int Platform_MaterialComponents = 2131689719;
+			public const int Platform_AppCompat_Light = 2131689719;
 			
 			// aapt resource value: 0x7F0F00F8
-			public const int Platform_MaterialComponents_Dialog = 2131689720;
+			public const int Platform_MaterialComponents = 2131689720;
 			
 			// aapt resource value: 0x7F0F00F9
-			public const int Platform_MaterialComponents_Light = 2131689721;
+			public const int Platform_MaterialComponents_Dialog = 2131689721;
 			
 			// aapt resource value: 0x7F0F00FA
-			public const int Platform_MaterialComponents_Light_Dialog = 2131689722;
+			public const int Platform_MaterialComponents_Light = 2131689722;
 			
 			// aapt resource value: 0x7F0F00FB
-			public const int Platform_ThemeOverlay_AppCompat = 2131689723;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131689723;
 			
 			// aapt resource value: 0x7F0F00FC
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131689724;
+			public const int Platform_ThemeOverlay_AppCompat = 2131689724;
 			
 			// aapt resource value: 0x7F0F00FD
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131689725;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131689725;
 			
 			// aapt resource value: 0x7F0F00FE
-			public const int Platform_V21_AppCompat = 2131689726;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131689726;
 			
 			// aapt resource value: 0x7F0F00FF
-			public const int Platform_V21_AppCompat_Light = 2131689727;
+			public const int Platform_V21_AppCompat = 2131689727;
 			
 			// aapt resource value: 0x7F0F0100
-			public const int Platform_V25_AppCompat = 2131689728;
+			public const int Platform_V21_AppCompat_Light = 2131689728;
 			
 			// aapt resource value: 0x7F0F0101
-			public const int Platform_V25_AppCompat_Light = 2131689729;
+			public const int Platform_V25_AppCompat = 2131689729;
 			
 			// aapt resource value: 0x7F0F0102
-			public const int Platform_Widget_AppCompat_Spinner = 2131689730;
+			public const int Platform_V25_AppCompat_Light = 2131689730;
 			
 			// aapt resource value: 0x7F0F0103
-			public const int Preference = 2131689731;
-			
-			// aapt resource value: 0x7F0F0119
-			public const int PreferenceCategoryTitleTextStyle = 2131689753;
-			
-			// aapt resource value: 0x7F0F011A
-			public const int PreferenceFragment = 2131689754;
-			
-			// aapt resource value: 0x7F0F011C
-			public const int PreferenceFragmentList = 2131689756;
-			
-			// aapt resource value: 0x7F0F011D
-			public const int PreferenceFragmentList_Material = 2131689757;
-			
-			// aapt resource value: 0x7F0F011B
-			public const int PreferenceFragment_Material = 2131689755;
-			
-			// aapt resource value: 0x7F0F011E
-			public const int PreferenceSummaryTextStyle = 2131689758;
-			
-			// aapt resource value: 0x7F0F011F
-			public const int PreferenceThemeOverlay = 2131689759;
-			
-			// aapt resource value: 0x7F0F0120
-			public const int PreferenceThemeOverlay_v14 = 2131689760;
-			
-			// aapt resource value: 0x7F0F0121
-			public const int PreferenceThemeOverlay_v14_Material = 2131689761;
+			public const int Platform_Widget_AppCompat_Spinner = 2131689731;
 			
 			// aapt resource value: 0x7F0F0104
-			public const int Preference_Category = 2131689732;
+			public const int Preference = 2131689732;
 			
-			// aapt resource value: 0x7F0F0105
-			public const int Preference_Category_Material = 2131689733;
+			// aapt resource value: 0x7F0F011A
+			public const int PreferenceCategoryTitleTextStyle = 2131689754;
 			
-			// aapt resource value: 0x7F0F0106
-			public const int Preference_CheckBoxPreference = 2131689734;
+			// aapt resource value: 0x7F0F011B
+			public const int PreferenceFragment = 2131689755;
 			
-			// aapt resource value: 0x7F0F0107
-			public const int Preference_CheckBoxPreference_Material = 2131689735;
+			// aapt resource value: 0x7F0F011D
+			public const int PreferenceFragmentList = 2131689757;
 			
-			// aapt resource value: 0x7F0F0108
-			public const int Preference_DialogPreference = 2131689736;
+			// aapt resource value: 0x7F0F011E
+			public const int PreferenceFragmentList_Material = 2131689758;
 			
-			// aapt resource value: 0x7F0F0109
-			public const int Preference_DialogPreference_EditTextPreference = 2131689737;
+			// aapt resource value: 0x7F0F011C
+			public const int PreferenceFragment_Material = 2131689756;
 			
-			// aapt resource value: 0x7F0F010A
-			public const int Preference_DialogPreference_EditTextPreference_Material = 2131689738;
+			// aapt resource value: 0x7F0F011F
+			public const int PreferenceSummaryTextStyle = 2131689759;
 			
-			// aapt resource value: 0x7F0F010B
-			public const int Preference_DialogPreference_Material = 2131689739;
+			// aapt resource value: 0x7F0F0120
+			public const int PreferenceThemeOverlay = 2131689760;
 			
-			// aapt resource value: 0x7F0F010C
-			public const int Preference_DropDown = 2131689740;
-			
-			// aapt resource value: 0x7F0F010D
-			public const int Preference_DropDown_Material = 2131689741;
-			
-			// aapt resource value: 0x7F0F010E
-			public const int Preference_Information = 2131689742;
-			
-			// aapt resource value: 0x7F0F010F
-			public const int Preference_Information_Material = 2131689743;
-			
-			// aapt resource value: 0x7F0F0110
-			public const int Preference_Material = 2131689744;
-			
-			// aapt resource value: 0x7F0F0111
-			public const int Preference_PreferenceScreen = 2131689745;
-			
-			// aapt resource value: 0x7F0F0112
-			public const int Preference_PreferenceScreen_Material = 2131689746;
-			
-			// aapt resource value: 0x7F0F0113
-			public const int Preference_SeekBarPreference = 2131689747;
-			
-			// aapt resource value: 0x7F0F0114
-			public const int Preference_SeekBarPreference_Material = 2131689748;
-			
-			// aapt resource value: 0x7F0F0115
-			public const int Preference_SwitchPreference = 2131689749;
-			
-			// aapt resource value: 0x7F0F0117
-			public const int Preference_SwitchPreferenceCompat = 2131689751;
-			
-			// aapt resource value: 0x7F0F0118
-			public const int Preference_SwitchPreferenceCompat_Material = 2131689752;
-			
-			// aapt resource value: 0x7F0F0116
-			public const int Preference_SwitchPreference_Material = 2131689750;
+			// aapt resource value: 0x7F0F0121
+			public const int PreferenceThemeOverlay_v14 = 2131689761;
 			
 			// aapt resource value: 0x7F0F0122
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131689762;
+			public const int PreferenceThemeOverlay_v14_Material = 2131689762;
+			
+			// aapt resource value: 0x7F0F0105
+			public const int Preference_Category = 2131689733;
+			
+			// aapt resource value: 0x7F0F0106
+			public const int Preference_Category_Material = 2131689734;
+			
+			// aapt resource value: 0x7F0F0107
+			public const int Preference_CheckBoxPreference = 2131689735;
+			
+			// aapt resource value: 0x7F0F0108
+			public const int Preference_CheckBoxPreference_Material = 2131689736;
+			
+			// aapt resource value: 0x7F0F0109
+			public const int Preference_DialogPreference = 2131689737;
+			
+			// aapt resource value: 0x7F0F010A
+			public const int Preference_DialogPreference_EditTextPreference = 2131689738;
+			
+			// aapt resource value: 0x7F0F010B
+			public const int Preference_DialogPreference_EditTextPreference_Material = 2131689739;
+			
+			// aapt resource value: 0x7F0F010C
+			public const int Preference_DialogPreference_Material = 2131689740;
+			
+			// aapt resource value: 0x7F0F010D
+			public const int Preference_DropDown = 2131689741;
+			
+			// aapt resource value: 0x7F0F010E
+			public const int Preference_DropDown_Material = 2131689742;
+			
+			// aapt resource value: 0x7F0F010F
+			public const int Preference_Information = 2131689743;
+			
+			// aapt resource value: 0x7F0F0110
+			public const int Preference_Information_Material = 2131689744;
+			
+			// aapt resource value: 0x7F0F0111
+			public const int Preference_Material = 2131689745;
+			
+			// aapt resource value: 0x7F0F0112
+			public const int Preference_PreferenceScreen = 2131689746;
+			
+			// aapt resource value: 0x7F0F0113
+			public const int Preference_PreferenceScreen_Material = 2131689747;
+			
+			// aapt resource value: 0x7F0F0114
+			public const int Preference_SeekBarPreference = 2131689748;
+			
+			// aapt resource value: 0x7F0F0115
+			public const int Preference_SeekBarPreference_Material = 2131689749;
+			
+			// aapt resource value: 0x7F0F0116
+			public const int Preference_SwitchPreference = 2131689750;
+			
+			// aapt resource value: 0x7F0F0118
+			public const int Preference_SwitchPreferenceCompat = 2131689752;
+			
+			// aapt resource value: 0x7F0F0119
+			public const int Preference_SwitchPreferenceCompat_Material = 2131689753;
+			
+			// aapt resource value: 0x7F0F0117
+			public const int Preference_SwitchPreference_Material = 2131689751;
 			
 			// aapt resource value: 0x7F0F0123
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131689763;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131689763;
 			
 			// aapt resource value: 0x7F0F0124
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131689764;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131689764;
 			
 			// aapt resource value: 0x7F0F0125
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131689765;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131689765;
 			
 			// aapt resource value: 0x7F0F0126
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131689766;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131689766;
 			
 			// aapt resource value: 0x7F0F0127
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131689767;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131689767;
 			
 			// aapt resource value: 0x7F0F0128
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131689768;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131689768;
 			
 			// aapt resource value: 0x7F0F0129
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131689769;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131689769;
 			
 			// aapt resource value: 0x7F0F012A
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131689770;
-			
-			// aapt resource value: 0x7F0F0130
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689776;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131689770;
 			
 			// aapt resource value: 0x7F0F012B
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689771;
-			
-			// aapt resource value: 0x7F0F012C
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689772;
-			
-			// aapt resource value: 0x7F0F012D
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689773;
-			
-			// aapt resource value: 0x7F0F012E
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689774;
-			
-			// aapt resource value: 0x7F0F012F
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689775;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131689771;
 			
 			// aapt resource value: 0x7F0F0131
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131689777;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689777;
+			
+			// aapt resource value: 0x7F0F012C
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689772;
+			
+			// aapt resource value: 0x7F0F012D
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689773;
+			
+			// aapt resource value: 0x7F0F012E
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689774;
+			
+			// aapt resource value: 0x7F0F012F
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689775;
+			
+			// aapt resource value: 0x7F0F0130
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689776;
 			
 			// aapt resource value: 0x7F0F0132
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689778;
-			
-			// aapt resource value: 0x7F0F02F9
-			public const int scrollViewScrollBars = 2131690233;
-			
-			// aapt resource value: 0x7F0F02FA
-			public const int scrollViewTheme = 2131690234;
-			
-			// aapt resource value: 0x7F0F0139
-			public const int ShapeAppearanceOverlay = 2131689785;
-			
-			// aapt resource value: 0x7F0F013A
-			public const int ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = 2131689786;
-			
-			// aapt resource value: 0x7F0F013B
-			public const int ShapeAppearanceOverlay_BottomRightCut = 2131689787;
-			
-			// aapt resource value: 0x7F0F013C
-			public const int ShapeAppearanceOverlay_Cut = 2131689788;
-			
-			// aapt resource value: 0x7F0F013D
-			public const int ShapeAppearanceOverlay_DifferentCornerSize = 2131689789;
-			
-			// aapt resource value: 0x7F0F013E
-			public const int ShapeAppearanceOverlay_MaterialComponents_BottomSheet = 2131689790;
-			
-			// aapt resource value: 0x7F0F013F
-			public const int ShapeAppearanceOverlay_MaterialComponents_Chip = 2131689791;
-			
-			// aapt resource value: 0x7F0F0140
-			public const int ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = 2131689792;
-			
-			// aapt resource value: 0x7F0F0141
-			public const int ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = 2131689793;
-			
-			// aapt resource value: 0x7F0F0142
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689794;
-			
-			// aapt resource value: 0x7F0F0143
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = 2131689795;
-			
-			// aapt resource value: 0x7F0F0144
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = 2131689796;
-			
-			// aapt resource value: 0x7F0F0145
-			public const int ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = 2131689797;
-			
-			// aapt resource value: 0x7F0F0146
-			public const int ShapeAppearanceOverlay_TopLeftCut = 2131689798;
-			
-			// aapt resource value: 0x7F0F0147
-			public const int ShapeAppearanceOverlay_TopRightDifferentCornerSize = 2131689799;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131689778;
 			
 			// aapt resource value: 0x7F0F0133
-			public const int ShapeAppearance_MaterialComponents = 2131689779;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689779;
 			
-			// aapt resource value: 0x7F0F0134
-			public const int ShapeAppearance_MaterialComponents_LargeComponent = 2131689780;
+			// aapt resource value: 0x7F0F02FA
+			public const int scrollViewScrollBars = 2131690234;
 			
-			// aapt resource value: 0x7F0F0135
-			public const int ShapeAppearance_MaterialComponents_MediumComponent = 2131689781;
+			// aapt resource value: 0x7F0F02FB
+			public const int scrollViewTheme = 2131690235;
 			
-			// aapt resource value: 0x7F0F0136
-			public const int ShapeAppearance_MaterialComponents_SmallComponent = 2131689782;
+			// aapt resource value: 0x7F0F013A
+			public const int ShapeAppearanceOverlay = 2131689786;
 			
-			// aapt resource value: 0x7F0F0137
-			public const int ShapeAppearance_MaterialComponents_Test = 2131689783;
+			// aapt resource value: 0x7F0F013B
+			public const int ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = 2131689787;
 			
-			// aapt resource value: 0x7F0F0138
-			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131689784;
+			// aapt resource value: 0x7F0F013C
+			public const int ShapeAppearanceOverlay_BottomRightCut = 2131689788;
 			
-			// aapt resource value: 0x7F0F014D
-			public const int TestStyleWithLineHeight = 2131689805;
+			// aapt resource value: 0x7F0F013D
+			public const int ShapeAppearanceOverlay_Cut = 2131689789;
 			
-			// aapt resource value: 0x7F0F014E
-			public const int TestStyleWithLineHeightAppearance = 2131689806;
+			// aapt resource value: 0x7F0F013E
+			public const int ShapeAppearanceOverlay_DifferentCornerSize = 2131689790;
 			
-			// aapt resource value: 0x7F0F0150
-			public const int TestStyleWithoutLineHeight = 2131689808;
+			// aapt resource value: 0x7F0F013F
+			public const int ShapeAppearanceOverlay_MaterialComponents_BottomSheet = 2131689791;
 			
-			// aapt resource value: 0x7F0F014F
-			public const int TestStyleWithThemeLineHeightAttribute = 2131689807;
+			// aapt resource value: 0x7F0F0140
+			public const int ShapeAppearanceOverlay_MaterialComponents_Chip = 2131689792;
 			
-			// aapt resource value: 0x7F0F0151
-			public const int TestThemeWithLineHeight = 2131689809;
+			// aapt resource value: 0x7F0F0141
+			public const int ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = 2131689793;
 			
-			// aapt resource value: 0x7F0F0152
-			public const int TestThemeWithLineHeightDisabled = 2131689810;
+			// aapt resource value: 0x7F0F0142
+			public const int ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = 2131689794;
+			
+			// aapt resource value: 0x7F0F0143
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689795;
+			
+			// aapt resource value: 0x7F0F0144
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = 2131689796;
+			
+			// aapt resource value: 0x7F0F0145
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = 2131689797;
+			
+			// aapt resource value: 0x7F0F0146
+			public const int ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = 2131689798;
+			
+			// aapt resource value: 0x7F0F0147
+			public const int ShapeAppearanceOverlay_TopLeftCut = 2131689799;
 			
 			// aapt resource value: 0x7F0F0148
-			public const int Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689800;
+			public const int ShapeAppearanceOverlay_TopRightDifferentCornerSize = 2131689800;
 			
-			// aapt resource value: 0x7F0F0149
-			public const int Test_Theme_MaterialComponents_MaterialCalendar = 2131689801;
+			// aapt resource value: 0x7F0F0134
+			public const int ShapeAppearance_MaterialComponents = 2131689780;
 			
-			// aapt resource value: 0x7F0F014A
-			public const int Test_Widget_MaterialComponents_MaterialCalendar = 2131689802;
+			// aapt resource value: 0x7F0F0135
+			public const int ShapeAppearance_MaterialComponents_LargeComponent = 2131689781;
 			
-			// aapt resource value: 0x7F0F014B
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day = 2131689803;
+			// aapt resource value: 0x7F0F0136
+			public const int ShapeAppearance_MaterialComponents_MediumComponent = 2131689782;
 			
-			// aapt resource value: 0x7F0F014C
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131689804;
+			// aapt resource value: 0x7F0F0137
+			public const int ShapeAppearance_MaterialComponents_SmallComponent = 2131689783;
+			
+			// aapt resource value: 0x7F0F0138
+			public const int ShapeAppearance_MaterialComponents_Test = 2131689784;
+			
+			// aapt resource value: 0x7F0F0139
+			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131689785;
+			
+			// aapt resource value: 0x7F0F014E
+			public const int TestStyleWithLineHeight = 2131689806;
+			
+			// aapt resource value: 0x7F0F014F
+			public const int TestStyleWithLineHeightAppearance = 2131689807;
+			
+			// aapt resource value: 0x7F0F0151
+			public const int TestStyleWithoutLineHeight = 2131689809;
+			
+			// aapt resource value: 0x7F0F0150
+			public const int TestStyleWithThemeLineHeightAttribute = 2131689808;
+			
+			// aapt resource value: 0x7F0F0152
+			public const int TestThemeWithLineHeight = 2131689810;
 			
 			// aapt resource value: 0x7F0F0153
-			public const int TextAppearance_AppCompat = 2131689811;
+			public const int TestThemeWithLineHeightDisabled = 2131689811;
+			
+			// aapt resource value: 0x7F0F0149
+			public const int Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689801;
+			
+			// aapt resource value: 0x7F0F014A
+			public const int Test_Theme_MaterialComponents_MaterialCalendar = 2131689802;
+			
+			// aapt resource value: 0x7F0F014B
+			public const int Test_Widget_MaterialComponents_MaterialCalendar = 2131689803;
+			
+			// aapt resource value: 0x7F0F014C
+			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day = 2131689804;
+			
+			// aapt resource value: 0x7F0F014D
+			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131689805;
 			
 			// aapt resource value: 0x7F0F0154
-			public const int TextAppearance_AppCompat_Body1 = 2131689812;
+			public const int TextAppearance_AppCompat = 2131689812;
 			
 			// aapt resource value: 0x7F0F0155
-			public const int TextAppearance_AppCompat_Body2 = 2131689813;
+			public const int TextAppearance_AppCompat_Body1 = 2131689813;
 			
 			// aapt resource value: 0x7F0F0156
-			public const int TextAppearance_AppCompat_Button = 2131689814;
+			public const int TextAppearance_AppCompat_Body2 = 2131689814;
 			
 			// aapt resource value: 0x7F0F0157
-			public const int TextAppearance_AppCompat_Caption = 2131689815;
+			public const int TextAppearance_AppCompat_Button = 2131689815;
 			
 			// aapt resource value: 0x7F0F0158
-			public const int TextAppearance_AppCompat_Display1 = 2131689816;
+			public const int TextAppearance_AppCompat_Caption = 2131689816;
 			
 			// aapt resource value: 0x7F0F0159
-			public const int TextAppearance_AppCompat_Display2 = 2131689817;
+			public const int TextAppearance_AppCompat_Display1 = 2131689817;
 			
 			// aapt resource value: 0x7F0F015A
-			public const int TextAppearance_AppCompat_Display3 = 2131689818;
+			public const int TextAppearance_AppCompat_Display2 = 2131689818;
 			
 			// aapt resource value: 0x7F0F015B
-			public const int TextAppearance_AppCompat_Display4 = 2131689819;
+			public const int TextAppearance_AppCompat_Display3 = 2131689819;
 			
 			// aapt resource value: 0x7F0F015C
-			public const int TextAppearance_AppCompat_Headline = 2131689820;
+			public const int TextAppearance_AppCompat_Display4 = 2131689820;
 			
 			// aapt resource value: 0x7F0F015D
-			public const int TextAppearance_AppCompat_Inverse = 2131689821;
+			public const int TextAppearance_AppCompat_Headline = 2131689821;
 			
 			// aapt resource value: 0x7F0F015E
-			public const int TextAppearance_AppCompat_Large = 2131689822;
+			public const int TextAppearance_AppCompat_Inverse = 2131689822;
 			
 			// aapt resource value: 0x7F0F015F
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131689823;
+			public const int TextAppearance_AppCompat_Large = 2131689823;
 			
 			// aapt resource value: 0x7F0F0160
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689824;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131689824;
 			
 			// aapt resource value: 0x7F0F0161
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689825;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689825;
 			
 			// aapt resource value: 0x7F0F0162
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689826;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689826;
 			
 			// aapt resource value: 0x7F0F0163
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689827;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689827;
 			
 			// aapt resource value: 0x7F0F0164
-			public const int TextAppearance_AppCompat_Medium = 2131689828;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689828;
 			
 			// aapt resource value: 0x7F0F0165
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689829;
+			public const int TextAppearance_AppCompat_Medium = 2131689829;
 			
 			// aapt resource value: 0x7F0F0166
-			public const int TextAppearance_AppCompat_Menu = 2131689830;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689830;
 			
 			// aapt resource value: 0x7F0F0167
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689831;
+			public const int TextAppearance_AppCompat_Menu = 2131689831;
 			
 			// aapt resource value: 0x7F0F0168
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689832;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689832;
 			
 			// aapt resource value: 0x7F0F0169
-			public const int TextAppearance_AppCompat_Small = 2131689833;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689833;
 			
 			// aapt resource value: 0x7F0F016A
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131689834;
+			public const int TextAppearance_AppCompat_Small = 2131689834;
 			
 			// aapt resource value: 0x7F0F016B
-			public const int TextAppearance_AppCompat_Subhead = 2131689835;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131689835;
 			
 			// aapt resource value: 0x7F0F016C
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689836;
+			public const int TextAppearance_AppCompat_Subhead = 2131689836;
 			
 			// aapt resource value: 0x7F0F016D
-			public const int TextAppearance_AppCompat_Title = 2131689837;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689837;
 			
 			// aapt resource value: 0x7F0F016E
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131689838;
+			public const int TextAppearance_AppCompat_Title = 2131689838;
 			
 			// aapt resource value: 0x7F0F016F
-			public const int TextAppearance_AppCompat_Tooltip = 2131689839;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131689839;
 			
 			// aapt resource value: 0x7F0F0170
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689840;
+			public const int TextAppearance_AppCompat_Tooltip = 2131689840;
 			
 			// aapt resource value: 0x7F0F0171
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689841;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689841;
 			
 			// aapt resource value: 0x7F0F0172
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689842;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689842;
 			
 			// aapt resource value: 0x7F0F0173
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689843;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689843;
 			
 			// aapt resource value: 0x7F0F0174
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689844;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689844;
 			
 			// aapt resource value: 0x7F0F0175
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689845;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689845;
 			
 			// aapt resource value: 0x7F0F0176
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689846;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689846;
 			
 			// aapt resource value: 0x7F0F0177
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689847;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689847;
 			
 			// aapt resource value: 0x7F0F0178
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689848;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689848;
 			
 			// aapt resource value: 0x7F0F0179
-			public const int TextAppearance_AppCompat_Widget_Button = 2131689849;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689849;
 			
 			// aapt resource value: 0x7F0F017A
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689850;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131689850;
 			
 			// aapt resource value: 0x7F0F017B
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689851;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689851;
 			
 			// aapt resource value: 0x7F0F017C
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689852;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689852;
 			
 			// aapt resource value: 0x7F0F017D
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689853;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689853;
 			
 			// aapt resource value: 0x7F0F017E
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689854;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689854;
 			
 			// aapt resource value: 0x7F0F017F
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689855;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689855;
 			
 			// aapt resource value: 0x7F0F0180
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689856;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689856;
 			
 			// aapt resource value: 0x7F0F0181
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131689857;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689857;
 			
 			// aapt resource value: 0x7F0F0182
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689858;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131689858;
 			
 			// aapt resource value: 0x7F0F0183
-			public const int TextAppearance_Compat_Notification = 2131689859;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689859;
 			
 			// aapt resource value: 0x7F0F0184
-			public const int TextAppearance_Compat_Notification_Info = 2131689860;
+			public const int TextAppearance_Compat_Notification = 2131689860;
 			
 			// aapt resource value: 0x7F0F0185
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131689861;
+			public const int TextAppearance_Compat_Notification_Info = 2131689861;
 			
 			// aapt resource value: 0x7F0F0186
-			public const int TextAppearance_Compat_Notification_Line2 = 2131689862;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131689862;
 			
 			// aapt resource value: 0x7F0F0187
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131689863;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131689863;
 			
 			// aapt resource value: 0x7F0F0188
-			public const int TextAppearance_Compat_Notification_Media = 2131689864;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131689864;
 			
 			// aapt resource value: 0x7F0F0189
-			public const int TextAppearance_Compat_Notification_Time = 2131689865;
+			public const int TextAppearance_Compat_Notification_Media = 2131689865;
 			
 			// aapt resource value: 0x7F0F018A
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131689866;
+			public const int TextAppearance_Compat_Notification_Time = 2131689866;
 			
 			// aapt resource value: 0x7F0F018B
-			public const int TextAppearance_Compat_Notification_Title = 2131689867;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131689867;
 			
 			// aapt resource value: 0x7F0F018C
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131689868;
+			public const int TextAppearance_Compat_Notification_Title = 2131689868;
 			
 			// aapt resource value: 0x7F0F018D
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689869;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131689869;
 			
 			// aapt resource value: 0x7F0F018E
-			public const int TextAppearance_Design_Counter = 2131689870;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689870;
 			
 			// aapt resource value: 0x7F0F018F
-			public const int TextAppearance_Design_Counter_Overflow = 2131689871;
+			public const int TextAppearance_Design_Counter = 2131689871;
 			
 			// aapt resource value: 0x7F0F0190
-			public const int TextAppearance_Design_Error = 2131689872;
+			public const int TextAppearance_Design_Counter_Overflow = 2131689872;
 			
 			// aapt resource value: 0x7F0F0191
-			public const int TextAppearance_Design_HelperText = 2131689873;
+			public const int TextAppearance_Design_Error = 2131689873;
 			
 			// aapt resource value: 0x7F0F0192
-			public const int TextAppearance_Design_Hint = 2131689874;
+			public const int TextAppearance_Design_HelperText = 2131689874;
 			
 			// aapt resource value: 0x7F0F0193
-			public const int TextAppearance_Design_Placeholder = 2131689875;
+			public const int TextAppearance_Design_Hint = 2131689875;
 			
 			// aapt resource value: 0x7F0F0194
-			public const int TextAppearance_Design_Prefix = 2131689876;
+			public const int TextAppearance_Design_Placeholder = 2131689876;
 			
 			// aapt resource value: 0x7F0F0195
-			public const int TextAppearance_Design_Snackbar_Message = 2131689877;
+			public const int TextAppearance_Design_Prefix = 2131689877;
 			
 			// aapt resource value: 0x7F0F0196
-			public const int TextAppearance_Design_Suffix = 2131689878;
+			public const int TextAppearance_Design_Snackbar_Message = 2131689878;
 			
 			// aapt resource value: 0x7F0F0197
-			public const int TextAppearance_Design_Tab = 2131689879;
+			public const int TextAppearance_Design_Suffix = 2131689879;
 			
 			// aapt resource value: 0x7F0F0198
-			public const int TextAppearance_MaterialComponents_Badge = 2131689880;
+			public const int TextAppearance_Design_Tab = 2131689880;
 			
 			// aapt resource value: 0x7F0F0199
-			public const int TextAppearance_MaterialComponents_Body1 = 2131689881;
+			public const int TextAppearance_MaterialComponents_Badge = 2131689881;
 			
 			// aapt resource value: 0x7F0F019A
-			public const int TextAppearance_MaterialComponents_Body2 = 2131689882;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131689882;
 			
 			// aapt resource value: 0x7F0F019B
-			public const int TextAppearance_MaterialComponents_Button = 2131689883;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131689883;
 			
 			// aapt resource value: 0x7F0F019C
-			public const int TextAppearance_MaterialComponents_Caption = 2131689884;
+			public const int TextAppearance_MaterialComponents_Button = 2131689884;
 			
 			// aapt resource value: 0x7F0F019D
-			public const int TextAppearance_MaterialComponents_Chip = 2131689885;
+			public const int TextAppearance_MaterialComponents_Caption = 2131689885;
 			
 			// aapt resource value: 0x7F0F019E
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131689886;
+			public const int TextAppearance_MaterialComponents_Chip = 2131689886;
 			
 			// aapt resource value: 0x7F0F019F
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131689887;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131689887;
 			
 			// aapt resource value: 0x7F0F01A0
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131689888;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131689888;
 			
 			// aapt resource value: 0x7F0F01A1
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131689889;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131689889;
 			
 			// aapt resource value: 0x7F0F01A2
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131689890;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131689890;
 			
 			// aapt resource value: 0x7F0F01A3
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131689891;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131689891;
 			
 			// aapt resource value: 0x7F0F01A4
-			public const int TextAppearance_MaterialComponents_Overline = 2131689892;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131689892;
 			
 			// aapt resource value: 0x7F0F01A5
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131689893;
+			public const int TextAppearance_MaterialComponents_Overline = 2131689893;
 			
 			// aapt resource value: 0x7F0F01A6
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131689894;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131689894;
 			
 			// aapt resource value: 0x7F0F01A7
-			public const int TextAppearance_MaterialComponents_TimePicker_Title = 2131689895;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131689895;
 			
 			// aapt resource value: 0x7F0F01A8
-			public const int TextAppearance_MaterialComponents_Tooltip = 2131689896;
+			public const int TextAppearance_MaterialComponents_TimePicker_Title = 2131689896;
 			
 			// aapt resource value: 0x7F0F01A9
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689897;
+			public const int TextAppearance_MaterialComponents_Tooltip = 2131689897;
 			
 			// aapt resource value: 0x7F0F01AA
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689898;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689898;
 			
 			// aapt resource value: 0x7F0F01AB
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689899;
-			
-			// aapt resource value: 0x7F0F0229
-			public const int ThemeOverlayColorAccentRed = 2131690025;
-			
-			// aapt resource value: 0x7F0F01F9
-			public const int ThemeOverlay_AppCompat = 2131689977;
-			
-			// aapt resource value: 0x7F0F01FA
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131689978;
-			
-			// aapt resource value: 0x7F0F01FB
-			public const int ThemeOverlay_AppCompat_Dark = 2131689979;
-			
-			// aapt resource value: 0x7F0F01FC
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689980;
-			
-			// aapt resource value: 0x7F0F01FD
-			public const int ThemeOverlay_AppCompat_DayNight = 2131689981;
-			
-			// aapt resource value: 0x7F0F01FE
-			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131689982;
-			
-			// aapt resource value: 0x7F0F01FF
-			public const int ThemeOverlay_AppCompat_Dialog = 2131689983;
-			
-			// aapt resource value: 0x7F0F0200
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689984;
-			
-			// aapt resource value: 0x7F0F0201
-			public const int ThemeOverlay_AppCompat_Light = 2131689985;
-			
-			// aapt resource value: 0x7F0F0202
-			public const int ThemeOverlay_Design_TextInputEditText = 2131689986;
-			
-			// aapt resource value: 0x7F0F0203
-			public const int ThemeOverlay_MaterialComponents = 2131689987;
-			
-			// aapt resource value: 0x7F0F0204
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689988;
-			
-			// aapt resource value: 0x7F0F0205
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Primary = 2131689989;
-			
-			// aapt resource value: 0x7F0F0206
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Surface = 2131689990;
-			
-			// aapt resource value: 0x7F0F0207
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView = 2131689991;
-			
-			// aapt resource value: 0x7F0F0208
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = 2131689992;
-			
-			// aapt resource value: 0x7F0F0209
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131689993;
-			
-			// aapt resource value: 0x7F0F020A
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131689994;
-			
-			// aapt resource value: 0x7F0F020B
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131689995;
-			
-			// aapt resource value: 0x7F0F020C
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Primary = 2131689996;
-			
-			// aapt resource value: 0x7F0F020D
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Surface = 2131689997;
-			
-			// aapt resource value: 0x7F0F020E
-			public const int ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689998;
-			
-			// aapt resource value: 0x7F0F020F
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131689999;
-			
-			// aapt resource value: 0x7F0F0210
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131690000;
-			
-			// aapt resource value: 0x7F0F0211
-			public const int ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = 2131690001;
-			
-			// aapt resource value: 0x7F0F0212
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131690002;
-			
-			// aapt resource value: 0x7F0F0213
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131690003;
-			
-			// aapt resource value: 0x7F0F0214
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131690004;
-			
-			// aapt resource value: 0x7F0F0215
-			public const int ThemeOverlay_MaterialComponents_Light = 2131690005;
-			
-			// aapt resource value: 0x7F0F0216
-			public const int ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131690006;
-			
-			// aapt resource value: 0x7F0F0217
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131690007;
-			
-			// aapt resource value: 0x7F0F0218
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = 2131690008;
-			
-			// aapt resource value: 0x7F0F0219
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = 2131690009;
-			
-			// aapt resource value: 0x7F0F021A
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = 2131690010;
-			
-			// aapt resource value: 0x7F0F021B
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = 2131690011;
-			
-			// aapt resource value: 0x7F0F021C
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = 2131690012;
-			
-			// aapt resource value: 0x7F0F021D
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = 2131690013;
-			
-			// aapt resource value: 0x7F0F021E
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar = 2131690014;
-			
-			// aapt resource value: 0x7F0F021F
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = 2131690015;
-			
-			// aapt resource value: 0x7F0F0220
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131690016;
-			
-			// aapt resource value: 0x7F0F0221
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131690017;
-			
-			// aapt resource value: 0x7F0F0222
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690018;
-			
-			// aapt resource value: 0x7F0F0223
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131690019;
-			
-			// aapt resource value: 0x7F0F0224
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690020;
-			
-			// aapt resource value: 0x7F0F0225
-			public const int ThemeOverlay_MaterialComponents_TimePicker = 2131690021;
-			
-			// aapt resource value: 0x7F0F0226
-			public const int ThemeOverlay_MaterialComponents_TimePicker_Display = 2131690022;
-			
-			// aapt resource value: 0x7F0F0227
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Primary = 2131690023;
-			
-			// aapt resource value: 0x7F0F0228
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Surface = 2131690024;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689899;
 			
 			// aapt resource value: 0x7F0F01AC
-			public const int Theme_AppCompat = 2131689900;
-			
-			// aapt resource value: 0x7F0F01AD
-			public const int Theme_AppCompat_CompactMenu = 2131689901;
-			
-			// aapt resource value: 0x7F0F01AE
-			public const int Theme_AppCompat_DayNight = 2131689902;
-			
-			// aapt resource value: 0x7F0F01AF
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689903;
-			
-			// aapt resource value: 0x7F0F01B0
-			public const int Theme_AppCompat_DayNight_Dialog = 2131689904;
-			
-			// aapt resource value: 0x7F0F01B3
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689907;
-			
-			// aapt resource value: 0x7F0F01B1
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689905;
-			
-			// aapt resource value: 0x7F0F01B2
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689906;
-			
-			// aapt resource value: 0x7F0F01B4
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689908;
-			
-			// aapt resource value: 0x7F0F01B5
-			public const int Theme_AppCompat_Dialog = 2131689909;
-			
-			// aapt resource value: 0x7F0F01B8
-			public const int Theme_AppCompat_DialogWhenLarge = 2131689912;
-			
-			// aapt resource value: 0x7F0F01B6
-			public const int Theme_AppCompat_Dialog_Alert = 2131689910;
-			
-			// aapt resource value: 0x7F0F01B7
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131689911;
-			
-			// aapt resource value: 0x7F0F01B9
-			public const int Theme_AppCompat_Empty = 2131689913;
-			
-			// aapt resource value: 0x7F0F01BA
-			public const int Theme_AppCompat_Light = 2131689914;
-			
-			// aapt resource value: 0x7F0F01BB
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131689915;
-			
-			// aapt resource value: 0x7F0F01BC
-			public const int Theme_AppCompat_Light_Dialog = 2131689916;
-			
-			// aapt resource value: 0x7F0F01BF
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689919;
-			
-			// aapt resource value: 0x7F0F01BD
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689917;
-			
-			// aapt resource value: 0x7F0F01BE
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689918;
-			
-			// aapt resource value: 0x7F0F01C0
-			public const int Theme_AppCompat_Light_NoActionBar = 2131689920;
-			
-			// aapt resource value: 0x7F0F01C1
-			public const int Theme_AppCompat_NoActionBar = 2131689921;
-			
-			// aapt resource value: 0x7F0F01C2
-			public const int Theme_Design = 2131689922;
-			
-			// aapt resource value: 0x7F0F01C3
-			public const int Theme_Design_BottomSheetDialog = 2131689923;
-			
-			// aapt resource value: 0x7F0F01C4
-			public const int Theme_Design_Light = 2131689924;
-			
-			// aapt resource value: 0x7F0F01C5
-			public const int Theme_Design_Light_BottomSheetDialog = 2131689925;
-			
-			// aapt resource value: 0x7F0F01C6
-			public const int Theme_Design_Light_NoActionBar = 2131689926;
-			
-			// aapt resource value: 0x7F0F01C7
-			public const int Theme_Design_NoActionBar = 2131689927;
-			
-			// aapt resource value: 0x7F0F01C8
-			public const int Theme_MaterialComponents = 2131689928;
-			
-			// aapt resource value: 0x7F0F01C9
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689929;
-			
-			// aapt resource value: 0x7F0F01CA
-			public const int Theme_MaterialComponents_Bridge = 2131689930;
-			
-			// aapt resource value: 0x7F0F01CB
-			public const int Theme_MaterialComponents_CompactMenu = 2131689931;
-			
-			// aapt resource value: 0x7F0F01CC
-			public const int Theme_MaterialComponents_DayNight = 2131689932;
-			
-			// aapt resource value: 0x7F0F01CD
-			public const int Theme_MaterialComponents_DayNight_BottomSheetDialog = 2131689933;
-			
-			// aapt resource value: 0x7F0F01CE
-			public const int Theme_MaterialComponents_DayNight_Bridge = 2131689934;
-			
-			// aapt resource value: 0x7F0F01CF
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar = 2131689935;
-			
-			// aapt resource value: 0x7F0F01D0
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = 2131689936;
-			
-			// aapt resource value: 0x7F0F01D1
-			public const int Theme_MaterialComponents_DayNight_Dialog = 2131689937;
-			
-			// aapt resource value: 0x7F0F01D9
-			public const int Theme_MaterialComponents_DayNight_DialogWhenLarge = 2131689945;
-			
-			// aapt resource value: 0x7F0F01D2
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert = 2131689938;
-			
-			// aapt resource value: 0x7F0F01D3
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = 2131689939;
-			
-			// aapt resource value: 0x7F0F01D4
-			public const int Theme_MaterialComponents_DayNight_Dialog_Bridge = 2131689940;
-			
-			// aapt resource value: 0x7F0F01D5
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize = 2131689941;
-			
-			// aapt resource value: 0x7F0F01D6
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = 2131689942;
-			
-			// aapt resource value: 0x7F0F01D7
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth = 2131689943;
-			
-			// aapt resource value: 0x7F0F01D8
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = 2131689944;
-			
-			// aapt resource value: 0x7F0F01DA
-			public const int Theme_MaterialComponents_DayNight_NoActionBar = 2131689946;
-			
-			// aapt resource value: 0x7F0F01DB
-			public const int Theme_MaterialComponents_DayNight_NoActionBar_Bridge = 2131689947;
-			
-			// aapt resource value: 0x7F0F01DC
-			public const int Theme_MaterialComponents_Dialog = 2131689948;
-			
-			// aapt resource value: 0x7F0F01E4
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689956;
-			
-			// aapt resource value: 0x7F0F01DD
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131689949;
-			
-			// aapt resource value: 0x7F0F01DE
-			public const int Theme_MaterialComponents_Dialog_Alert_Bridge = 2131689950;
-			
-			// aapt resource value: 0x7F0F01DF
-			public const int Theme_MaterialComponents_Dialog_Bridge = 2131689951;
-			
-			// aapt resource value: 0x7F0F01E0
-			public const int Theme_MaterialComponents_Dialog_FixedSize = 2131689952;
-			
-			// aapt resource value: 0x7F0F01E1
-			public const int Theme_MaterialComponents_Dialog_FixedSize_Bridge = 2131689953;
-			
-			// aapt resource value: 0x7F0F01E2
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131689954;
-			
-			// aapt resource value: 0x7F0F01E3
-			public const int Theme_MaterialComponents_Dialog_MinWidth_Bridge = 2131689955;
-			
-			// aapt resource value: 0x7F0F01E5
-			public const int Theme_MaterialComponents_Light = 2131689957;
-			
-			// aapt resource value: 0x7F0F01E6
-			public const int Theme_MaterialComponents_Light_BarSize = 2131689958;
-			
-			// aapt resource value: 0x7F0F01E7
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131689959;
-			
-			// aapt resource value: 0x7F0F01E8
-			public const int Theme_MaterialComponents_Light_Bridge = 2131689960;
-			
-			// aapt resource value: 0x7F0F01E9
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131689961;
-			
-			// aapt resource value: 0x7F0F01EA
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689962;
-			
-			// aapt resource value: 0x7F0F01EB
-			public const int Theme_MaterialComponents_Light_Dialog = 2131689963;
-			
-			// aapt resource value: 0x7F0F01F3
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131689971;
-			
-			// aapt resource value: 0x7F0F01EC
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131689964;
-			
-			// aapt resource value: 0x7F0F01ED
-			public const int Theme_MaterialComponents_Light_Dialog_Alert_Bridge = 2131689965;
-			
-			// aapt resource value: 0x7F0F01EE
-			public const int Theme_MaterialComponents_Light_Dialog_Bridge = 2131689966;
-			
-			// aapt resource value: 0x7F0F01EF
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize = 2131689967;
-			
-			// aapt resource value: 0x7F0F01F0
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = 2131689968;
-			
-			// aapt resource value: 0x7F0F01F1
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689969;
-			
-			// aapt resource value: 0x7F0F01F2
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = 2131689970;
-			
-			// aapt resource value: 0x7F0F01F4
-			public const int Theme_MaterialComponents_Light_LargeTouch = 2131689972;
-			
-			// aapt resource value: 0x7F0F01F5
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131689973;
-			
-			// aapt resource value: 0x7F0F01F6
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131689974;
-			
-			// aapt resource value: 0x7F0F01F7
-			public const int Theme_MaterialComponents_NoActionBar = 2131689975;
-			
-			// aapt resource value: 0x7F0F01F8
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131689976;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689900;
 			
 			// aapt resource value: 0x7F0F022A
-			public const int Widget_AppCompat_ActionBar = 2131690026;
+			public const int ThemeOverlayColorAccentRed = 2131690026;
+			
+			// aapt resource value: 0x7F0F01FA
+			public const int ThemeOverlay_AppCompat = 2131689978;
+			
+			// aapt resource value: 0x7F0F01FB
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131689979;
+			
+			// aapt resource value: 0x7F0F01FC
+			public const int ThemeOverlay_AppCompat_Dark = 2131689980;
+			
+			// aapt resource value: 0x7F0F01FD
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689981;
+			
+			// aapt resource value: 0x7F0F01FE
+			public const int ThemeOverlay_AppCompat_DayNight = 2131689982;
+			
+			// aapt resource value: 0x7F0F01FF
+			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131689983;
+			
+			// aapt resource value: 0x7F0F0200
+			public const int ThemeOverlay_AppCompat_Dialog = 2131689984;
+			
+			// aapt resource value: 0x7F0F0201
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689985;
+			
+			// aapt resource value: 0x7F0F0202
+			public const int ThemeOverlay_AppCompat_Light = 2131689986;
+			
+			// aapt resource value: 0x7F0F0203
+			public const int ThemeOverlay_Design_TextInputEditText = 2131689987;
+			
+			// aapt resource value: 0x7F0F0204
+			public const int ThemeOverlay_MaterialComponents = 2131689988;
+			
+			// aapt resource value: 0x7F0F0205
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689989;
+			
+			// aapt resource value: 0x7F0F0206
+			public const int ThemeOverlay_MaterialComponents_ActionBar_Primary = 2131689990;
+			
+			// aapt resource value: 0x7F0F0207
+			public const int ThemeOverlay_MaterialComponents_ActionBar_Surface = 2131689991;
+			
+			// aapt resource value: 0x7F0F0208
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView = 2131689992;
+			
+			// aapt resource value: 0x7F0F0209
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = 2131689993;
+			
+			// aapt resource value: 0x7F0F020A
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131689994;
+			
+			// aapt resource value: 0x7F0F020B
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131689995;
+			
+			// aapt resource value: 0x7F0F020C
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131689996;
+			
+			// aapt resource value: 0x7F0F020D
+			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Primary = 2131689997;
+			
+			// aapt resource value: 0x7F0F020E
+			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Surface = 2131689998;
+			
+			// aapt resource value: 0x7F0F020F
+			public const int ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689999;
+			
+			// aapt resource value: 0x7F0F0210
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131690000;
+			
+			// aapt resource value: 0x7F0F0211
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131690001;
+			
+			// aapt resource value: 0x7F0F0212
+			public const int ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = 2131690002;
+			
+			// aapt resource value: 0x7F0F0213
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131690003;
+			
+			// aapt resource value: 0x7F0F0214
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131690004;
+			
+			// aapt resource value: 0x7F0F0215
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131690005;
+			
+			// aapt resource value: 0x7F0F0216
+			public const int ThemeOverlay_MaterialComponents_Light = 2131690006;
+			
+			// aapt resource value: 0x7F0F0217
+			public const int ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131690007;
+			
+			// aapt resource value: 0x7F0F0218
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131690008;
+			
+			// aapt resource value: 0x7F0F0219
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = 2131690009;
+			
+			// aapt resource value: 0x7F0F021A
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = 2131690010;
+			
+			// aapt resource value: 0x7F0F021B
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = 2131690011;
+			
+			// aapt resource value: 0x7F0F021C
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = 2131690012;
+			
+			// aapt resource value: 0x7F0F021D
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = 2131690013;
+			
+			// aapt resource value: 0x7F0F021E
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = 2131690014;
+			
+			// aapt resource value: 0x7F0F021F
+			public const int ThemeOverlay_MaterialComponents_MaterialCalendar = 2131690015;
+			
+			// aapt resource value: 0x7F0F0220
+			public const int ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = 2131690016;
+			
+			// aapt resource value: 0x7F0F0221
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131690017;
+			
+			// aapt resource value: 0x7F0F0222
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131690018;
+			
+			// aapt resource value: 0x7F0F0223
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690019;
+			
+			// aapt resource value: 0x7F0F0224
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131690020;
+			
+			// aapt resource value: 0x7F0F0225
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690021;
+			
+			// aapt resource value: 0x7F0F0226
+			public const int ThemeOverlay_MaterialComponents_TimePicker = 2131690022;
+			
+			// aapt resource value: 0x7F0F0227
+			public const int ThemeOverlay_MaterialComponents_TimePicker_Display = 2131690023;
+			
+			// aapt resource value: 0x7F0F0228
+			public const int ThemeOverlay_MaterialComponents_Toolbar_Primary = 2131690024;
+			
+			// aapt resource value: 0x7F0F0229
+			public const int ThemeOverlay_MaterialComponents_Toolbar_Surface = 2131690025;
+			
+			// aapt resource value: 0x7F0F01AD
+			public const int Theme_AppCompat = 2131689901;
+			
+			// aapt resource value: 0x7F0F01AE
+			public const int Theme_AppCompat_CompactMenu = 2131689902;
+			
+			// aapt resource value: 0x7F0F01AF
+			public const int Theme_AppCompat_DayNight = 2131689903;
+			
+			// aapt resource value: 0x7F0F01B0
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689904;
+			
+			// aapt resource value: 0x7F0F01B1
+			public const int Theme_AppCompat_DayNight_Dialog = 2131689905;
+			
+			// aapt resource value: 0x7F0F01B4
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689908;
+			
+			// aapt resource value: 0x7F0F01B2
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689906;
+			
+			// aapt resource value: 0x7F0F01B3
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689907;
+			
+			// aapt resource value: 0x7F0F01B5
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689909;
+			
+			// aapt resource value: 0x7F0F01B6
+			public const int Theme_AppCompat_Dialog = 2131689910;
+			
+			// aapt resource value: 0x7F0F01B9
+			public const int Theme_AppCompat_DialogWhenLarge = 2131689913;
+			
+			// aapt resource value: 0x7F0F01B7
+			public const int Theme_AppCompat_Dialog_Alert = 2131689911;
+			
+			// aapt resource value: 0x7F0F01B8
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131689912;
+			
+			// aapt resource value: 0x7F0F01BA
+			public const int Theme_AppCompat_Empty = 2131689914;
+			
+			// aapt resource value: 0x7F0F01BB
+			public const int Theme_AppCompat_Light = 2131689915;
+			
+			// aapt resource value: 0x7F0F01BC
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131689916;
+			
+			// aapt resource value: 0x7F0F01BD
+			public const int Theme_AppCompat_Light_Dialog = 2131689917;
+			
+			// aapt resource value: 0x7F0F01C0
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689920;
+			
+			// aapt resource value: 0x7F0F01BE
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689918;
+			
+			// aapt resource value: 0x7F0F01BF
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689919;
+			
+			// aapt resource value: 0x7F0F01C1
+			public const int Theme_AppCompat_Light_NoActionBar = 2131689921;
+			
+			// aapt resource value: 0x7F0F01C2
+			public const int Theme_AppCompat_NoActionBar = 2131689922;
+			
+			// aapt resource value: 0x7F0F01C3
+			public const int Theme_Design = 2131689923;
+			
+			// aapt resource value: 0x7F0F01C4
+			public const int Theme_Design_BottomSheetDialog = 2131689924;
+			
+			// aapt resource value: 0x7F0F01C5
+			public const int Theme_Design_Light = 2131689925;
+			
+			// aapt resource value: 0x7F0F01C6
+			public const int Theme_Design_Light_BottomSheetDialog = 2131689926;
+			
+			// aapt resource value: 0x7F0F01C7
+			public const int Theme_Design_Light_NoActionBar = 2131689927;
+			
+			// aapt resource value: 0x7F0F01C8
+			public const int Theme_Design_NoActionBar = 2131689928;
+			
+			// aapt resource value: 0x7F0F01C9
+			public const int Theme_MaterialComponents = 2131689929;
+			
+			// aapt resource value: 0x7F0F01CA
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689930;
+			
+			// aapt resource value: 0x7F0F01CB
+			public const int Theme_MaterialComponents_Bridge = 2131689931;
+			
+			// aapt resource value: 0x7F0F01CC
+			public const int Theme_MaterialComponents_CompactMenu = 2131689932;
+			
+			// aapt resource value: 0x7F0F01CD
+			public const int Theme_MaterialComponents_DayNight = 2131689933;
+			
+			// aapt resource value: 0x7F0F01CE
+			public const int Theme_MaterialComponents_DayNight_BottomSheetDialog = 2131689934;
+			
+			// aapt resource value: 0x7F0F01CF
+			public const int Theme_MaterialComponents_DayNight_Bridge = 2131689935;
+			
+			// aapt resource value: 0x7F0F01D0
+			public const int Theme_MaterialComponents_DayNight_DarkActionBar = 2131689936;
+			
+			// aapt resource value: 0x7F0F01D1
+			public const int Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = 2131689937;
+			
+			// aapt resource value: 0x7F0F01D2
+			public const int Theme_MaterialComponents_DayNight_Dialog = 2131689938;
+			
+			// aapt resource value: 0x7F0F01DA
+			public const int Theme_MaterialComponents_DayNight_DialogWhenLarge = 2131689946;
+			
+			// aapt resource value: 0x7F0F01D3
+			public const int Theme_MaterialComponents_DayNight_Dialog_Alert = 2131689939;
+			
+			// aapt resource value: 0x7F0F01D4
+			public const int Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = 2131689940;
+			
+			// aapt resource value: 0x7F0F01D5
+			public const int Theme_MaterialComponents_DayNight_Dialog_Bridge = 2131689941;
+			
+			// aapt resource value: 0x7F0F01D6
+			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize = 2131689942;
+			
+			// aapt resource value: 0x7F0F01D7
+			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = 2131689943;
+			
+			// aapt resource value: 0x7F0F01D8
+			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth = 2131689944;
+			
+			// aapt resource value: 0x7F0F01D9
+			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = 2131689945;
+			
+			// aapt resource value: 0x7F0F01DB
+			public const int Theme_MaterialComponents_DayNight_NoActionBar = 2131689947;
+			
+			// aapt resource value: 0x7F0F01DC
+			public const int Theme_MaterialComponents_DayNight_NoActionBar_Bridge = 2131689948;
+			
+			// aapt resource value: 0x7F0F01DD
+			public const int Theme_MaterialComponents_Dialog = 2131689949;
+			
+			// aapt resource value: 0x7F0F01E5
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689957;
+			
+			// aapt resource value: 0x7F0F01DE
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131689950;
+			
+			// aapt resource value: 0x7F0F01DF
+			public const int Theme_MaterialComponents_Dialog_Alert_Bridge = 2131689951;
+			
+			// aapt resource value: 0x7F0F01E0
+			public const int Theme_MaterialComponents_Dialog_Bridge = 2131689952;
+			
+			// aapt resource value: 0x7F0F01E1
+			public const int Theme_MaterialComponents_Dialog_FixedSize = 2131689953;
+			
+			// aapt resource value: 0x7F0F01E2
+			public const int Theme_MaterialComponents_Dialog_FixedSize_Bridge = 2131689954;
+			
+			// aapt resource value: 0x7F0F01E3
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131689955;
+			
+			// aapt resource value: 0x7F0F01E4
+			public const int Theme_MaterialComponents_Dialog_MinWidth_Bridge = 2131689956;
+			
+			// aapt resource value: 0x7F0F01E6
+			public const int Theme_MaterialComponents_Light = 2131689958;
+			
+			// aapt resource value: 0x7F0F01E7
+			public const int Theme_MaterialComponents_Light_BarSize = 2131689959;
+			
+			// aapt resource value: 0x7F0F01E8
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131689960;
+			
+			// aapt resource value: 0x7F0F01E9
+			public const int Theme_MaterialComponents_Light_Bridge = 2131689961;
+			
+			// aapt resource value: 0x7F0F01EA
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131689962;
+			
+			// aapt resource value: 0x7F0F01EB
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689963;
+			
+			// aapt resource value: 0x7F0F01EC
+			public const int Theme_MaterialComponents_Light_Dialog = 2131689964;
+			
+			// aapt resource value: 0x7F0F01F4
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131689972;
+			
+			// aapt resource value: 0x7F0F01ED
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131689965;
+			
+			// aapt resource value: 0x7F0F01EE
+			public const int Theme_MaterialComponents_Light_Dialog_Alert_Bridge = 2131689966;
+			
+			// aapt resource value: 0x7F0F01EF
+			public const int Theme_MaterialComponents_Light_Dialog_Bridge = 2131689967;
+			
+			// aapt resource value: 0x7F0F01F0
+			public const int Theme_MaterialComponents_Light_Dialog_FixedSize = 2131689968;
+			
+			// aapt resource value: 0x7F0F01F1
+			public const int Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = 2131689969;
+			
+			// aapt resource value: 0x7F0F01F2
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689970;
+			
+			// aapt resource value: 0x7F0F01F3
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = 2131689971;
+			
+			// aapt resource value: 0x7F0F01F5
+			public const int Theme_MaterialComponents_Light_LargeTouch = 2131689973;
+			
+			// aapt resource value: 0x7F0F01F6
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131689974;
+			
+			// aapt resource value: 0x7F0F01F7
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131689975;
+			
+			// aapt resource value: 0x7F0F01F8
+			public const int Theme_MaterialComponents_NoActionBar = 2131689976;
+			
+			// aapt resource value: 0x7F0F01F9
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131689977;
 			
 			// aapt resource value: 0x7F0F022B
-			public const int Widget_AppCompat_ActionBar_Solid = 2131690027;
+			public const int Widget_AppCompat_ActionBar = 2131690027;
 			
 			// aapt resource value: 0x7F0F022C
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131690028;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131690028;
 			
 			// aapt resource value: 0x7F0F022D
-			public const int Widget_AppCompat_ActionBar_TabText = 2131690029;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131690029;
 			
 			// aapt resource value: 0x7F0F022E
-			public const int Widget_AppCompat_ActionBar_TabView = 2131690030;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131690030;
 			
 			// aapt resource value: 0x7F0F022F
-			public const int Widget_AppCompat_ActionButton = 2131690031;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131690031;
 			
 			// aapt resource value: 0x7F0F0230
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131690032;
+			public const int Widget_AppCompat_ActionButton = 2131690032;
 			
 			// aapt resource value: 0x7F0F0231
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131690033;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131690033;
 			
 			// aapt resource value: 0x7F0F0232
-			public const int Widget_AppCompat_ActionMode = 2131690034;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131690034;
 			
 			// aapt resource value: 0x7F0F0233
-			public const int Widget_AppCompat_ActivityChooserView = 2131690035;
+			public const int Widget_AppCompat_ActionMode = 2131690035;
 			
 			// aapt resource value: 0x7F0F0234
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131690036;
+			public const int Widget_AppCompat_ActivityChooserView = 2131690036;
 			
 			// aapt resource value: 0x7F0F0235
-			public const int Widget_AppCompat_Button = 2131690037;
-			
-			// aapt resource value: 0x7F0F023B
-			public const int Widget_AppCompat_ButtonBar = 2131690043;
-			
-			// aapt resource value: 0x7F0F023C
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131690044;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131690037;
 			
 			// aapt resource value: 0x7F0F0236
-			public const int Widget_AppCompat_Button_Borderless = 2131690038;
+			public const int Widget_AppCompat_Button = 2131690038;
 			
-			// aapt resource value: 0x7F0F0237
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131690039;
-			
-			// aapt resource value: 0x7F0F0238
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131690040;
-			
-			// aapt resource value: 0x7F0F0239
-			public const int Widget_AppCompat_Button_Colored = 2131690041;
-			
-			// aapt resource value: 0x7F0F023A
-			public const int Widget_AppCompat_Button_Small = 2131690042;
+			// aapt resource value: 0x7F0F023C
+			public const int Widget_AppCompat_ButtonBar = 2131690044;
 			
 			// aapt resource value: 0x7F0F023D
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131690045;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131690045;
+			
+			// aapt resource value: 0x7F0F0237
+			public const int Widget_AppCompat_Button_Borderless = 2131690039;
+			
+			// aapt resource value: 0x7F0F0238
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131690040;
+			
+			// aapt resource value: 0x7F0F0239
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131690041;
+			
+			// aapt resource value: 0x7F0F023A
+			public const int Widget_AppCompat_Button_Colored = 2131690042;
+			
+			// aapt resource value: 0x7F0F023B
+			public const int Widget_AppCompat_Button_Small = 2131690043;
 			
 			// aapt resource value: 0x7F0F023E
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131690046;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131690046;
 			
 			// aapt resource value: 0x7F0F023F
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131690047;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131690047;
 			
 			// aapt resource value: 0x7F0F0240
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131690048;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131690048;
 			
 			// aapt resource value: 0x7F0F0241
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131690049;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131690049;
 			
 			// aapt resource value: 0x7F0F0242
-			public const int Widget_AppCompat_EditText = 2131690050;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131690050;
 			
 			// aapt resource value: 0x7F0F0243
-			public const int Widget_AppCompat_ImageButton = 2131690051;
+			public const int Widget_AppCompat_EditText = 2131690051;
 			
 			// aapt resource value: 0x7F0F0244
-			public const int Widget_AppCompat_Light_ActionBar = 2131690052;
+			public const int Widget_AppCompat_ImageButton = 2131690052;
 			
 			// aapt resource value: 0x7F0F0245
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131690053;
+			public const int Widget_AppCompat_Light_ActionBar = 2131690053;
 			
 			// aapt resource value: 0x7F0F0246
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131690054;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131690054;
 			
 			// aapt resource value: 0x7F0F0247
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131690055;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131690055;
 			
 			// aapt resource value: 0x7F0F0248
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131690056;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131690056;
 			
 			// aapt resource value: 0x7F0F0249
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131690057;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131690057;
 			
 			// aapt resource value: 0x7F0F024A
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131690058;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131690058;
 			
 			// aapt resource value: 0x7F0F024B
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131690059;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131690059;
 			
 			// aapt resource value: 0x7F0F024C
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131690060;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131690060;
 			
 			// aapt resource value: 0x7F0F024D
-			public const int Widget_AppCompat_Light_ActionButton = 2131690061;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131690061;
 			
 			// aapt resource value: 0x7F0F024E
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131690062;
+			public const int Widget_AppCompat_Light_ActionButton = 2131690062;
 			
 			// aapt resource value: 0x7F0F024F
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131690063;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131690063;
 			
 			// aapt resource value: 0x7F0F0250
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131690064;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131690064;
 			
 			// aapt resource value: 0x7F0F0251
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131690065;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131690065;
 			
 			// aapt resource value: 0x7F0F0252
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131690066;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131690066;
 			
 			// aapt resource value: 0x7F0F0253
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131690067;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131690067;
 			
 			// aapt resource value: 0x7F0F0254
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131690068;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131690068;
 			
 			// aapt resource value: 0x7F0F0255
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131690069;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131690069;
 			
 			// aapt resource value: 0x7F0F0256
-			public const int Widget_AppCompat_Light_PopupMenu = 2131690070;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131690070;
 			
 			// aapt resource value: 0x7F0F0257
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131690071;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131690071;
 			
 			// aapt resource value: 0x7F0F0258
-			public const int Widget_AppCompat_Light_SearchView = 2131690072;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131690072;
 			
 			// aapt resource value: 0x7F0F0259
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131690073;
+			public const int Widget_AppCompat_Light_SearchView = 2131690073;
 			
 			// aapt resource value: 0x7F0F025A
-			public const int Widget_AppCompat_ListMenuView = 2131690074;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131690074;
 			
 			// aapt resource value: 0x7F0F025B
-			public const int Widget_AppCompat_ListPopupWindow = 2131690075;
+			public const int Widget_AppCompat_ListMenuView = 2131690075;
 			
 			// aapt resource value: 0x7F0F025C
-			public const int Widget_AppCompat_ListView = 2131690076;
+			public const int Widget_AppCompat_ListPopupWindow = 2131690076;
 			
 			// aapt resource value: 0x7F0F025D
-			public const int Widget_AppCompat_ListView_DropDown = 2131690077;
+			public const int Widget_AppCompat_ListView = 2131690077;
 			
 			// aapt resource value: 0x7F0F025E
-			public const int Widget_AppCompat_ListView_Menu = 2131690078;
+			public const int Widget_AppCompat_ListView_DropDown = 2131690078;
 			
 			// aapt resource value: 0x7F0F025F
-			public const int Widget_AppCompat_PopupMenu = 2131690079;
+			public const int Widget_AppCompat_ListView_Menu = 2131690079;
 			
 			// aapt resource value: 0x7F0F0260
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131690080;
+			public const int Widget_AppCompat_PopupMenu = 2131690080;
 			
 			// aapt resource value: 0x7F0F0261
-			public const int Widget_AppCompat_PopupWindow = 2131690081;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131690081;
 			
 			// aapt resource value: 0x7F0F0262
-			public const int Widget_AppCompat_ProgressBar = 2131690082;
+			public const int Widget_AppCompat_PopupWindow = 2131690082;
 			
 			// aapt resource value: 0x7F0F0263
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131690083;
+			public const int Widget_AppCompat_ProgressBar = 2131690083;
 			
 			// aapt resource value: 0x7F0F0264
-			public const int Widget_AppCompat_RatingBar = 2131690084;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131690084;
 			
 			// aapt resource value: 0x7F0F0265
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131690085;
+			public const int Widget_AppCompat_RatingBar = 2131690085;
 			
 			// aapt resource value: 0x7F0F0266
-			public const int Widget_AppCompat_RatingBar_Small = 2131690086;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131690086;
 			
 			// aapt resource value: 0x7F0F0267
-			public const int Widget_AppCompat_SearchView = 2131690087;
+			public const int Widget_AppCompat_RatingBar_Small = 2131690087;
 			
 			// aapt resource value: 0x7F0F0268
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131690088;
+			public const int Widget_AppCompat_SearchView = 2131690088;
 			
 			// aapt resource value: 0x7F0F0269
-			public const int Widget_AppCompat_SeekBar = 2131690089;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131690089;
 			
 			// aapt resource value: 0x7F0F026A
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131690090;
+			public const int Widget_AppCompat_SeekBar = 2131690090;
 			
 			// aapt resource value: 0x7F0F026B
-			public const int Widget_AppCompat_Spinner = 2131690091;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131690091;
 			
 			// aapt resource value: 0x7F0F026C
-			public const int Widget_AppCompat_Spinner_DropDown = 2131690092;
+			public const int Widget_AppCompat_Spinner = 2131690092;
 			
 			// aapt resource value: 0x7F0F026D
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131690093;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131690093;
 			
 			// aapt resource value: 0x7F0F026E
-			public const int Widget_AppCompat_Spinner_Underlined = 2131690094;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131690094;
 			
 			// aapt resource value: 0x7F0F026F
-			public const int Widget_AppCompat_TextView = 2131690095;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131690095;
 			
 			// aapt resource value: 0x7F0F0270
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131690096;
+			public const int Widget_AppCompat_TextView = 2131690096;
 			
 			// aapt resource value: 0x7F0F0271
-			public const int Widget_AppCompat_Toolbar = 2131690097;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131690097;
 			
 			// aapt resource value: 0x7F0F0272
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131690098;
+			public const int Widget_AppCompat_Toolbar = 2131690098;
 			
 			// aapt resource value: 0x7F0F0273
-			public const int Widget_Compat_NotificationActionContainer = 2131690099;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131690099;
 			
 			// aapt resource value: 0x7F0F0274
-			public const int Widget_Compat_NotificationActionText = 2131690100;
+			public const int Widget_Compat_NotificationActionContainer = 2131690100;
 			
 			// aapt resource value: 0x7F0F0275
-			public const int Widget_Design_AppBarLayout = 2131690101;
+			public const int Widget_Compat_NotificationActionText = 2131690101;
 			
 			// aapt resource value: 0x7F0F0276
-			public const int Widget_Design_BottomNavigationView = 2131690102;
+			public const int Widget_Design_AppBarLayout = 2131690102;
 			
 			// aapt resource value: 0x7F0F0277
-			public const int Widget_Design_BottomSheet_Modal = 2131690103;
+			public const int Widget_Design_BottomNavigationView = 2131690103;
 			
 			// aapt resource value: 0x7F0F0278
-			public const int Widget_Design_CollapsingToolbar = 2131690104;
+			public const int Widget_Design_BottomSheet_Modal = 2131690104;
 			
 			// aapt resource value: 0x7F0F0279
-			public const int Widget_Design_FloatingActionButton = 2131690105;
+			public const int Widget_Design_CollapsingToolbar = 2131690105;
 			
 			// aapt resource value: 0x7F0F027A
-			public const int Widget_Design_NavigationView = 2131690106;
+			public const int Widget_Design_FloatingActionButton = 2131690106;
 			
 			// aapt resource value: 0x7F0F027B
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131690107;
+			public const int Widget_Design_NavigationView = 2131690107;
 			
 			// aapt resource value: 0x7F0F027C
-			public const int Widget_Design_Snackbar = 2131690108;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131690108;
 			
 			// aapt resource value: 0x7F0F027D
-			public const int Widget_Design_TabLayout = 2131690109;
+			public const int Widget_Design_Snackbar = 2131690109;
 			
 			// aapt resource value: 0x7F0F027E
-			public const int Widget_Design_TextInputEditText = 2131690110;
+			public const int Widget_Design_TabLayout = 2131690110;
 			
 			// aapt resource value: 0x7F0F027F
-			public const int Widget_Design_TextInputLayout = 2131690111;
+			public const int Widget_Design_TextInputEditText = 2131690111;
 			
 			// aapt resource value: 0x7F0F0280
-			public const int Widget_MaterialComponents_ActionBar_Primary = 2131690112;
+			public const int Widget_Design_TextInputLayout = 2131690112;
 			
 			// aapt resource value: 0x7F0F0281
-			public const int Widget_MaterialComponents_ActionBar_PrimarySurface = 2131690113;
+			public const int Widget_MaterialComponents_ActionBar_Primary = 2131690113;
 			
 			// aapt resource value: 0x7F0F0282
-			public const int Widget_MaterialComponents_ActionBar_Solid = 2131690114;
+			public const int Widget_MaterialComponents_ActionBar_PrimarySurface = 2131690114;
 			
 			// aapt resource value: 0x7F0F0283
-			public const int Widget_MaterialComponents_ActionBar_Surface = 2131690115;
+			public const int Widget_MaterialComponents_ActionBar_Solid = 2131690115;
 			
 			// aapt resource value: 0x7F0F0284
-			public const int Widget_MaterialComponents_AppBarLayout_Primary = 2131690116;
+			public const int Widget_MaterialComponents_ActionBar_Surface = 2131690116;
 			
 			// aapt resource value: 0x7F0F0285
-			public const int Widget_MaterialComponents_AppBarLayout_PrimarySurface = 2131690117;
+			public const int Widget_MaterialComponents_AppBarLayout_Primary = 2131690117;
 			
 			// aapt resource value: 0x7F0F0286
-			public const int Widget_MaterialComponents_AppBarLayout_Surface = 2131690118;
+			public const int Widget_MaterialComponents_AppBarLayout_PrimarySurface = 2131690118;
 			
 			// aapt resource value: 0x7F0F0287
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox = 2131690119;
+			public const int Widget_MaterialComponents_AppBarLayout_Surface = 2131690119;
 			
 			// aapt resource value: 0x7F0F0288
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131690120;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox = 2131690120;
 			
 			// aapt resource value: 0x7F0F0289
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131690121;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131690121;
 			
 			// aapt resource value: 0x7F0F028A
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131690122;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131690122;
 			
 			// aapt resource value: 0x7F0F028B
-			public const int Widget_MaterialComponents_Badge = 2131690123;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131690123;
 			
 			// aapt resource value: 0x7F0F028C
-			public const int Widget_MaterialComponents_BottomAppBar = 2131690124;
+			public const int Widget_MaterialComponents_Badge = 2131690124;
 			
 			// aapt resource value: 0x7F0F028D
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131690125;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131690125;
 			
 			// aapt resource value: 0x7F0F028E
-			public const int Widget_MaterialComponents_BottomAppBar_PrimarySurface = 2131690126;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131690126;
 			
 			// aapt resource value: 0x7F0F028F
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131690127;
+			public const int Widget_MaterialComponents_BottomAppBar_PrimarySurface = 2131690127;
 			
 			// aapt resource value: 0x7F0F0290
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131690128;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131690128;
 			
 			// aapt resource value: 0x7F0F0291
-			public const int Widget_MaterialComponents_BottomNavigationView_PrimarySurface = 2131690129;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131690129;
 			
 			// aapt resource value: 0x7F0F0292
-			public const int Widget_MaterialComponents_BottomSheet = 2131690130;
+			public const int Widget_MaterialComponents_BottomNavigationView_PrimarySurface = 2131690130;
 			
 			// aapt resource value: 0x7F0F0293
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131690131;
+			public const int Widget_MaterialComponents_BottomSheet = 2131690131;
 			
 			// aapt resource value: 0x7F0F0294
-			public const int Widget_MaterialComponents_Button = 2131690132;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131690132;
 			
 			// aapt resource value: 0x7F0F0295
-			public const int Widget_MaterialComponents_Button_Icon = 2131690133;
+			public const int Widget_MaterialComponents_Button = 2131690133;
 			
 			// aapt resource value: 0x7F0F0296
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131690134;
+			public const int Widget_MaterialComponents_Button_Icon = 2131690134;
 			
 			// aapt resource value: 0x7F0F0297
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131690135;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131690135;
 			
 			// aapt resource value: 0x7F0F0298
-			public const int Widget_MaterialComponents_Button_TextButton = 2131690136;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131690136;
 			
 			// aapt resource value: 0x7F0F0299
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131690137;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131690137;
 			
 			// aapt resource value: 0x7F0F029A
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Flush = 2131690138;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131690138;
 			
 			// aapt resource value: 0x7F0F029B
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131690139;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Flush = 2131690139;
 			
 			// aapt resource value: 0x7F0F029C
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131690140;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131690140;
 			
 			// aapt resource value: 0x7F0F029D
-			public const int Widget_MaterialComponents_Button_TextButton_Snackbar = 2131690141;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131690141;
 			
 			// aapt resource value: 0x7F0F029E
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131690142;
+			public const int Widget_MaterialComponents_Button_TextButton_Snackbar = 2131690142;
 			
 			// aapt resource value: 0x7F0F029F
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131690143;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131690143;
 			
 			// aapt resource value: 0x7F0F02A0
-			public const int Widget_MaterialComponents_CardView = 2131690144;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131690144;
 			
 			// aapt resource value: 0x7F0F02A1
-			public const int Widget_MaterialComponents_CheckedTextView = 2131690145;
-			
-			// aapt resource value: 0x7F0F02A6
-			public const int Widget_MaterialComponents_ChipGroup = 2131690150;
+			public const int Widget_MaterialComponents_CardView = 2131690145;
 			
 			// aapt resource value: 0x7F0F02A2
-			public const int Widget_MaterialComponents_Chip_Action = 2131690146;
-			
-			// aapt resource value: 0x7F0F02A3
-			public const int Widget_MaterialComponents_Chip_Choice = 2131690147;
-			
-			// aapt resource value: 0x7F0F02A4
-			public const int Widget_MaterialComponents_Chip_Entry = 2131690148;
-			
-			// aapt resource value: 0x7F0F02A5
-			public const int Widget_MaterialComponents_Chip_Filter = 2131690149;
+			public const int Widget_MaterialComponents_CheckedTextView = 2131690146;
 			
 			// aapt resource value: 0x7F0F02A7
-			public const int Widget_MaterialComponents_CircularProgressIndicator = 2131690151;
+			public const int Widget_MaterialComponents_ChipGroup = 2131690151;
+			
+			// aapt resource value: 0x7F0F02A3
+			public const int Widget_MaterialComponents_Chip_Action = 2131690147;
+			
+			// aapt resource value: 0x7F0F02A4
+			public const int Widget_MaterialComponents_Chip_Choice = 2131690148;
+			
+			// aapt resource value: 0x7F0F02A5
+			public const int Widget_MaterialComponents_Chip_Entry = 2131690149;
+			
+			// aapt resource value: 0x7F0F02A6
+			public const int Widget_MaterialComponents_Chip_Filter = 2131690150;
 			
 			// aapt resource value: 0x7F0F02A8
-			public const int Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall = 2131690152;
+			public const int Widget_MaterialComponents_CircularProgressIndicator = 2131690152;
 			
 			// aapt resource value: 0x7F0F02A9
-			public const int Widget_MaterialComponents_CircularProgressIndicator_Medium = 2131690153;
+			public const int Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall = 2131690153;
 			
 			// aapt resource value: 0x7F0F02AA
-			public const int Widget_MaterialComponents_CircularProgressIndicator_Small = 2131690154;
+			public const int Widget_MaterialComponents_CircularProgressIndicator_Medium = 2131690154;
 			
 			// aapt resource value: 0x7F0F02AB
-			public const int Widget_MaterialComponents_CollapsingToolbar = 2131690155;
+			public const int Widget_MaterialComponents_CircularProgressIndicator_Small = 2131690155;
 			
 			// aapt resource value: 0x7F0F02AC
-			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131690156;
+			public const int Widget_MaterialComponents_CollapsingToolbar = 2131690156;
 			
 			// aapt resource value: 0x7F0F02AD
-			public const int Widget_MaterialComponents_CompoundButton_RadioButton = 2131690157;
+			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131690157;
 			
 			// aapt resource value: 0x7F0F02AE
-			public const int Widget_MaterialComponents_CompoundButton_Switch = 2131690158;
+			public const int Widget_MaterialComponents_CompoundButton_RadioButton = 2131690158;
 			
 			// aapt resource value: 0x7F0F02AF
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton = 2131690159;
+			public const int Widget_MaterialComponents_CompoundButton_Switch = 2131690159;
 			
 			// aapt resource value: 0x7F0F02B0
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2131690160;
+			public const int Widget_MaterialComponents_ExtendedFloatingActionButton = 2131690160;
 			
 			// aapt resource value: 0x7F0F02B1
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131690161;
+			public const int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2131690161;
 			
 			// aapt resource value: 0x7F0F02B2
-			public const int Widget_MaterialComponents_Light_ActionBar_Solid = 2131690162;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131690162;
 			
 			// aapt resource value: 0x7F0F02B3
-			public const int Widget_MaterialComponents_LinearProgressIndicator = 2131690163;
+			public const int Widget_MaterialComponents_Light_ActionBar_Solid = 2131690163;
 			
 			// aapt resource value: 0x7F0F02B4
-			public const int Widget_MaterialComponents_MaterialButtonToggleGroup = 2131690164;
+			public const int Widget_MaterialComponents_LinearProgressIndicator = 2131690164;
 			
 			// aapt resource value: 0x7F0F02B5
-			public const int Widget_MaterialComponents_MaterialCalendar = 2131690165;
+			public const int Widget_MaterialComponents_MaterialButtonToggleGroup = 2131690165;
 			
 			// aapt resource value: 0x7F0F02B6
-			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131690166;
-			
-			// aapt resource value: 0x7F0F02BA
-			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131690170;
+			public const int Widget_MaterialComponents_MaterialCalendar = 2131690166;
 			
 			// aapt resource value: 0x7F0F02B7
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131690167;
-			
-			// aapt resource value: 0x7F0F02B8
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131690168;
-			
-			// aapt resource value: 0x7F0F02B9
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131690169;
+			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131690167;
 			
 			// aapt resource value: 0x7F0F02BB
-			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131690171;
+			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131690171;
+			
+			// aapt resource value: 0x7F0F02B8
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131690168;
+			
+			// aapt resource value: 0x7F0F02B9
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131690169;
+			
+			// aapt resource value: 0x7F0F02BA
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131690170;
 			
 			// aapt resource value: 0x7F0F02BC
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton = 2131690172;
+			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131690172;
 			
 			// aapt resource value: 0x7F0F02BD
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = 2131690173;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton = 2131690173;
 			
 			// aapt resource value: 0x7F0F02BE
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderDivider = 2131690174;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = 2131690174;
 			
 			// aapt resource value: 0x7F0F02BF
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderLayout = 2131690175;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderDivider = 2131690175;
 			
 			// aapt resource value: 0x7F0F02C0
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection = 2131690176;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderLayout = 2131690176;
 			
 			// aapt resource value: 0x7F0F02C1
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = 2131690177;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection = 2131690177;
 			
 			// aapt resource value: 0x7F0F02C2
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderTitle = 2131690178;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = 2131690178;
 			
 			// aapt resource value: 0x7F0F02C3
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = 2131690179;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderTitle = 2131690179;
 			
 			// aapt resource value: 0x7F0F02C4
-			public const int Widget_MaterialComponents_MaterialCalendar_Item = 2131690180;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = 2131690180;
 			
 			// aapt resource value: 0x7F0F02C5
-			public const int Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton = 2131690181;
+			public const int Widget_MaterialComponents_MaterialCalendar_Item = 2131690181;
 			
 			// aapt resource value: 0x7F0F02C6
-			public const int Widget_MaterialComponents_MaterialCalendar_MonthTextView = 2131690182;
+			public const int Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton = 2131690182;
 			
 			// aapt resource value: 0x7F0F02C7
-			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131690183;
-			
-			// aapt resource value: 0x7F0F02CA
-			public const int Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = 2131690186;
+			public const int Widget_MaterialComponents_MaterialCalendar_MonthTextView = 2131690183;
 			
 			// aapt resource value: 0x7F0F02C8
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131690184;
-			
-			// aapt resource value: 0x7F0F02C9
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131690185;
+			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131690184;
 			
 			// aapt resource value: 0x7F0F02CB
-			public const int Widget_MaterialComponents_NavigationRailView = 2131690187;
+			public const int Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = 2131690187;
+			
+			// aapt resource value: 0x7F0F02C9
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131690185;
+			
+			// aapt resource value: 0x7F0F02CA
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131690186;
 			
 			// aapt resource value: 0x7F0F02CC
-			public const int Widget_MaterialComponents_NavigationRailView_Colored = 2131690188;
+			public const int Widget_MaterialComponents_NavigationRailView = 2131690188;
 			
 			// aapt resource value: 0x7F0F02CD
-			public const int Widget_MaterialComponents_NavigationRailView_Colored_Compact = 2131690189;
+			public const int Widget_MaterialComponents_NavigationRailView_Colored = 2131690189;
 			
 			// aapt resource value: 0x7F0F02CE
-			public const int Widget_MaterialComponents_NavigationRailView_Compact = 2131690190;
+			public const int Widget_MaterialComponents_NavigationRailView_Colored_Compact = 2131690190;
 			
 			// aapt resource value: 0x7F0F02CF
-			public const int Widget_MaterialComponents_NavigationRailView_PrimarySurface = 2131690191;
+			public const int Widget_MaterialComponents_NavigationRailView_Compact = 2131690191;
 			
 			// aapt resource value: 0x7F0F02D0
-			public const int Widget_MaterialComponents_NavigationView = 2131690192;
+			public const int Widget_MaterialComponents_NavigationRailView_PrimarySurface = 2131690192;
 			
 			// aapt resource value: 0x7F0F02D1
-			public const int Widget_MaterialComponents_PopupMenu = 2131690193;
+			public const int Widget_MaterialComponents_NavigationView = 2131690193;
 			
 			// aapt resource value: 0x7F0F02D2
-			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131690194;
+			public const int Widget_MaterialComponents_PopupMenu = 2131690194;
 			
 			// aapt resource value: 0x7F0F02D3
-			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131690195;
+			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131690195;
 			
 			// aapt resource value: 0x7F0F02D4
-			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131690196;
+			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131690196;
 			
 			// aapt resource value: 0x7F0F02D5
-			public const int Widget_MaterialComponents_ProgressIndicator = 2131690197;
+			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131690197;
 			
 			// aapt resource value: 0x7F0F02D6
-			public const int Widget_MaterialComponents_ShapeableImageView = 2131690198;
+			public const int Widget_MaterialComponents_ProgressIndicator = 2131690198;
 			
 			// aapt resource value: 0x7F0F02D7
-			public const int Widget_MaterialComponents_Slider = 2131690199;
+			public const int Widget_MaterialComponents_ShapeableImageView = 2131690199;
 			
 			// aapt resource value: 0x7F0F02D8
-			public const int Widget_MaterialComponents_Snackbar = 2131690200;
+			public const int Widget_MaterialComponents_Slider = 2131690200;
 			
 			// aapt resource value: 0x7F0F02D9
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131690201;
+			public const int Widget_MaterialComponents_Snackbar = 2131690201;
 			
 			// aapt resource value: 0x7F0F02DA
-			public const int Widget_MaterialComponents_Snackbar_TextView = 2131690202;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131690202;
 			
 			// aapt resource value: 0x7F0F02DB
-			public const int Widget_MaterialComponents_TabLayout = 2131690203;
+			public const int Widget_MaterialComponents_Snackbar_TextView = 2131690203;
 			
 			// aapt resource value: 0x7F0F02DC
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131690204;
+			public const int Widget_MaterialComponents_TabLayout = 2131690204;
 			
 			// aapt resource value: 0x7F0F02DD
-			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131690205;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131690205;
 			
 			// aapt resource value: 0x7F0F02DE
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131690206;
+			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131690206;
 			
 			// aapt resource value: 0x7F0F02DF
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690207;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131690207;
 			
 			// aapt resource value: 0x7F0F02E0
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131690208;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690208;
 			
 			// aapt resource value: 0x7F0F02E1
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690209;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131690209;
 			
 			// aapt resource value: 0x7F0F02E2
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131690210;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690210;
 			
 			// aapt resource value: 0x7F0F02E3
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131690211;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131690211;
 			
 			// aapt resource value: 0x7F0F02E4
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131690212;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131690212;
 			
 			// aapt resource value: 0x7F0F02E5
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131690213;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131690213;
 			
 			// aapt resource value: 0x7F0F02E6
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131690214;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131690214;
 			
 			// aapt resource value: 0x7F0F02E7
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131690215;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131690215;
 			
 			// aapt resource value: 0x7F0F02E8
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131690216;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131690216;
 			
 			// aapt resource value: 0x7F0F02E9
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131690217;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131690217;
 			
 			// aapt resource value: 0x7F0F02EA
-			public const int Widget_MaterialComponents_TextView = 2131690218;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131690218;
 			
 			// aapt resource value: 0x7F0F02EB
-			public const int Widget_MaterialComponents_TimePicker = 2131690219;
+			public const int Widget_MaterialComponents_TextView = 2131690219;
 			
 			// aapt resource value: 0x7F0F02EC
-			public const int Widget_MaterialComponents_TimePicker_Button = 2131690220;
+			public const int Widget_MaterialComponents_TimePicker = 2131690220;
 			
 			// aapt resource value: 0x7F0F02ED
-			public const int Widget_MaterialComponents_TimePicker_Clock = 2131690221;
+			public const int Widget_MaterialComponents_TimePicker_Button = 2131690221;
 			
 			// aapt resource value: 0x7F0F02EE
-			public const int Widget_MaterialComponents_TimePicker_Display = 2131690222;
+			public const int Widget_MaterialComponents_TimePicker_Clock = 2131690222;
 			
 			// aapt resource value: 0x7F0F02EF
-			public const int Widget_MaterialComponents_TimePicker_Display_TextInputEditText = 2131690223;
+			public const int Widget_MaterialComponents_TimePicker_Display = 2131690223;
 			
 			// aapt resource value: 0x7F0F02F0
-			public const int Widget_MaterialComponents_TimePicker_ImageButton = 2131690224;
+			public const int Widget_MaterialComponents_TimePicker_Display_TextInputEditText = 2131690224;
 			
 			// aapt resource value: 0x7F0F02F1
-			public const int Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = 2131690225;
+			public const int Widget_MaterialComponents_TimePicker_ImageButton = 2131690225;
 			
 			// aapt resource value: 0x7F0F02F2
-			public const int Widget_MaterialComponents_Toolbar = 2131690226;
+			public const int Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = 2131690226;
 			
 			// aapt resource value: 0x7F0F02F3
-			public const int Widget_MaterialComponents_Toolbar_Primary = 2131690227;
+			public const int Widget_MaterialComponents_Toolbar = 2131690227;
 			
 			// aapt resource value: 0x7F0F02F4
-			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131690228;
+			public const int Widget_MaterialComponents_Toolbar_Primary = 2131690228;
 			
 			// aapt resource value: 0x7F0F02F5
-			public const int Widget_MaterialComponents_Toolbar_Surface = 2131690229;
+			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131690229;
 			
 			// aapt resource value: 0x7F0F02F6
-			public const int Widget_MaterialComponents_Tooltip = 2131690230;
+			public const int Widget_MaterialComponents_Toolbar_Surface = 2131690230;
 			
 			// aapt resource value: 0x7F0F02F7
-			public const int Widget_Support_CoordinatorLayout = 2131690231;
+			public const int Widget_MaterialComponents_Tooltip = 2131690231;
+			
+			// aapt resource value: 0x7F0F02F8
+			public const int Widget_Support_CoordinatorLayout = 2131690232;
 			
 			static Style()
 			{

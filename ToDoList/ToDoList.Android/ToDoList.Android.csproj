@@ -83,7 +83,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\delete.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ToDoList\ToDoList.csproj">
       <Project>{4195AEA6-4516-4DAF-BF38-CAC3BC82A691}</Project>

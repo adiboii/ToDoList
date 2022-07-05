@@ -15,9 +15,9 @@ namespace ToDoList
             InitializeComponent();
         }
 
-        public void newTaskHandler(object sender, TextChangedEventArgs args)
-        {
-            Console.WriteLine(args.NewTextValue);
-        }
+        //public void newTaskHandler(object sender, TextChangedEventArgs args)
+        //{
+        //    Console.WriteLine(args.NewTextValue);
+        //}
     }
 }
