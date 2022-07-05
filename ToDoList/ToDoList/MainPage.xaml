@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoList.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#0078D4</Color>
+            <Style x:Key="PrimaryButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+    
+        <StackLayout
+            Grid.Row="0"
+            Orientation="Horizontal"
+            VerticalOptions="Center"
+            HorizontalOptions="Start"
+            Padding="25,10"
+            Spacing="20">
+
+            <Image 
+                Source="profile.png"
+                HeightRequest="75"
+                WidthRequest="75"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+
+            <StackLayout
+                VerticalOptions="Center">
+                <Label
+                    Text="Hello, John!"
+                    TextColor="Black"
+                    FontSize="14"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="What do you need to do?"
+                    TextColor="Black"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    VerticalOptions="Center"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout
+            Grid.Row="1"
+            Padding="20, 0"
+            Spacing="10">
+            <Frame
+                Padding="15, 10"
+                CornerRadius="0"
+                BackgroundColor="White"
+                BorderColor="#F0F0F0"
+                
+                HasShadow="False">
+                <Entry
+                    Placeholder="Add a new task"
+                    TextChanged="newTaskHandler"
+                    
+                    />
+            </Frame>
+            <Button
+                Style="{StaticResource PrimaryButton}"
+                Text="Enter"/>
+            
+        </StackLayout>
+
+        <StackLayout
+            Grid.Row="2"
+            Margin="20, 20">
+            <StackLayout
+                Orientation="Horizontal"
+                Spacing="100"
+                HorizontalOptions="CenterAndExpand">
+                <Label
+                    Text="Tasks to do"
+                    FontSize="14"
+                    TextColor="Black"
+                    FontAttributes="Bold"/>
+                <Label
+                    Text="Completed"
+                    FontSize="14"
+                    TextColor="Black"
+                    FontAttributes="Bold"/>
+            </StackLayout>
+            
+            <BoxView  
+                Margin="0, 10"
+                VerticalOptions="Center"
+           HorizontalOptions="Center"
+           HeightRequest="1"
+           WidthRequest="1080"  
+           Color="#5b5d68"></BoxView>
+        </StackLayout>
+
+        <CarouselView
+            Margin="10">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame
+                            Padding="15, 10"
+                CornerRadius="0"
+                BackgroundColor="White"
+                BorderColor="#F0F0F0" >
+                            <Label
+                                Text="Hello"/>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </Grid>
+    
+    
+
+</ContentPage>
