@@ -10,7 +10,7 @@ namespace ToDoList
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new FluentUI();
         }
 
         protected override void OnStart()
